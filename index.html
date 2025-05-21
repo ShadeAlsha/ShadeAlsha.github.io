@@ -59,10 +59,13 @@
     
     <!-- News Section -->
     <div style="width:100%; max-width:900px; margin:auto; margin-top:40px;">
-        <h2 style="text-align:left;">News</h2>
-        <div style="
+        <h2 style="text-align:left; cursor:pointer;" onclick="toggleNews()" id="news-toggle">
+            <span id="news-icon">▶</span> News
+        </h2>
+        <div id="news-content" style="
+            display: none;
             max-height:100px;
-            overflow-y:scroll;
+            overflow-y:auto;
             border:1px solid #ccc;
             padding:10px;
             border-radius:8px;
@@ -76,10 +79,21 @@
                 <li><strong>28 February 2025:</strong> Awarded EDGE Doctoral Fellowship (Stanford University).</li>
                 <li><strong>26 February 2025:</strong> NegBench has been accepted to CVPR 2025!</li>
                 <li><strong>17 February 2025:</strong> Awarded the Gordon Wu Fellowship (Princeton University). </li>
-                <li><strong>22 Januray 2025:</strong> I-Con has been accepted to ICLR 2025!</li>
+                <li><strong>22 January 2025:</strong> I-Con has been accepted to ICLR 2025!</li>
             </ul>
         </div>
     </div>
+    
+    <script>
+    function toggleNews() {
+        const content = document.getElementById("news-content");
+        const icon = document.getElementById("news-icon");
+        const isOpen = content.style.display === "block";
+        content.style.display = isOpen ? "none" : "block";
+        icon.textContent = isOpen ? "▶" : "▼";
+    }
+    </script>
+
     
     <!-- Research Section -->
     <div style="width:100%; max-width:900px; margin:auto;">
