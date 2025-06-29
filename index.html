@@ -447,6 +447,99 @@
                 padding: 25px;
             }
         }
+        .news-scroll-container {
+            max-height: 300px;
+            overflow-y: auto;
+            background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid rgba(102, 126, 234, 0.1);
+            box-shadow: inset 0 2px 8px rgba(102, 126, 234, 0.05);
+        }
+        
+        .news-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .news-list li {
+            padding: 15px 20px;
+            margin-bottom: 8px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 12px;
+            border-left: 4px solid transparent;
+            background-image: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            background-size: 4px 100%;
+            background-repeat: no-repeat;
+            background-position: left center;
+            transition: all 0.3s ease;
+            animation: slideInLeft 0.5s ease-out;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
+        }
+        
+        .news-list li:hover {
+            transform: translateX(8px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .news-list li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .news-list li strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+        
+        /* Custom scrollbar styling */
+        .news-scroll-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-track {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 4px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #5a6fd8 0%, #6b4190 100%);
+        }
+        
+        /* Fade effect for scrollable content */
+        .news-scroll-container::before {
+            content: '';
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(to bottom, 
+                rgba(248, 250, 255, 1) 0%, 
+                rgba(248, 250, 255, 0) 100%);
+            z-index: 1;
+            pointer-events: none;
+        }
+        
+        .news-scroll-container::after {
+            content: '';
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(to top, 
+                rgba(248, 250, 255, 1) 0%, 
+                rgba(248, 250, 255, 0) 100%);
+            z-index: 1;
+            pointer-events: none;
+        }
     </style>
 </head>
 
@@ -727,100 +820,3 @@
             }
             type();
         }
-
-        <style>
-/* Add this CSS to your existing styles */
-.news-scroll-container {
-    max-height: 300px;
-    overflow-y: auto;
-    background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
-    border-radius: 16px;
-    padding: 20px;
-    border: 1px solid rgba(102, 126, 234, 0.1);
-    box-shadow: inset 0 2px 8px rgba(102, 126, 234, 0.05);
-}
-
-.news-list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.news-list li {
-    padding: 15px 20px;
-    margin-bottom: 8px;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 12px;
-    border-left: 4px solid transparent;
-    background-image: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-    background-size: 4px 100%;
-    background-repeat: no-repeat;
-    background-position: left center;
-    transition: all 0.3s ease;
-    animation: slideInLeft 0.5s ease-out;
-    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
-}
-
-.news-list li:hover {
-    transform: translateX(8px);
-    box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
-    background-color: rgba(255, 255, 255, 0.9);
-}
-
-.news-list li:last-child {
-    margin-bottom: 0;
-}
-
-.news-list li strong {
-    color: #667eea;
-    font-weight: 600;
-}
-
-/* Custom scrollbar styling */
-.news-scroll-container::-webkit-scrollbar {
-    width: 8px;
-}
-
-.news-scroll-container::-webkit-scrollbar-track {
-    background: rgba(102, 126, 234, 0.1);
-    border-radius: 4px;
-}
-
-.news-scroll-container::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border-radius: 4px;
-}
-
-.news-scroll-container::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #5a6fd8 0%, #6b4190 100%);
-}
-
-/* Fade effect for scrollable content */
-.news-scroll-container::before {
-    content: '';
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(to bottom, 
-        rgba(248, 250, 255, 1) 0%, 
-        rgba(248, 250, 255, 0) 100%);
-    z-index: 1;
-    pointer-events: none;
-}
-
-.news-scroll-container::after {
-    content: '';
-    position: sticky;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 20px;
-    background: linear-gradient(to top, 
-        rgba(248, 250, 255, 1) 0%, 
-        rgba(248, 250, 255, 0) 100%);
-    z-index: 1;
-    pointer-events: none;
-}
-</style>
