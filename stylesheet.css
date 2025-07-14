@@ -133,3 +133,9 @@ h2 {
 span.highlight {
   background-color: #ffffd0;
 }
+.news-section ul li {
+    padding-bottom: 6px;
+}
+.news-section ul li:last-child {
+    padding-bottom: 0;
+}
