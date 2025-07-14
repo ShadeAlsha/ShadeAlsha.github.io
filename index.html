@@ -25,9 +25,10 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background: #f8f9fa;
+            color: #1a1a1a;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
+            overflow-x: hidden;
         }
 
         .container {
@@ -37,32 +38,36 @@
         }
 
         .main-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-            border-left: 4px solid #6c757d;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             margin-bottom: 30px;
             overflow: hidden;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .main-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
         }
 
         .hero-section {
             display: grid;
             grid-template-columns: 2fr 1fr;
             gap: 40px;
-            padding: 40px;
+            padding: 50px;
             align-items: center;
         }
 
         .hero-content h1 {
-            font-size: 3rem;
+            font-size: 3.5rem;
             font-weight: 700;
-            color: #2c3e50;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 20px;
             animation: fadeInUp 1s ease-out;
         }
@@ -70,31 +75,31 @@
         .hero-content p {
             font-size: 1.1rem;
             margin-bottom: 20px;
-            color: #555;
+            opacity: 0.8;
             animation: fadeInUp 1s ease-out 0.2s both;
         }
 
         .hero-links {
             display: flex;
-            gap: 15px;
+            gap: 20px;
             margin-top: 30px;
             animation: fadeInUp 1s ease-out 0.4s both;
         }
 
         .hero-links a {
-            padding: 10px 20px;
-            background: #6c757d;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             text-decoration: none;
-            border-radius: 6px;
+            border-radius: 50px;
             font-weight: 500;
-            transition: all 0.2s ease;
-            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
         }
 
         .hero-links a:hover {
-            background: #5a6268;
-            transform: translateY(-1px);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
         }
 
         .profile-image {
@@ -104,268 +109,279 @@
 
         .profile-image img {
             width: 100%;
-            max-width: 280px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
         }
 
         .profile-image:hover img {
-            transform: scale(1.02);
+            transform: scale(1.05);
         }
 
         .section {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
-            border-left: 4px solid #6c757d;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 24px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
             margin-bottom: 30px;
-            padding: 30px;
-            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            padding: 40px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
         }
 
         .section:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.15);
         }
 
         .section h2 {
-            font-size: 2rem;
+            font-size: 2.5rem;
             font-weight: 600;
-            margin-bottom: 25px;
-            color: #2c3e50;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            cursor: pointer;
+            transition: all 0.3s ease;
         }
 
-        .news-scroll-container {
-            max-height: 300px;
-            overflow-y: auto;
-            background: #f8f9fa;
-            border-radius: 8px;
-            padding: 15px;
-            border: 1px solid #e9ecef;
+        .section h2:hover {
+            transform: translateX(10px);
         }
-        
-        .news-list {
+
+        .news-toggle {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .news-icon {
+            font-size: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+
+        .news-icon.open {
+            transform: rotate(90deg);
+        }
+
+        .news-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease, opacity 0.3s ease;
+            opacity: 0;
+            background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+            border-radius: 16px;
+            margin-top: 20px;
+        }
+
+        .news-content.open {
+            max-height: 400px;
+            opacity: 1;
+            padding: 20px;
+        }
+
+        .news-content ul {
             list-style: none;
-            margin: 0;
-            padding: 0;
         }
-        
-        .news-list li {
-            padding: 15px 20px;
-            margin-bottom: 8px;
-            background: white;
-            border-radius: 8px;
-            border-left: 4px solid #6c757d;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+        .news-content li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+            animation: slideInLeft 0.5s ease-out;
         }
-        
-        .news-list li:hover {
-            transform: translateX(5px);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-        }
-        
-        .news-list li:last-child {
-            margin-bottom: 0;
-        }
-        
-        .news-list li strong {
-            color: #2c3e50;
-            font-weight: 600;
-        }
-        
-        .news-list li a {
-            color: #495057;
-            text-decoration: none;
-            font-weight: 500;
-        }
-        
-        .news-list li a:hover {
-            color: #2c3e50;
+
+        .news-content li:last-child {
+            border-bottom: none;
         }
 
         .research-grid {
             display: grid;
-            gap: 25px;
+            gap: 30px;
         }
 
         .research-item {
             display: grid;
-            grid-template-columns: 280px 1fr;
-            gap: 25px;
-            padding: 25px;
-            background: white;
-            border-radius: 8px;
-            border-left: 4px solid #6c757d;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            grid-template-columns: 300px 1fr;
+            gap: 30px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+            border-radius: 20px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(102, 126, 234, 0.1);
         }
 
         .research-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.15);
+            border-color: rgba(102, 126, 234, 0.3);
         }
 
         .research-item.featured {
-            border-left-color: #28a745;
+            background: linear-gradient(135deg, #fff8e0 0%, #ffeaa7 100%);
+            border-color: rgba(255, 193, 7, 0.3);
         }
 
         .research-image {
             overflow: hidden;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
         }
 
         .research-image img {
             width: 100%;
-            height: 180px;
+            height: 200px;
             object-fit: cover;
             transition: transform 0.3s ease;
         }
 
         .research-item:hover .research-image img {
-            transform: scale(1.02);
+            transform: scale(1.05);
         }
 
         .research-content h3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             font-weight: 600;
-            margin-bottom: 12px;
-            color: #2c3e50;
+            margin-bottom: 15px;
+            color: #1a1a1a;
         }
 
         .research-content h3 a {
             text-decoration: none;
             color: inherit;
-            transition: color 0.2s ease;
+            transition: color 0.3s ease;
         }
 
         .research-content h3 a:hover {
-            color: #495057;
-        }
-
-        .research-content p {
-            color: #555;
-            margin-bottom: 15px;
+            color: #667eea;
         }
 
         .research-links {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            gap: 15px;
             margin: 15px 0;
         }
 
         .research-links a {
             padding: 6px 12px;
-            background: #e9ecef;
-            color: #495057;
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
             text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.85rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
             font-weight: 500;
-            transition: all 0.2s ease;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(102, 126, 234, 0.2);
         }
 
         .research-links a:hover {
-            background: #6c757d;
+            background: #667eea;
             color: white;
+            transform: translateY(-2px);
         }
 
         .badge {
             display: inline-block;
-            padding: 4px 10px;
-            background: #6c757d;
+            padding: 4px 12px;
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
             color: white;
-            border-radius: 4px;
-            font-size: 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
             font-weight: 600;
-            margin-left: 8px;
-            margin-bottom: 4px;
-        }
-
-        .badge.green {
-            background: #28a745;
-        }
-
-        .badge.blue {
-            background: #007bff;
-        }
-
-        .badge.purple {
-            background: #6f42c1;
-        }
-
-        .badge.pink {
-            background: #e83e8c;
+            margin-left: 10px;
         }
 
         .teaching-grid {
             display: grid;
-            gap: 20px;
+            gap: 25px;
         }
 
         .teaching-item {
             display: grid;
             grid-template-columns: 200px 1fr;
-            gap: 20px;
+            gap: 25px;
             padding: 25px;
-            background: white;
-            border-radius: 8px;
-            border-left: 4px solid #6c757d;
-            transition: all 0.2s ease;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+            border-radius: 16px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(102, 126, 234, 0.1);
         }
 
         .teaching-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
         }
 
         .teaching-image img {
             width: 100%;
             height: 120px;
             object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
         }
 
-        .teaching-content h3 {
-            font-size: 1.2rem;
-            font-weight: 600;
-            margin-bottom: 8px;
-            color: #2c3e50;
+        .floating-elements {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
         }
 
-        .teaching-content p {
-            color: #555;
-            margin-bottom: 8px;
+        .floating-circle {
+            position: absolute;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            animation: floating 6s ease-in-out infinite;
         }
 
-        /* Custom scrollbar styling */
-        .news-scroll-container::-webkit-scrollbar {
-            width: 6px;
+        .floating-circle:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            top: 10%;
+            left: 10%;
+            animation-delay: 0s;
         }
-        
-        .news-scroll-container::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 3px;
+
+        .floating-circle:nth-child(2) {
+            width: 120px;
+            height: 120px;
+            top: 20%;
+            right: 15%;
+            animation-delay: 2s;
         }
-        
-        .news-scroll-container::-webkit-scrollbar-thumb {
-            background: #6c757d;
-            border-radius: 3px;
+
+        .floating-circle:nth-child(3) {
+            width: 60px;
+            height: 60px;
+            bottom: 20%;
+            left: 20%;
+            animation-delay: 4s;
         }
-        
-        .news-scroll-container::-webkit-scrollbar-thumb:hover {
-            background: #5a6268;
+
+        .floating-circle:nth-child(4) {
+            width: 100px;
+            height: 100px;
+            bottom: 10%;
+            right: 10%;
+            animation-delay: 1s;
+        }
+
+        @keyframes floating {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
         }
 
         @keyframes fadeInUp {
             from {
                 opacity: 0;
-                transform: translateY(20px);
+                transform: translateY(30px);
             }
             to {
                 opacity: 1;
@@ -373,32 +389,43 @@
             }
         }
 
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
         .footer {
             text-align: center;
             padding: 20px;
-            color: #6c757d;
+            color: rgba(255, 255, 255, 0.8);
             font-size: 0.9rem;
         }
 
         .footer a {
-            color: #495057;
+            color: rgba(255, 255, 255, 0.9);
             text-decoration: none;
-            transition: color 0.2s ease;
+            transition: color 0.3s ease;
         }
 
         .footer a:hover {
-            color: #2c3e50;
+            color: white;
         }
 
         @media (max-width: 768px) {
             .hero-section {
                 grid-template-columns: 1fr;
                 text-align: center;
-                padding: 25px;
+                padding: 30px;
             }
 
             .hero-content h1 {
-                font-size: 2.2rem;
+                font-size: 2.5rem;
             }
 
             .research-item,
@@ -417,13 +444,113 @@
             }
 
             .section {
-                padding: 20px;
+                padding: 25px;
             }
+        }
+        .news-scroll-container {
+            max-height: 300px;
+            overflow-y: auto;
+            background: linear-gradient(135deg, #f8faff 0%, #f0f4ff 100%);
+            border-radius: 16px;
+            padding: 20px;
+            border: 1px solid rgba(102, 126, 234, 0.1);
+            box-shadow: inset 0 2px 8px rgba(102, 126, 234, 0.05);
+        }
+        
+        .news-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .news-list li {
+            padding: 15px 20px;
+            margin-bottom: 8px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 12px;
+            border-left: 4px solid transparent;
+            background-image: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            background-size: 4px 100%;
+            background-repeat: no-repeat;
+            background-position: left center;
+            transition: all 0.3s ease;
+            animation: slideInLeft 0.5s ease-out;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.08);
+        }
+        
+        .news-list li:hover {
+            transform: translateX(8px);
+            box-shadow: 0 4px 16px rgba(102, 126, 234, 0.15);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .news-list li:last-child {
+            margin-bottom: 0;
+        }
+        
+        .news-list li strong {
+            color: #667eea;
+            font-weight: 600;
+        }
+        
+        /* Custom scrollbar styling */
+        .news-scroll-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-track {
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 4px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-thumb {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+        }
+        
+        .news-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #5a6fd8 0%, #6b4190 100%);
+        }
+        
+        /* Fade effect for scrollable content */
+        .news-scroll-container::before {
+            content: '';
+            position: sticky;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 15px;
+            background: linear-gradient(to bottom, 
+                rgba(248, 250, 255, 1) 0%, 
+                rgba(248, 250, 255, 0) 100%);
+            z-index: 1;
+            pointer-events: none;
+        }
+        
+        .news-scroll-container::after {
+            content: '';
+            position: sticky;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: linear-gradient(to top, 
+                rgba(248, 250, 255, 1) 0%, 
+                rgba(248, 250, 255, 0) 100%);
+            z-index: 1;
+            pointer-events: none;
         }
     </style>
 </head>
 
 <body>
+    <div class="floating-elements">
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+        <div class="floating-circle"></div>
+    </div>
+
     <div class="container">
         <div class="main-card">
             <div class="hero-section">
@@ -431,17 +558,17 @@
                     <h1>Shaden Alshammari</h1>
                     <p>
                         I'm an incoming PhD student in EECS at 
-                        <a href="https://csail.mit.edu/" style="color:#495057; text-decoration: none; font-weight: 500;">MIT CSAIL</a>, co-advised by <a href="https://groups.csail.mit.edu/vision/torralbalab/" style="color:#495057; text-decoration: none; font-weight: 500;">Antonio Torralba</a> and <a href="https://billf.mit.edu/" style="color:#495057; text-decoration: none; font-weight: 500;">William T. Freeman</a>. My research focuses on advancing 
+                        <a href="https://csail.mit.edu/" style="color:#667eea; text-decoration: none; font-weight: 500;">MIT CSAIL</a>, co-advised by <a href="https://groups.csail.mit.edu/vision/torralbalab/" style="color:#667eea; text-decoration: none; font-weight: 500;">Antonio Torralba</a> and <a href="https://billf.mit.edu/" style="color:#667eea; text-decoration: none; font-weight: 500;">William T. Freeman</a>. My research focuses on advancing 
                         self-supervised learning and vision-language models.
                     </p>
                     <p>
                         I completed my B.S. in Mathematics and Computer Science at MIT, where I worked with amazing mentors including 
-                        <a href="https://www.ri.cmu.edu/ri-faculty/deva-ramanan/" style="color:#495057; text-decoration: none; font-weight: 500;">Deva Ramanan</a> and 
-                        <a href="https://scholar.google.com/citations?user=gDiWvFoAAAAJ" style="color:#495057; text-decoration: none; font-weight: 500;">Shu Kong</a> at 
-                        <a href="https://labs.ri.cmu.edu/av-center/" style="color:#495057; text-decoration: none; font-weight: 500;">CMU's Argo AI Center</a>, 
-                        as well as <a href="http://www.cs.cmu.edu/~abhinavg/" style="color:#495057; text-decoration: none; font-weight: 500;">Abhinav Gupta</a> and 
-                        <a href="https://vdean.github.io" style="color:#495057; text-decoration: none; font-weight: 500;">Victoria Dean</a> at 
-                        <a href="https://www.ri.cmu.edu/" style="color:#495057; text-decoration: none; font-weight: 500;">CMU's Robotics Institute</a>.
+                        <a href="https://www.ri.cmu.edu/ri-faculty/deva-ramanan/" style="color:#667eea; text-decoration: none; font-weight: 500;">Deva Ramanan</a> and 
+                        <a href="https://scholar.google.com/citations?user=gDiWvFoAAAAJ" style="color:#667eea; text-decoration: none; font-weight: 500;">Shu Kong</a> at 
+                        <a href="https://labs.ri.cmu.edu/av-center/" style="color:#667eea; text-decoration: none; font-weight: 500;">CMU's Argo AI Center</a>, 
+                        as well as <a href="http://www.cs.cmu.edu/~abhinavg/" style="color:#667eea; text-decoration: none; font-weight: 500;">Abhinav Gupta</a> and 
+                        <a href="https://vdean.github.io" style="color:#667eea; text-decoration: none; font-weight: 500;">Victoria Dean</a> at 
+                        <a href="https://www.ri.cmu.edu/" style="color:#667eea; text-decoration: none; font-weight: 500;">CMU's Robotics Institute</a>.
                     </p>
                     <p>
                         Beyond research, I'm active in the math olympiad community as a former contestant (IMO Bronze 2017, EGMO and BMO Gold 2016). I also train students, design problems, and I served as a deputy leader and observer at IMO and EGMO.
@@ -460,11 +587,11 @@
         </div>
 
         <div class="section">
-            <h2>News</h2>
+            <h2 class="news-header">News</h2>
             <div class="news-scroll-container">
                 <ul class="news-list">
-                    <li>Excited to join <a href="https://tedai-vienna.ted.com">TEDAI Vienna</a> as a speaker in <strong>September 2025</strong>!</li>
-                    <li>Excited to be a speaker at <a href="https://www.mlss-melbourne.com">Machine Learning Summer School MLSS</a> in Melbourne in <strong>February 2026</strong>!</li>
+                    <li> Excited to join <a href="https://tedai-vienna.ted.com" style="color:#D30000; text-decoration: none; font-weight: 500;">TEDAI Vienna</a> as a speaker in <strong>September 2025</strong>!</li>
+                    <li> Excited to be a speaker at <a href="https://www.mlss-melbourne.com" style="color:#418877; text-decoration: none; font-weight: 500;">Machine Learning Summer School MLSS</a> in Melbourne in <strong>February 2026</strong>!</li>
                     <li><strong>July 2025:</strong> Delighted to spend a week teaching at the KAUST AI Summer School.</li>
                     <li><strong>May/June 2025:</strong> Gave a talk on I-Con at Microsoft MAIDAP and Princeton Visual AI Lab.</li>
                     <li><strong>March 2025:</strong> Received the Schwarzman College of Computing Fellowship (MIT EECS).</li>
@@ -475,6 +602,7 @@
                 </ul>
             </div>
         </div>
+
 
         <div class="section">
             <h2>Research</h2>
@@ -494,8 +622,8 @@
                             <a href="https://arxiv.org/pdf/2504.16929">Paper</a>
                             <a href="https://github.com/ShadeAlsha/ICon">Code</a>
                         </div>
-                        <span class="badge">ICLR 2025</span>
-                        <span class="badge blue">
+                        <span class="badge">ICLR 2025 </span>
+                        <span class="badge">
                           <a href="https://news.mit.edu/2025/machine-learning-periodic-table-could-fuel-ai-discovery-0423" style="color: white; text-decoration: none;">
                            MIT News
                           </a>
@@ -518,11 +646,12 @@
                             <a href="https://github.com/m1k2zoo/negbench">Code</a>
                         </div>
                         <span class="badge">CVPR 2025</span>
-                        <span class="badge blue">
+                        <span class="badge">
                           <a href="https://news.mit.edu/2025/study-shows-vision-language-models-cant-handle-negation-words-queries-0514" style="color: white; text-decoration: none;">
                             MIT News
                           </a>
                         </span>
+
                         <p>A benchmark evaluating negation understanding in vision-language models reveals performance limitations, with targeted improvements increasing recall by 10% and accuracy by 40%.</p>
                     </div>
                 </div>
@@ -537,7 +666,7 @@
                         </h3>
                         <p><strong>Shaden A.</strong>, Yu-Xiong Wang, Deva Ramanan, Shu Kong</p>
                         <span class="badge">CVPR 2022</span>
-                        <span class="badge green">+200 citations!</span>
+                        <span class="badge" style="background: linear-gradient(135deg, #00b894 0%, #00a085 100%);">+200 citations!</span>
                         <p>This study explores weight balancing techniques like L2-normalization, weight decay, and MaxNorm to address bias in long-tailed recognition, achieving state-of-the-art results across five benchmarks by balancing classifier weights for rare and common classes.</p>
                     </div>
                 </div>
@@ -551,7 +680,7 @@
                             <a href="https://neurips.cc/virtual/2022/57568">Using Contact Microphones for Robot Manipulation</a>
                         </h3>
                         <p><strong>Shaden A.</strong>, Victoria Dean, Tess Hellebrekers, Pedro Morgado, Abhinav Gupta</p>
-                        <span class="badge purple">NeurIPS Workshop 2022</span>
+                        <span class="badge" style="background: linear-gradient(135deg, #6c5ce7 0%, #5f3dc4 100%);">NeurIPS Workshop 2022</span>
                         <p>This work combines visual data with contact audio to enhance manipulation in contact-rich tasks, leveraging high-frequency tactile signals from microphones to outperform single-modality approaches.</p>
                     </div>
                 </div>
@@ -565,7 +694,7 @@
                             <a href="https://drive.google.com/file/d/1RHc1cEMbl6MdgKOZBa-VM4UG_eHEO9y1/view?usp=sharing">Continual Long-Tailed Recognition: Merge Tail Classes Today, Separate them Tomorrow</a>
                         </h3>
                         <p>Yanan Li, <strong>Shaden A.</strong>, Bin Liu, Shu Kong</p>
-                        <span class="badge pink">Preprint 2022</span>
+                        <span class="badge" style="background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);">Preprint 2022</span>
                         <p>This work introduces a continual learning approach for long-tailed recognition, using a Mean-Shift module and Supervised Contrastive loss to improve feature learning and expedite finetuning across time periods, achieving state-of-the-art performance.</p>
                     </div>
                 </div>
@@ -581,18 +710,17 @@
                     </div>
                     <div class="teaching-content">
                         <h3>Lead Graduate Instructor, Linear Algebra and Optimization (18.C06)</h3>
-                        <p><a href="https://math.mit.edu/" style="color:#495057; text-decoration: none; font-weight: 500;">MIT Department of Mathematics</a> - Sep 2022 - Jan 2025</p>
+                        <p><a href="https://math.mit.edu/" style="color:#667eea; text-decoration: none; font-weight: 500;">MIT Department of Mathematics</a> - Sep 2022 - Jan 2025 </p>
                         <p>I teach two weekly recitation sessions to help clarify challenging topics for 38 students and develop weekly handouts and problem sets for a larger group of 180 students. I also coordinate a team of five TAs and three Graders. I was honored to be nominated by my students for the Teaching Awards.</p>
                     </div>
                 </div>
-
-                <div class="teaching-item">
+            <div class="teaching-item">
                     <div class="teaching-image">
                         <img src="images/kaust-academy.png" alt="AI Summer School">
                     </div>
                     <div class="teaching-content">
                         <h3>Instructor</h3>
-                        <p>AI Summer School at KAUST (June, 2025)</p>
+                        <p> AI Summer School at KAUST (June, 2025)</p>
                     </div>
                 </div>
 
@@ -602,7 +730,7 @@
                     </div>
                     <div class="teaching-content">
                         <h3>Teaching Assistant, Introduction to Machine Learning (6.036)</h3>
-                        <p><a href="https://eecs.mit.edu/" style="color:#495057; text-decoration: none; font-weight: 500;">MIT EECS Department</a> - Jan 2024 - May 2024</p>
+                        <p><a href="https://eecs.mit.edu/" style="color:#667eea; text-decoration: none; font-weight: 500;">MIT EECS Department</a> - Jan 2024 - May 2024</p>
                         <p>Supported professors in organizing technical materials on ML topics, conducted weekly recitations, lab sessions, and hosted office hours for student learning support.</p>
                     </div>
                 </div>
@@ -622,10 +750,24 @@
     </div>
 
     <div class="footer">
-        <p>Website design credits to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a></p>
+        <p>Website design credits to <a href="https://github.com/jonbarron/jonbarron_website">Jon Barron</a> </p>
     </div>
 
     <script>
+        function toggleNews() {
+            const content = document.getElementById("news-content");
+            const icon = document.getElementById("news-icon");
+            const isOpen = content.classList.contains("open");
+            
+            if (isOpen) {
+                content.classList.remove("open");
+                icon.classList.remove("open");
+            } else {
+                content.classList.add("open");
+                icon.classList.add("open");
+            }
+        }
+
         // Intersection Observer for scroll animations
         const observerOptions = {
             threshold: 0.1,
@@ -644,8 +786,8 @@
         // Observe all sections for scroll animations
         document.querySelectorAll('.section').forEach(section => {
             section.style.opacity = '0';
-            section.style.transform = 'translateY(20px)';
-            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            section.style.transform = 'translateY(30px)';
+            section.style.transition = 'opacity 0.8s ease, transform 0.8s ease';
             observer.observe(section);
         });
 
@@ -662,6 +804,20 @@
                 }
             });
         });
-    </script>
-</body>
-</html>
+
+        // Add dynamic typing effect to the main title
+        const title = document.querySelector('.hero-content h1');
+        const originalText = title.textContent;
+        title.textContent = '';
+        
+        function typeWriter(text, element, speed = 100) {
+            let i = 0;
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    setTimeout(type, speed);
+                }
+            }
+            type();
+        }
