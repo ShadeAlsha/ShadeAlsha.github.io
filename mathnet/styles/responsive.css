@@ -1,0 +1,155 @@
+/* ===== TABLET STYLES ===== */
+@media (max-width: 1024px) {
+    .main-content {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        max-height: 300px;
+        border-right: none;
+        border-bottom: 1px solid #e9ecef;
+    }
+    
+    .problems-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .metadata-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .problem-meta {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ===== MOBILE STYLES ===== */
+@media (max-width: 768px) {
+    .header {
+        padding: 15px 20px;
+    }
+    
+    .header h1 {
+        font-size: 1.5em;
+    }
+    
+    .problems-container {
+        padding: 15px 20px;
+    }
+    
+    .content-header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+    
+    .sidebar-header {
+        padding: 15px;
+    }
+
+    .problem-card {
+        margin-bottom: 20px;
+    }
+
+    .problem-header {
+        padding: 12px 15px;
+    }
+
+    .problem-content {
+        padding: 15px;
+    }
+
+    .filter-buttons {
+        justify-content: center;
+    }
+
+    .breadcrumb {
+        font-size: 13px;
+        word-break: break-word;
+    }
+
+    .results-count {
+        font-size: 13px;
+    }
+}
+
+/* ===== SMALL MOBILE STYLES ===== */
+@media (max-width: 480px) {
+    .problems-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .search-box input {
+        padding: 10px 35px 10px 12px;
+        font-size: 13px;
+    }
+
+    .filter-btn {
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+
+    .tree-header {
+        padding: 8px;
+    }
+
+    .year-node {
+        padding: 6px 8px;
+    }
+
+    .problem-statement {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .metadata-section {
+        padding: 10px;
+    }
+
+    .solution-header {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .images-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .sidebar,
+    .content-header,
+    .filter-section,
+    .search-box,
+    .solution-toggle {
+        display: none !important;
+    }
+
+    .main-content {
+        flex-direction: column;
+    }
+
+    .content-area {
+        width: 100%;
+    }
+
+    .problem-card {
+        break-inside: avoid;
+        box-shadow: none;
+        border: 1px solid #ddd;
+        margin-bottom: 20px;
+    }
+
+    .problem-header {
+        background: #f5f5f5 !important;
+        color: #333 !important;
+    }
+
+    .solution-content {
+        display: block !important;
+    }
+}

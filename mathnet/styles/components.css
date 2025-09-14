@@ -1,0 +1,460 @@
+/* ===== SEARCH BOX ===== */
+.search-box {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 12px 40px 12px 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+    outline: none;
+    border-color: #4facfe;
+    box-shadow: 0 0 0 3px rgba(79, 172, 254, 0.1);
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+/* ===== FILTER COMPONENTS ===== */
+.filter-section {
+    margin-bottom: 15px;
+}
+
+.filter-title {
+    font-size: 12px;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.filter-btn {
+    padding: 6px 12px;
+    border: 1px solid #dee2e6;
+    background: white;
+    color: #495057;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 12px;
+}
+
+.filter-btn:hover, 
+.filter-btn.active {
+    background: #4facfe;
+    color: white;
+    border-color: #4facfe;
+}
+
+/* ===== NAVIGATION TREE ===== */
+.tree-node {
+    margin-bottom: 5px;
+}
+
+.tree-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.tree-header:hover {
+    background: #e9ecef;
+}
+
+.tree-header.active {
+    background: #4facfe;
+    color: white;
+}
+
+.tree-header-left {
+    display: flex;
+    align-items: center;
+}
+
+.tree-toggle {
+    margin-right: 8px;
+    font-size: 12px;
+    width: 16px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.tree-toggle.expanded {
+    transform: rotate(90deg);
+}
+
+.country-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.country-flag {
+    font-size: 16px;
+}
+
+.problem-count {
+    font-size: 11px;
+    background: rgba(0,0,0,0.1);
+    padding: 2px 6px;
+    border-radius: 10px;
+}
+
+.tree-children {
+    margin-left: 20px;
+    display: none;
+}
+
+.tree-children.expanded {
+    display: block;
+}
+
+.year-node {
+    padding: 8px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #666;
+    transition: all 0.2s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.year-node:hover {
+    background: #f1f3f4;
+    color: #333;
+}
+
+.year-node.active {
+    background: #4facfe;
+    color: white;
+}
+
+/* ===== PROBLEM CARDS ===== */
+.problem-card {
+    background: white;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.problem-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    border-color: #4facfe;
+}
+
+.problem-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 15px 20px;
+}
+
+.problem-id {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.problem-meta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    font-size: 12px;
+    opacity: 0.95;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.problem-content {
+    padding: 20px;
+}
+
+.problem-statement {
+    background: #f8f9ff;
+    border-left: 4px solid #4facfe;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 6px 6px 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* ===== METADATA SECTION ===== */
+.metadata-section {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.metadata-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.metadata-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.metadata-label {
+    font-weight: 600;
+    color: #495057;
+    min-width: 70px;
+}
+
+.metadata-value {
+    color: #6c757d;
+    flex: 1;
+}
+
+.booklet-link {
+    color: #4facfe;
+    text-decoration: none;
+    word-break: break-all;
+}
+
+.booklet-link:hover {
+    text-decoration: underline;
+}
+
+.language-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #e9ecef;
+    border-radius: 12px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.competition-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    margin-top: 4px;
+}
+
+.competition-tag {
+    padding: 2px 6px;
+    background: #d1ecf1;
+    color: #0c5460;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+/* ===== SOLUTION COMPONENTS ===== */
+.solution-section {
+    margin-top: 15px;
+}
+
+.solution-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background: #e8f4fd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.solution-header:hover {
+    background: #d1ecf1;
+}
+
+.solution-toggle {
+    background: #4facfe;
+    color: white;
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.solution-content {
+    display: none;
+    background: #f9f9f9;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 8px;
+    border-left: 4px solid #28a745;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.solution-content.show {
+    display: block;
+    animation: slideDown 0.3s ease;
+}
+
+.solution-meta {
+    background: #e8f5e9;
+    padding: 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #2e7d32;
+}
+
+.no-solutions {
+    color: #999;
+    font-style: italic;
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+
+/* ===== IMAGE COMPONENTS ===== */
+.images-section {
+    margin-top: 12px;
+    font-size: 13px;
+}
+
+.images-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.image-placeholder {
+    background: #f8f9fa;
+    border: 2px dashed #dee2e6;
+    border-radius: 6px;
+    padding: 15px 10px;
+    text-align: center;
+    color: #6c757d;
+    font-size: 11px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.image-placeholder:hover {
+    background: #e9ecef;
+    border-color: #4facfe;
+}
+
+/* ===== IMAGE MODAL ===== */
+.image-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    padding-top: 50px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.image-modal img {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+}
+
+/* ===== PROVENANCE INFO ===== */
+.provenance-info {
+    margin-top: 8px;
+    padding: 8px;
+    background: #f1f3f4;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #5f6368;
+}
+
+/* ===== INLINE IMAGES ===== */
+.inline-image-container {
+    margin: 12px 0;
+    text-align: center;
+}
+
+.inline-problem-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: white;
+    padding: 4px;
+    border: 1px solid #e9ecef;
+}
+
+.inline-problem-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    border-color: #4facfe;
+}
+
+.image-error {
+    background: #fff3cd;
+    border: 1px solid #ffeaa7;
+    color: #856404;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 12px;
+    display: inline-block;
+}
