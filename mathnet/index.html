@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Problems Dataset</title>
+    
+    <!-- MathJax Configuration -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            options: {
+                skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+            }
+        };
+    </script>
+    
+    <!-- External Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js"></script>
+    
+    <!-- Local Stylesheets -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🧮 Math Problems Dataset</h1>
+            <p>International mathematical competition problems with comprehensive metadata</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search problems, authors, competitions...">
+                        <span class="search-icon">🔍</span>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-title">Problem Type</div>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="has-solution">With Solutions</button>
+                            <button class="filter-btn" data-filter="has-images">With Images</button>
+                            <button class="filter-btn" data-filter="has-booklet">With Booklet</button>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <div class="filter-title">Language</div>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-lang="all">All</button>
+                            <button class="filter-btn" data-lang="en">English</button>
+                            <button class="filter-btn" data-lang="ar">Arabic</button>
+                            <button class="filter-btn" data-lang="es">Spanish</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation-tree" id="navigationTree">
+                    <!-- Navigation will be populated by JavaScript -->
+                </div>
+            </div>
+
+            <div class="content-area">
+                <div class="content-header">
+                    <div class="breadcrumb" id="breadcrumb">
+                        <span>Select a country and year to view problems</span>
+                    </div>
+                    <div class="results-count" id="resultsCount">
+                        0 problems loaded
+                    </div>
+                </div>
+
+                <div class="problems-container">
+                    <div id="problemsGrid" class="problems-grid">
+                        <!-- Problems will be populated here -->
+                    </div>
+
+                    <div class="empty-state" id="emptyState">
+                        <h3>📚 Welcome to the Math Problems Dataset</h3>
+                        <p>Select a country and year from the sidebar to explore problems from mathematical competitions worldwide.</p>
+                    </div>
+
+                    <div class="loading" id="loading" style="display: none;">
+                        <p>Loading problems...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Modal -->
+        <div class="image-modal" id="imageModal" onclick="closeImageModal()">
+            <span class="close" onclick="closeImageModal()">&times;</span>
+            <img src="" alt="Full size image">
+        </div>
+    </div>
+
+    <!-- JavaScript Modules - Load in dependency order -->
+    <script src="js/config.js"></script>
+    <script src="js/data-loader.js"></script>
+    <script src="js/image-parser.js"></script>
+    <script src="js/ui-components.js"></script>
+    <script src="js/filters.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/problem-renderer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
