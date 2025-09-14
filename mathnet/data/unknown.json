@@ -1,0 +1,1007 @@
+{
+  "Unknown": [
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_1b81b2086d5d",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First, we will deal with the case when the wanted primes $p$ and $q$ are distinct. Then, the numbers $pq$ and $p+q$ are relatively prime: the product $pq$ is divisible by two primes only (namely $p$ and $q$), while the sum $p+q$ is divisible by neither of these primes.\n\nWe will look for a positive integer $r$ which can be a common divisor of both $a+1$ and $a^2+1$. If $r \\mid a+1$ and, at the same time, $r \\mid a^2+1$, then $r \\mid (a+1)(a-1)$ and also $r \\mid (a^2+1) - (a^2-1) = 2$, so $r$ can only be one of the numbers 1 and 2. Thus the fraction $\\frac{a^2+1}{a+1}$ either is in lowest terms, or will be in lowest terms when reduced by two, depending on whether the integer $a$ is even, or odd.\n\nIf $a$ is even, we must have\n\\[\npq = a^2 + 1 \\quad \\text{and} \\quad p + q = a + 1.\n\\]\nThe numbers $p, q$ are thus the roots of the quadratic equation $x^2-(a+1)x+a^2+1=0$, whose discriminant\n\\[\n(a+1)^2 - 4(a^2+1) = -3a^2 + 2a - 3 = -2a^2 - (a-1)^2 - 2\n\\]\nis apparently negative, so the equation has no solution in the real numbers.\n\nIf $a$ is odd, we must have (taking into account the reduction by two)\n\\[\n2pq = a^2 + 1 \\quad \\text{and} \\quad 2(p+q) = a + 1.\n\\]\nThe numbers $p, q$ are thus the roots of the quadratic equation $2x^2-(a+1)x+a^2+1=0$, whose discriminant is negative as well.\n\nTherefore, there is no pair of distinct primes $p, q$ satisfying the conditions.\n\nIt remains to analyze the case of $p = q$. Then,\n\\[\n\\frac{p \\cdot q}{p+q} = \\frac{p \\cdot p}{p+p} = \\frac{p}{2},\n\\]\nso we must have\n\\[\np = \\frac{2(a^2 + 1)}{a + 1} = 2a - 2 + \\frac{4}{a + 1};\n\\]\nthis is an integer if and only if $a+1 \\mid 4$, i. e. $a \\in \\{1, 3\\}$, so $p = 2$ or $p = 5$.\n\nTo summarize, there are exactly two pairs of primes satisfying the conditions, namely $p = q = 2$ and $p = q = 5$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p1_data_af696b08bd.png",
+          "title": null
+        }
+      ],
+      "statement_latex": "1. Find all pairs of primes $p, q$ for which there exists a positive integer $a$ such that\n\\[\n\\frac{pq}{p+q} = \\frac{a^2+1}{a+1}.\n\\]\n\n(Ján Mazák, Róbert Tóth)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_2c6362c53808",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First, we will deal with the case when the wanted primes $p$ and $q$ are distinct. Then, the numbers $pq$ and $p+q$ are relatively prime: the product $pq$ is divisible by two primes only (namely $p$ and $q$), while the sum $p+q$ is divisible by neither of these primes.\n\nWe will look for a positive integer $r$ which can be a common divisor of both $a+1$ and $a^2+1$. If $r \\mid a+1$ and, at the same time, $r \\mid a^2+1$, then $r \\mid (a+1)(a-1)$ and also $r \\mid (a^2+1) - (a^2-1) = 2$, so $r$ can only be one of the numbers 1 and 2. Thus the fraction $\\frac{a^2+1}{a+1}$ either is in lowest terms, or will be in lowest terms when reduced by two, depending on whether the integer $a$ is even, or odd.\n\nIf $a$ is even, we must have\n\n$$\npq = a^2 + 1 \\quad \\text{and} \\quad p + q = a + 1.\n$$\n\nThe numbers $p, q$ are thus the roots of the quadratic equation $x^2-(a+1)x+a^2+1=0$, whose discriminant\n\n$$\n(a+1)^2 - 4(a^2+1) = -3a^2 + 2a - 3 = -2a^2 - (a-1)^2 - 2\n$$\n\nis apparently negative, so the equation has no solution in the real numbers.\n\nIf $a$ is odd, we must have (taking into account the reduction by two)\n\n$$\n2pq = a^2 + 1 \\quad \\text{and} \\quad 2(p+q) = a + 1.\n$$\n\nThe numbers $p, q$ are thus the roots of the quadratic equation $2x^2-(a+1)x+a^2+1=0$, whose discriminant is negative as well.\n\nTherefore, there is no pair of distinct primes $p, q$ satisfying the conditions.\n\nIt remains to analyze the case of $p = q$. Then,\n\n$$\n\\frac{p \\cdot q}{p+q} = \\frac{p \\cdot p}{p+p} = \\frac{p}{2},\n$$\n\nso we must have\n\n$$\np = \\frac{2(a^2 + 1)}{a + 1} = 2a - 2 + \\frac{4}{a + 1};\n$$\n\nthis is an integer if and only if $a+1 \\mid 4$, i. e. $a \\in \\{1, 3\\}$, so $p = 2$ or $p = 5$.\n\nTo summarize, there are exactly two pairs of primes satisfying the conditions, namely $p = q = 2$ and $p = q = 5$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p2_data_0e827863dd.png",
+          "title": null
+        }
+      ],
+      "statement_latex": "Find all pairs of primes $p$, $q$ for which there exists a positive integer $a$ such that\n\n$$\n\\frac{pq}{p+q} = \\frac{a^2+1}{a+1}.\n$$\n\n(J\\'an Maz\\'ak, R\\'obert T\\'oth)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_0bcb2c913fb4",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/62MOCZE-SVK_p3_data_71c05baaf8.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "The line segments $AS_2$ and $BS_1$ lie on the diagonals of the given square, so they are perpendicular to each other and intersect at the center $P$ of the square. We have\n\n$$\n\\begin{aligned}\n|DS_1| &= r_1 \\cdot \\sqrt{2}, & |BS_1| &= (a - r_1)\\sqrt{2}, & |PS_1| &= \\left(\\frac{a}{2} - r_1\\right)\\sqrt{2}, \\\\\n|CS_2| &= r_2 \\cdot \\sqrt{2}, & |AS_2| &= (a - r_2)\\sqrt{2}, & |PS_2| &= \\left(\\frac{a}{2} - r_2\\right)\\sqrt{2}.\n\\end{aligned}\n$$\n\nTherefore, the area of the triangle $AS_1S_2$ is\n\n$$\nS_{AS_1S_2} = \\frac{1}{2} |AS_2| \\cdot |PS_1| = (a - r_2) \\left(\\frac{a}{2} - r_1\\right),\n$$\n\nwhile the area of the triangle $BS_1S_2$ is\n\n$$\nS_{BS_1S_2} = \\frac{1}{2} |BS_1| \\cdot |PS_2| = (a - r_1) \\left(\\frac{a}{2} - r_2\\right).\n$$\n\nThe sum of these areas is\n\n$$\nS = (a - r_2) \\left(\\frac{a}{2} - r_1\\right) + (a - r_1) \\left(\\frac{a}{2} - r_2\\right) = a^2 - \\frac{3}{2}a(r_1 + r_2) + 2r_1r_2.\n$$\n\nLet $K$ denote the point at which the circle $k_1$ touches the side AD, $H$ and $L$ denote the points at which $k_2$ touches the sides CD and BC, respectively, and $M$ be the intersection point of the lines $KS_1$ and $HS_2$ (Fig. 1).\n\n% IMAGE: ![](images/62MOCZE-SVK_p3_data_71c05baaf8.png)\n\nBy the Pythagoras' theorem for the triangle $S_1MS_2$, we have\n\n$$\n(a - r_1 - r_2)^2 + (r_1 - r_2)^2 = (r_1 + r_2)^2.\n$$\n\nHence we obtain\n\n$$\n(a - r_1 - r_2)^2 = 4r_1r_2, \\\\ a - r_1 - r_2 = 2\\sqrt{r_1r_2}, \\\\ a = r_1 + r_2 + 2\\sqrt{r_1r_2} = (\\sqrt{r_1} + \\sqrt{r_2})^2 \\ge 4\\sqrt{r_1r_2},\n$$\n\ni. e.\n\n$$\nr_1 r_2 \\le \\frac{a^2}{16}.\n$$\n\nThe length of the segment DC cannot be greater than the length of the polygonal chain $KS_1S_2L$, so\n\n$$\n2r_1 + 2r_2 \\ge a.\n$$\n\n(This follows from the equality $a = r_1 + r_2 + 2\\sqrt{r_1r_2}$ as well since $2\\sqrt{r_1r_2} \\le r_1 + r_2$, by the AM-GM inequality.) Therefore,\n\n$$\nS = a^2 - \\frac{3}{2}a(r_1 + r_2) + 2r_1r_2 \\le a^2 - \\frac{3}{4}a^2 + \\frac{1}{8}a^2 = \\frac{3}{8}a^2.\n$$\n\nThis means that at least one of the areas $S_{AS_1S_2}$, $S_{BS_1S_2}$ is at most $\\frac{3}{16}a^2$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "We can set $a = 1$. The difference of the areas of the triangles $AS_1S_2$ and $BS_1S_2$ is (according to the expression from the original solution)\n\n$$\nS_{AS_1S_2} - S_{BS_1S_2} = (1 - r_2)\\left(\\frac{1}{2} - r_1\\right) - (1 - r_1)\\left(\\frac{1}{2} - r_2\\right) = \\frac{1}{2}(r_2 - r_1).\n$$\n\nWithout loss of generality, we can assume that $r_1 \\ge r_2$. Then $S_{AS_1S_2} \\le S_{BS_1S_2}$. Now, let us calculate the area of the triangle $AS_1S_2$. By the Pythagoras' theorem, we have $(1 - r_1 - r_2)^2 + (r_1 - r_2)^2 = (r_1 + r_2)^2$, hence $\\sqrt{r_1} + \\sqrt{r_2} = 1$, so $r_2 = (1 - \\sqrt{r_1})^2$. Let us denote $x = \\sqrt{r_1}$. It follows from the inequalities $r_1 + r_2 \\ge \\frac{1}{2}$ and $r_1 \\ge r_2$ that $r_1 \\ge \\frac{1}{4}$, and, on the other hand, we have $r_1 \\le \\frac{1}{2}$ since the circle $k_1$ lies in the square $ABCD$. Hence it follows that $\\frac{1}{2} \\le x \\le \\sqrt{\\frac{1}{2}}$. The area of the triangle $AS_1S_2$ is\n\n$$\n\\begin{aligned} S_{AS_1S_2} &= (1 - r_2)\\left(\\frac{1}{2} - r_1\\right) = \\frac{1}{2} - r_1 - \\frac{r_2}{2} + r_1r_2 = \\\\\n&= \\frac{1}{2} - x^2 - \\frac{1}{2}(1 - x)^2 + x^2(1 - x)^2 = x^4 - 2x^3 - \\frac{1}{2}x^2 + x; \\\\\nS_{AS_1S_2} - \\frac{3}{16} &= x^4 - 2x^3 - \\frac{1}{2}x^2 + x - \\frac{3}{16} = \\left(x - \\frac{1}{2}\\right)\\left(x^3 - \\frac{3}{2}x^2 - \\frac{5}{4}x + \\frac{3}{8}\\right) = \\\\\n&= \\left(x - \\frac{1}{2}\\right)\\left[x^2\\left(x - \\frac{3}{2}\\right) - \\frac{5}{4}\\left(x - \\frac{3}{10}\\right)\\right] \\le 0 \\end{aligned}\n$$\n\nas we have $\\frac{3}{10} < \\frac{1}{2} \\le x \\le \\frac{1}{2}\\sqrt{2} < \\frac{3}{2}$. Therefore, $S_{AS_1S_2} \\le \\frac{3}{16}$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p3_data_71c05baaf8.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "Two circles $k_1(S_1, r_1)$ and $k_2(S_2, r_2)$ are externally tangent and both lie in a square ABCD with side length $a$ so that $k_1$ touches the sides AD and CD, while $k_2$ touches the sides BC and CD. Prove that the area of at least one of the triangles $AS_1S_2$, $BS_1S_2$ is no more than $\\frac{3}{16}a^2$. (Tom\\'a\\v{s} Jur\\'ik)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_3095bdf2c1c9",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "**Other Solution.** We can set $a = 1$. The difference of the areas of the triangles $AS_1S_2$ and $BS_1S_2$ is (according to the expression from the original solution)\n\n\\[\nS_{AS_1S_2} - S_{BS_1S_2} = (1 - r_2)\\left(\\frac{1}{2} - r_1\\right) - (1 - r_1)\\left(\\frac{1}{2} - r_2\\right) = \\frac{1}{2}(r_2 - r_1).\n\\]\n\nWithout loss of generality, we can assume that $r_1 \\ge r_2$. Then $S_{AS_1S_2} \\le S_{BS_1S_2}$. Now, let us calculate the area of the triangle $AS_1S_2$. By the Pythagoras' theorem, we have $(1 - r_1 - r_2)^2 + (r_1 - r_2)^2 = (r_1 + r_2)^2$, hence $\\sqrt{r_1} + \\sqrt{r_2} = 1$, so $r_2 = (1 - \\sqrt{r_1})^2$. Let us denote $x = \\sqrt{r_1}$. It follows from the inequalities $r_1 + r_2 \\ge \\frac{1}{2}$ and $r_1 \\ge r_2$ that $r_1 \\ge \\frac{1}{4}$, and, on the other hand, we have $r_1 \\le \\frac{1}{2}$ since the circle $k_1$ lies in the square $ABCD$. Hence it follows that $\\frac{1}{2} \\le x \\le \\sqrt{\\frac{1}{2}}$. The area of the triangle $AS_1S_2$ is\n\n\\[\n\\begin{aligned} S_{AS_1S_2} &= (1 - r_2)\\left(\\frac{1}{2} - r_1\\right) = \\frac{1}{2} - r_1 - \\frac{r_2}{2} + r_1r_2 = \\\\ &= \\frac{1}{2} - x^2 - \\frac{1}{2}(1 - x)^2 + x^2(1 - x)^2 = x^4 - 2x^3 - \\frac{1}{2}x^2 + x; \\\\ S_{AS_1S_2} - \\frac{3}{16} &= x^4 - 2x^3 - \\frac{1}{2}x^2 + x - \\frac{3}{16} = \\left(x - \\frac{1}{2}\\right)\\left(x^3 - \\frac{3}{2}x^2 - \\frac{5}{4}x + \\frac{3}{8}\\right) = \\\\ &= \\left(x - \\frac{1}{2}\\right)\\left[x^2\\left(x - \\frac{3}{2}\\right) - \\frac{5}{4}\\left(x - \\frac{3}{10}\\right)\\right] \\le 0 \\end{aligned}\n\\]\n\nas we have $\\frac{3}{10} < \\frac{1}{2} \\le x \\le \\frac{1}{2}\\sqrt{2} < \\frac{3}{2}$. Therefore, $S_{AS_1S_2} \\le \\frac{3}{16}$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Hence we obtain\n\n\\[\n(a - r_1 - r_2)^2 = 4r_1r_2, \\\\ a - r_1 - r_2 = 2\\sqrt{r_1r_2}, \\\\ a = r_1 + r_2 + 2\\sqrt{r_1r_2} = (\\sqrt{r_1} + \\sqrt{r_2})^2 \\ge 4\\sqrt{r_1r_2},\n\\]\n\ni. e.\n\n\\[\nr_1 r_2 \\le \\frac{a^2}{16}.\n\\]\n\nThe length of the segment DC cannot be greater than the length of the polygonal chain $KS_1S_2L$, so\n\n\\[\n2r_1 + 2r_2 \\ge a.\n\\]\n\n(This follows from the equality $a = r_1 + r_2 + 2\\sqrt{r_1r_2}$ as well since $2\\sqrt{r_1r_2} \\le r_1 + r_2$, by the AM-GM inequality.) Therefore,\n\n\\[\nS = a^2 - \\frac{3}{2}a(r_1 + r_2) + 2r_1r_2 \\le a^2 - \\frac{3}{4}a^2 + \\frac{1}{8}a^2 = \\frac{3}{8}a^2.\n\\]\n\nThis means that at least one of the areas $S_{AS_1S_2}$, $S_{BS_1S_2}$ is at most $\\frac{3}{16}a^2$."
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_edf1c38215c4",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Cutting off the last digit of a satisfactory $(n+1)$-digit integer yields a satisfactory $n$-digit integer. Notice how a satisfactory $(n+1)$-digit integer can be constructed from a satisfactory $n$-digit integer. If the last digit of the integer is 1, we can append any of the digits 3, 4, 5. If the last digit is 2, we can append 4 or 5; if it is 3, 1 or 5 can be appended; if it is 4, 1 or 2 can be appended; and, finally, in the case of 5, we can append any of the digits 1, 2, 3. Thus we can see that only the last digit matters. So now, let $a_n$ denote the number of satisfactory $n$-digit integers ending in 1 or 5; similarly $b_n$ for 2 or 4, and $c_n$ for integers ending in 3. Then $p(n) = a_n + b_n + c_n$. Apparently, $a_1 = b_1 = 2$, $c_1 = 1$, $p(1) = 5 = 5 \\cdot 2.4^0 = 5 \\cdot 2.5^0$, $a_2 = 6$, $b_2 = 4$, $c_2 = 2$, $p(2) = 12 = 5 \\cdot 2.4^1 < 5 \\cdot 2.5^1$.\n\nThe above reasoning implies the recurrent formulae\n\n$$\na_{n+1} = a_n + b_n + 2c_n, \\quad b_{n+1} = a_n + b_n, \\quad c_{n+1} = a_n. \\qquad (1)\n$$\n\nHence it follows that $a_3 = 14$, $b_3 = 10$, $c_3 = 6$, $p(3) = 30 \\in (5 \\cdot 2.4^2; 5 \\cdot 2.5^2)$.\n\nUsing mathematical induction, we prove that for every $n \\ge 3$, it holds that\n\n$$\na_n \\ge 2.4^n, \\quad b_n \\ge \\frac{2}{3} \\cdot 2.4^n, \\quad c_n \\ge 2.4^{n-1}.\n$$\n\nIt indeed does for $n=3$. If $a_n \\ge 2.4^n$, $b_n \\ge \\frac{2}{3} \\cdot 2.4^n$ and $c_n \\ge 2.4^{n-1}$, then also\n\n$$\n\\begin{align*} a_{n+1} &= a_n + b_n + 2c_n \\ge 2.4^n + \\frac{2}{3} \\cdot 2.4^n + 2 \\cdot 2.4^{n-1} = \\\\ &= 2.4^n \\cdot \\left(1 + \\frac{2}{3} + \\frac{5}{6}\\right) = 2.5 \\cdot 2.4^n > 2.4^{n+1}, \\\\ b_{n+1} &= a_n + b_n \\ge 2.4^n + \\frac{2}{3} \\cdot 2.4^n = \\frac{5}{3} \\cdot 2.4^n > \\frac{2}{3} \\cdot 2.4^{n+1}, \\\\ c_{n+1} &= a_n \\ge 2.4^n. \\end{align*}\n$$\n\nIt follows from the proved inequalities that\n\n$$\np(n) = a_n + b_n + c_n \\ge 2.4^n + \\frac{2}{3} \\cdot 2.4^n + 2.4^{n-1} = (2.4 + 1, 6 + 1) \\cdot 2.4^{n-1} = 5 \\cdot 2.4^{n-1}.\n$$\n\nThe latter inequality can be proved analogously; we will verify that for $n \\ge 3$,\n\n$$\na_n \\le k \\cdot 2.5^n, \\quad b_n \\le k \\cdot \\frac{2}{3} \\cdot 2.5^n, \\quad c_n \\le k \\cdot 2.5^{n-1}, \\qquad (2)\n$$\n\nwhere $k$ is a suitably chosen number. Then we will have\n\n$$\np(n) = a_n + b_n + c_n \\le k \\cdot 2.5^{n-1} \\cdot \\left(2.5 + \\frac{5}{3} + 1\\right) = k \\cdot 2.5^{n-1} \\cdot \\frac{31}{6} = 5k \\cdot \\frac{31}{30} \\cdot 2.5^{n-1}.\n$$\n\nTherefore, setting $k = \\frac{30}{31}$, we get $p(n) \\le 5 \\cdot 2.5^{n-1}$ for every $n \\ge 3$.\n\nIt remains to prove, by mathematical induction, the inequalities (2) where $k = \\frac{30}{31}$. They hold for $n = 3$. If (2) holds, we also have\n\n$$\na_{n+1} = a_n + b_n + 2c_n \\le k \\cdot 2.5^n \\cdot \\left(1 + \\frac{2}{3} + \\frac{4}{5}\\right) = k \\cdot 2.5^n \\cdot \\frac{37}{15} < k \\cdot 2.5^{n+1},\n$$\n\n$$\nb_{n+1} = a_n + b_n \\le k \\cdot 2.5^n \\cdot \\left(1 + \\frac{2}{3}\\right) = k \\cdot \\frac{2}{3} \\cdot 2.5^{n+1},\n$$\n\n$$\nc_{n+1} = a_n \\le k \\cdot 2.5^n.\n$$",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "We will show that each of the sequences $\\{a_n\\}$, $\\{b_n\\}$, $\\{c_n\\}$ defined in the above solution satisfies (as a consequence of the equalities (1)) the recurrent equation $x_{n+2} = 2x_{n+1} + 2x_n - 2x_{n-1}$, and so this equation is satisfied by the sequence $p(n) = a_n + b_n + c_n$ in question, which we will denote by (3).\n\nIndeed, the first and third equalities of (1) give $a_{n+1} = a_n + b_n + 2a_{n-1}$, whence\n\n$$\nb_n = a_{n+1} - a_n - 2a_{n-1}, \\quad \\text{so} \\quad b_{n+1} = a_{n+2} - a_{n+1} - 2a_n.\n$$\n\nConsidering the second equality in (1), we thus get\n\n$$\na_{n+2} - a_{n+1} - 2a_n = b_{n+1} = a_n + b_n = a_n + (a_{n+1} - a_n - 2a_{n-1}).\n$$\n\nConfronting the marginal expressions leads to the mentioned equality\n\n$$\na_{n+2} = 2a_{n+1} + 2a_n - 2a_{n-1}.\n$$\n\nTriple substitution of $a_n = b_{n+1} - b_n$ into the equality $b_n = a_{n+1} - a_n - 2a_{n-1}$ yields\n\n$$\nb_n = (b_{n+2} - b_{n+1}) - (b_{n+1} - b_n) - 2(b_n - b_{n-1}),\n$$\n\nwhich can be rearranged to\n\n$$\nb_{n+2} = 2b_{n+1} + 2b_n - 2b_{n-1}.\n$$\n\nFinally, the sequence $\\{c_n\\}$ is merely a shifted sequence $\\{a_n\\}$, so\n\n$$\nc_{n+2} = a_{n+1} = 2a_n + 2a_{n-1} - 2a_{n-2} = 2c_{n+1} + 2c_n - 2c_{n-1}.\n$$\n\nCombining all of the three recurrent formulae, we get\n\n$$\np(n+2) = 2p(n+1) + 2p(n) - 2p(n-1). \\qquad (3)\n$$\n\nUsing mathematical induction, we will prove that for every $k \\ge 1$,\n\n$$\n2.4p(k) \\le p(k+1) \\le 2.5p(k). \\qquad (4)\n$$\n\nThe inequalities (4) hold for both $k = 1$ and $k = 2$. If (4) holds for all $k \\in \\{1, 2, \\dots, n+1, n+2\\}$, then\n\n$$\n\\begin{aligned} p(n+3) &= 2(p(n+2) + p(n+1) - p(n)) \\ge 2\\left(p(n+2) + p(n+1) - \\frac{p(n+1)}{2.4}\\right) = 2\\left(p(n+2) + \\frac{7p(n+1)}{12}\\right) \\ge 2\\left(p(n+2) + \\frac{7}{12} \\cdot \\frac{p(n+2)}{2.5}\\right) = \\frac{74p(n+2)}{30} > 2.4p(n+2). \\end{aligned}\n$$\n\nSimilarly,\n\n$$\n\\begin{aligned} p(n+3) &\\le 2\\left(p(n+2) + p(n+1) - \\frac{p(n+1)}{2.5}\\right) \\le 2\\left(p(n+2) + \\frac{3}{5} \\cdot \\frac{p(n+2)}{2.4}\\right) = 2.5p(n+2). \\end{aligned}\n$$\n\nThe equalities $5 \\cdot 2.4^0 = p(1) = 5 \\cdot 2.5^0$ and the inequalities of (4) imply that the inequality $5 \\cdot 2.4^{n-1} \\le p(n) \\le 5 \\cdot 2.5^{n-1}$ holds for every positive integer $n$.\n\n*Pozn\\'amka.* The equation (3) is called *linear differential equation with constant coefficients*. The well-known recurrent formula $g_{n+1} = g_n \\cdot q$ for geometric sequences indicates that the equation (3) could be satisfied by some geometric sequences, i. e., $p(n) = q^n$. Substituting into (3) yields the so-called *characteristic equation* for the common ratio $q$:\n\n$$\nq^3 - 2q^2 - 2q + 2 = 0,\n$$\n\nwhich has three real roots $q_1 \\doteq -1.170\\,086\\,487$, $q_2 \\doteq 0.688\\,892\\,182$, $q_3 \\doteq 2.481\\,194\\,304$. It can be proved that every solution of the equation (3) is a linear combination of the sequences $\\{q_1^n\\}$, $\\{q_2^n\\}$ and $\\{q_3^n\\}$, i. e.,\n\n$$\np(n) = \\alpha \\cdot q_1^n + \\beta \\cdot q_2^n + \\gamma \\cdot q_3^n.\n$$\n\nThe coefficients $\\alpha, \\beta, \\gamma$ can be determined from the system of equations\n\n$$\n\\alpha q_1 + \\beta q_2 + \\gamma q_3 = p(1) = 5, \\quad \\alpha q_1^2 + \\beta q_2^2 + \\gamma q_3^2 = p(2) = 12, \\quad \\alpha q_1^3 + \\beta q_2^3 + \\gamma q_3^3 = p(3) = 30.\n$$\n\nInstead of the third equation, we could use $\\alpha + \\beta + \\gamma = p(0) = 2$; the number $p(0)$ cannot be defined as the number of 0-digit integers, yet $p(0) = 2$ is taken to satisfy (3) with $n = 1$. Therefore, we get the approximation\n\n$$\np(n) \\approx -0.063\\,627\\,546q_1^n + 0.108\\,637\\,179q_2^n + 1.954\\,990\\,367q_3^n\n$$\n\nfor the terms of the examined sequence. (This approximation can be used for $n$ up to around 20; for greater values of $n$, the rounding errors begin to take effect.)",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $p(n)$ denote the number of all $n$-digit positive integers containing only the digits 1, 2, 3, 4, 5 and such that every two adjacent digits differ by at least 2. Prove that for every positive integer $n$,\n\n$$\n5 \\cdot 2.4^{n-1} \\le p(n) \\le 5 \\cdot 2.5^{n-1}.\n$$\n\n(Pavel Novotn\\'y)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_e7cde202e754",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "**Other Solution.** We will show that each of the sequences $\\{a_n\\}$, $\\{b_n\\}$, $\\{c_n\\}$ defined in the above solution satisfies (as a consequence of the equalities (1)) the recurrent equation $x_{n+2} = 2x_{n+1} + 2x_n - 2x_{n-1}$, and so this equation is satisfied by the sequence $p(n) = a_n + b_n + c_n$ in question, which we will denote by (3).\n\nIndeed, the first and third equalities of (1) give $a_{n+1} = a_n + b_n + 2a_{n-1}$, whence\n\n$$\nb_n = a_{n+1} - a_n - 2a_{n-1}, \\quad \\text{so} \\quad b_{n+1} = a_{n+2} - a_{n+1} - 2a_n.\n$$\n\nConsidering the second equality in (1), we thus get\n\n$$\na_{n+2} - a_{n+1} - 2a_n = b_{n+1} = a_n + b_n = a_n + (a_{n+1} - a_n - 2a_{n-1}).\n$$\n\nConfronting the marginal expressions leads to the mentioned equality\n\n$$\na_{n+2} = 2a_{n+1} + 2a_n - 2a_{n-1}.\n$$\n\nTriple substitution of $a_n = b_{n+1} - b_n$ into the equality $b_n = a_{n+1} - a_n - 2a_{n-1}$ yields\n\n$$\nb_n = (b_{n+2} - b_{n+1}) - (b_{n+1} - b_n) - 2(b_n - b_{n-1}),\n$$\n\nwhich can be rearranged to\n\n$$\nb_{n+2} = 2b_{n+1} + 2b_n - 2b_{n-1}.\n$$\n\nFinally, the sequence $\\{c_n\\}$ is merely a shifted sequence $\\{a_n\\}$, so\n\n$$\nc_{n+2} = a_{n+1} = 2a_n + 2a_{n-1} - 2a_{n-2} = 2c_{n+1} + 2c_n - 2c_{n-1}.\n$$\n\nCombining all of the three recurrent formulae, we get\n\n$$\np(n+2) = 2p(n+1) + 2p(n) - 2p(n-1). \\qquad (3)\n$$\n\nUsing mathematical induction, we will prove that for every $k \\ge 1$,\n\n$$\n2.4p(k) \\le p(k+1) \\le 2.5p(k). \\qquad (4)\n$$\n\nThe inequalities (4) hold for both $k = 1$ and $k = 2$. If (4) holds for all $k \\in \\{1, 2, \\dots, n+1, n+2\\}$, then\n\n$$\n\\begin{aligned} p(n+3) &= 2(p(n+2) + p(n+1) - p(n)) \\ge 2\\left(p(n+2) + p(n+1) - \\frac{p(n+1)}{2.4}\\right) = 2\\left(p(n+2) + \\frac{7p(n+1)}{12}\\right) \\ge 2\\left(p(n+2) + \\frac{7}{12} \\cdot \\frac{p(n+2)}{2.5}\\right) = \\frac{74p(n+2)}{30} > 2.4p(n+2). \\end{aligned}\n$$\n\nSimilarly,\n\n$$\n\\begin{aligned} p(n+3) &\\le 2\\left(p(n+2) + p(n+1) - \\frac{p(n+1)}{2.5}\\right) \\le 2\\left(p(n+2) + \\frac{3}{5} \\cdot \\frac{p(n+2)}{2.4}\\right) = 2.5p(n+2). \\end{aligned}\n$$\n\nThe equalities $5 \\cdot 2.4^0 = p(1) = 5 \\cdot 2.5^0$ and the inequalities of (4) imply that the inequality $5 \\cdot 2.4^{n-1} \\le p(n) \\le 5 \\cdot 2.5^{n-1}$ holds for every positive integer $n$.\n\n*Pozn\\'amka.* The equation (3) is called *linear differential equation with constant coefficients*. The well-known recurrent formula $g_{n+1} = g_n \\cdot q$ for geometric sequences indicates that the equation (3) could be satisfied by some geometric sequences, i. e., $p(n) = q^n$. Substituting into (3) yields the so-called *characteristic equation* for the common ratio $q$:\n\n$$\nq^3 - 2q^2 - 2q + 2 = 0,\n$$\n\nwhich has three real roots $q_1 \\doteq -1.170\\,086\\,487$, $q_2 \\doteq 0.688\\,892\\,182$, $q_3 \\doteq 2.481\\,194\\,304$. It can be proved that every solution of the equation (3) is a linear combination of the sequences $\\{q_1^n\\}$, $\\{q_2^n\\}$ and $\\{q_3^n\\}$, i. e.,\n\n$$\np(n) = \\alpha \\cdot q_1^n + \\beta \\cdot q_2^n + \\gamma \\cdot q_3^n.\n$$\n\nThe coefficients $\\alpha, \\beta, \\gamma$ can be determined from the system of equations\n\n$$\n\\alpha q_1 + \\beta q_2 + \\gamma q_3 = p(1) = 5, \\quad \\alpha q_1^2 + \\beta q_2^2 + \\gamma q_3^2 = p(2) = 12, \\quad \\alpha q_1^3 + \\beta q_2^3 + \\gamma q_3^3 = p(3) = 30.\n$$\n\nInstead of the third equation, we could use $\\alpha + \\beta + \\gamma = p(0) = 2$; the number $p(0)$ cannot be defined as the number of 0-digit integers, yet $p(0) = 2$ is taken to satisfy (3) with $n = 1$. Therefore, we get the approximation\n\n$$\np(n) \\approx -0.063\\,627\\,546q_1^n + 0.108\\,637\\,179q_2^n + 1.954\\,990\\,367q_3^n\n$$\n\nfor the terms of the examined sequence. (This approximation can be used for $n$ up to around 20; for greater values of $n$, the rounding errors begin to take effect.)",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "where $k$ is a suitably chosen number. Then we will have\n\n$$\np(n) = a_n + b_n + c_n \\le k \\cdot 2.5^{n-1} \\cdot \\left(2.5 + \\frac{5}{3} + 1\\right) = k \\cdot 2.5^{n-1} \\cdot \\frac{31}{6} = 5k \\cdot \\frac{31}{30} \\cdot 2.5^{n-1}.\n$$\n\nTherefore, setting $k = \\frac{30}{31}$, we get $p(n) \\le 5 \\cdot 2.5^{n-1}$ for every $n \\ge 3$.\n\nIt remains to prove, by mathematical induction, the inequalities (2) where $k = \\frac{30}{31}$. They hold for $n = 3$. If (2) holds, we also have\n\n$$\na_{n+1} = a_n + b_n + 2c_n \\le k \\cdot 2.5^n \\cdot \\left(1 + \\frac{2}{3} + \\frac{4}{5}\\right) = k \\cdot 2.5^n \\cdot \\frac{37}{15} < k \\cdot 2.5^{n+1},\n$$\n\n$$\nb_{n+1} = a_n + b_n \\le k \\cdot 2.5^n \\cdot \\left(1 + \\frac{2}{3}\\right) = k \\cdot \\frac{2}{3} \\cdot 2.5^{n+1},\n$$\n\n$$\nc_{n+1} = a_n \\le k \\cdot 2.5^n.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_3e29565acdda",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Substituting $x = 1$ gives\n\n$$\nf(y) + f(-y) = f(1).\n$$\n\nDenoting $f(1) = a$, we have $f(-y) = a - f(y)$. Substituting $y = -1$, we get\n\n$$\nx \\cdot f(-x) + f(1) = x \\cdot f(x),\n$$\n\ni. e.,\n\n$$\nx(a - f(x)) + a = x \\cdot f(x),\n$$\n\nhence\n\n$$\nf(x) = \\frac{a(x + 1)}{2x} = \\frac{a}{2}\\left(1 + \\frac{1}{x}\\right).\n$$\n\nFinally, we check that for any real number $c$, the function $f(x) = c(1 + 1/x)$ satisfies the conditions:\n\n$$\n\\begin{align*} x \\cdot f(xy) + f(-y) &= x \\cdot c\\left(1 + \\frac{1}{xy}\\right) + c\\left(1 + \\frac{1}{-y}\\right) = c\\left(x + \\frac{1}{y} + 1 - \\frac{1}{y}\\right) = \\\\ &= c(x + 1) = cx\\left(1 + \\frac{1}{x}\\right) = x \\cdot f(x). \\end{align*}\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let us set $f(1) = a$. Substituting $y = -1$ into the given equation yields\n\n$$\nxf(-x) + a = xf(x),\n$$\n\ni. e.,\n\n$$\nf(-x) = f(x) - \\frac{a}{x}. \\qquad (1)\n$$\n\nThe given equation can be rearranged into the form\n\n$$\nf(xy) + \\frac{1}{x} \\cdot f(-y) = f(x),\n$$\n\nwhence, using (1), we have\n\n$$\n\\begin{align*} f(xy) + \\frac{1}{x} \\left( f(y) - \\frac{a}{y} \\right) &= f(x), \\\\ f(xy) + \\frac{f(y)}{x} - \\frac{a}{xy} &= f(x). \\end{align*}\n$$\nInterchanging $x$ and $y$ gives\n\n$$\nf(yx) + \\frac{f(x)}{y} - \\frac{a}{yx} = f(y),\n$$\nso, combining the last two equations, we get\n\n$$\n\\frac{f(x)}{y} - \\frac{f(y)}{x} = f(y) - f(x),\n$$\nand substituting $y = 1$ now gives\n\n$$\n2f(x) = a\\left(1 + \\frac{1}{x}\\right).\n$$\n\nAgain, we can easily verify that every function $f(x) = c(1 + 1/x)$ is a solution of the given functional equation.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all functions $f: \\mathbb{R} \\setminus \\{0\\} \\rightarrow \\mathbb{R}$ such that for all non-zero numbers $x, y,$\n\n$$\nx \\cdot f(xy) + f(-y) = x \\cdot f(x).\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_fc4ba0484be7",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/62MOCZE-SVK_p9_data_079afe8bd6.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let $\\alpha$, $\\beta$, $\\gamma$ denote the measures of the interior angles at the vertices $A$, $B$, $C$, respectively, of the triangle $ABC$, and let $J$ be the intersection point of the line $AI$ and the side $BC$. (Fig. 2). The inscribed angle $PBI$ corresponds to the chord $PI$, while the inscribed angle $QBI$ corresponds to the chord $IQ$, and since the measure of both of these angles is $\\frac{1}{2}\\beta$, the chords $PI$ and $IQ$ share the same length as well.\n\n% IMAGE: ![](images/62MOCZE-SVK_p9_data_079afe8bd6.png)\n\nFig. 2\n\nSince the inscribed angle *JIQ* also corresponds to the chord *IQ*, its measure is also $\\frac{1}{2}\\beta$. It follows from the congruence of vertical angles that $|\\angle RIA| = \\frac{1}{2}\\beta$. This measure is also shared by the inscribed angle *PIA* as it corresponds to the chord *PI* of equal length as *IQ*. Further, $|\\angle RAI| = |\\angle PAI| = \\frac{1}{2}\\alpha$. The triangles *RIA* and *PIA* are thus congruent by ASA, hence $|RI| = |PI|$.\n\nTherefore, the measure of the angle *QIB* is\n\n\\[\n\\begin{aligned}\n|\\angle QIB| &= 180^{\\circ} - |\\angle AIB| - |\\angle JIQ| = 180^{\\circ} - (90^{\\circ} + \\frac{\\gamma}{2}) - \\frac{\\beta}{2} = \\\\\n&= 90^{\\circ} - (\\frac{\\beta}{2} + \\frac{\\gamma}{2}) = \\frac{\\alpha}{2} = |\\angle RAI|.\n\\end{aligned}\n\\]\n\nThe measure of the angle *QIB* could also be determined as follows: Since the inscribed angles *AIP* and *IPQ* correspond to chords of equal length, we have $|\\angle AIP| = \\frac{1}{2}\\beta = |\\angle IPQ|$. The congruence of alternate angles implies that *AI* $\\parallel$ *PQ*. Hence $|\\angle QPB| = |\\angle IAB| = \\frac{1}{2}\\alpha$, and so $|\\angle QIB| = \\frac{1}{2}\\alpha$ as well since they are both inscribed angles corresponding to the chord *QB*.\n\nSince $|\\angle QIB| = |\\angle RAI|$ and $|\\angle QBI| = |\\angle RIA|$, it follows that $AIR \\sim IBQ$. Therefore, $|AR|/|RI| = |IQ|/|QB|$, so\n\n\\[\n|AR| \\cdot |QB| = |RI| \\cdot |IQ| = |PI|^2.\n\\]\n\nTo prove similarity of the triangles *AIR* and *IBQ*, we could have made use of the fact that the triangle *CRQ* is isosceles, so its median coincides with its angle bisector.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $I$ be the incenter of a triangle $ABC$. The circle passing through the vertex $B$ and touches the line $AI$ at $I$ intersects the sides $AB$ and $BC$ at points $P$ and $Q$, respectively. Let $R$ be the intersection point of the line $QI$ and the side $AC$. Prove that\n\n\\[\n|AR| \\cdot |BQ| = |PI|^2. \\qquad \\text{(Jaroslav \\u0160vr\\u010dek)}\n\\]"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_51f6b4e3ab4b",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Substituting $\\cos^2 x = a$, $\\cos^2 y = b$, $\\cos^2 z = c$ leads to the system\n\n\\[\n\\begin{aligned}\n1 - a + b &= \\frac{1}{c} - 1, \\\\\n1 - b + c &= \\frac{1}{a} - 1, \\\\\n1 - c + a &= \\frac{1}{b} - 1,\n\\end{aligned}\n\\qquad (1)\n\\]\n\nwhere $a, b, c \\in (0, 1)$.\n\nAdding these equations together yields\n\n\\[\n\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 6,\n\\]\n\nso the harmonic mean of the numbers *a*, *b*, *c* is $\\frac{1}{2}$.\n\nMultiplying the equations by the numbers $c$, $a$, and $b$, respectively, we get\n\n\\[\n\\begin{aligned}\nc - ac + bc &= 1 - c, \\\\\na - ab + ac &= 1 - a, \\\\\nb - bc + ab &= 1 - b,\n\\end{aligned}\n\\]\n\nwhich sums to $2(a + b + c) = 3$. Therefore, the arithmetic mean of the numbers $a, b$, $c$ is $\\frac{1}{2}$, too. Since the arithmetic and harmonic means are equal, it must be that $a = b = c = \\frac{1}{2}$. We can easily verify that this triple satisfies the system (1). The solutions of the original system are thus exactly the triples $(\\frac{1}{4}\\pi + \\frac{1}{2}k\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}l\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}m\\pi)$, where $k, l, m$ are integers.\n\n\\textbf{Jin\\u00e9 \\u0159e\\u0161en\\u00ed.} We use the substitution from the above solution. The system (1) is cyclic; if a triple $(p, q, r)$ satisfies it, then so do the triples $(q, r, p)$ and $(r, p, q)$. Therefore, it suffices to find the solutions for which $a \\ge b, a \\ge c$, and all the other solutions can then be obtained by cyclic exchange.\n\nLet $a \\ge b, a \\ge c$. It follows from the first equation that $1/c = 2 - a + b \\le 2$, so $c \\ge \\frac{1}{2}$. Similarly, it follows from the third equation that $1/b = 2 - c + a \\ge 2$, so $b \\le \\frac{1}{2}$, and thus $b \\le c$. ¿From the second equation, we have $1/a = 2 - b + c \\ge 2$, so $a \\le \\frac{1}{2}$. Altogether,\n\n\\[\n\\frac{1}{2} \\ge a \\ge c \\ge \\frac{1}{2},\n\\]\n\nso $a = c = \\frac{1}{2}$. Now, any of the equations of the system (1) yields $b = \\frac{1}{2}$. Just as in the previous case, we verify that the found triple satisfies the system (1); so the solutions of the system are the triples $(\\frac{1}{4}\\pi + \\frac{1}{2}k\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}l\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}m\\pi)$, where $k, l, m$ are integers.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In the real numbers, solve the following system of equations:\n\n\\[\n\\begin{aligned}\n\\sin^2 x + \\cos^2 y &= \\tan^2 z, \\\\\n\\sin^2 y + \\cos^2 z &= \\tan^2 x, \\\\\n\\sin^2 z + \\cos^2 x &= \\tan^2 y.\n\\end{aligned}\n\\]\n\n(Pavel Cal\\u00e1bek)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_75ab355b27fa",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Substituting $\\cos^2 x = a$, $\\cos^2 y = b$, $\\cos^2 z = c$ leads to the system\n\n$$\n\\begin{aligned}\n1 - a + b &= \\frac{1}{c} - 1, \\\\\n1 - b + c &= \\frac{1}{a} - 1, \\\\\n1 - c + a &= \\frac{1}{b} - 1,\n\\end{aligned}\n\\qquad (1)\n$$\n\nwhere $a, b, c \\in (0, 1)$.\n\nAdding these equations together yields\n\n$$\n\\frac{1}{a} + \\frac{1}{b} + \\frac{1}{c} = 6,\n$$\n\nso the harmonic mean of the numbers $a$, $b$, $c$ is $\\frac{1}{2}$.\n\nMultiplying the equations by the numbers $c$, $a$, and $b$, respectively, we get\n\n$$\n\\begin{aligned}\nc - ac + bc &= 1 - c, \\\\\na - ab + ac &= 1 - a, \\\\\nb - bc + ab &= 1 - b,\n\\end{aligned}\n$$\n\nwhich sums to $2(a + b + c) = 3$. Therefore, the arithmetic mean of the numbers $a, b$, $c$ is $\\frac{1}{2}$, too. Since the arithmetic and harmonic means are equal, it must be that $a = b = c = \\frac{1}{2}$. We can easily verify that this triple satisfies the system (1). The solutions of the original system are thus exactly the triples $(\\frac{1}{4}\\pi + \\frac{1}{2}k\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}l\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}m\\pi)$, where $k, l, m$ are integers.\n\n\\textbf{Jin\\'e \\v{r}e\\v{s}en\\'i.} We use the substitution from the above solution. The system (1) is cyclic; if a triple $(p, q, r)$ satisfies it, then so do the triples $(q, r, p)$ and $(r, p, q)$. Therefore, it suffices to find the solutions for which $a \\ge b, a \\ge c$, and all the other solutions can then be obtained by cyclic exchange.\n\nLet $a \\ge b, a \\ge c$. It follows from the first equation that $1/c = 2 - a + b \\le 2$, so $c \\ge \\frac{1}{2}$. Similarly, it follows from the third equation that $1/b = 2 - c + a \\ge 2$, so $b \\le \\frac{1}{2}$, and thus $b \\le c$. From the second equation, we have $1/a = 2 - b + c \\ge 2$, so $a \\le \\frac{1}{2}$. Altogether,\n\n$$\n\\frac{1}{2} \\ge a \\ge c \\ge \\frac{1}{2},\n$$\n\nso $a = c = \\frac{1}{2}$. Now, any of the equations of the system (1) yields $b = \\frac{1}{2}$. Just as in the previous case, we verify that the found triple satisfies the system (1); so the solutions of the system are the triples $(\\frac{1}{4}\\pi + \\frac{1}{2}k\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}l\\pi, \\frac{1}{4}\\pi + \\frac{1}{2}m\\pi)$, where $k, l, m$ are integers.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In the real numbers, solve the following system of equations:\n\n$$\n\\begin{aligned}\n\\sin^2 x + \\cos^2 y &= \\tan^2 z, \\\\\n\\sin^2 y + \\cos^2 z &= \\tan^2 x, \\\\\n\\sin^2 z + \\cos^2 x &= \\tan^2 y.\n\\end{aligned}\n$$\n\n(Pavel Cal\\'abek)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_ecf5dc4b290a",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/62MOCZE-SVK_p12_data_94cc5642f6.png",
+              "title": null
+            }
+          ],
+          "label": null,
+          "latex": "a) Let $M$ and $N$ be intersections of the line through $S_1$ parallel to $AD$. Analogously let $K$ and $L$ be intersections of the line through $S_2$ parallel to $AB$. Let $P$ be the intersection of $KL$ and $MN$ (see Fig. 1). The Pythagoras theorem for $S_1PS_2$ gives\n\n$$ (r_1 + r_2)^2 = (8 - r_1 - r_2)^2 + (9 - r_1 - r_2)^2, \\qquad (1) $$ $$ (r_1 + r_2)^2 - 34(r_1 + r_2) + 145 = 0, $$ $$ (r_1 + r_2 - 5)(r_1 + r_2 - 29) = 0. $$\n\nSince $2r_1 \\le 8$, $2r_2 \\le 8$, we have $r_1 + r_2 = 5$.\n\n% IMAGE: ![](images/62MOCZE-SVK_p12_data_94cc5642f6.png)\n\nFig. 1\n\nb) Let $Q$ be a foot of a perpendicular to $AB$ from $S_2$, let $R$ be a foot of a perpendicular to $AD$ from $S_1$ and let $T$ be the intersection of $QS_2$ and $RS_1$ (Fig. 1).\n\nThe area $S$ of $AS_2S_1$ is given by the difference of the area of rectangle $AQTR$ and areas of right triangles $AQS_2$, $AS_1R$, and $S_1S_2T$:\n\n$$\n\\begin{align*} \nS &= (9 - r_2)(8 - r_1) - \\frac{1}{2}r_2(9 - r_2) - \\frac{1}{2}r_1(8 - r_1) - \\frac{1}{2}(9 - r_1 - r_2)(8 - r_1 - r_2) \\\\ \n&= 72 - 9r_1 - 8r_2 + r_1r_2 - \\frac{9}{2}r_2 + \\frac{1}{2}r_2^2 - 4r_1 + \\frac{1}{2}r_1^2 - 36 + \\frac{17}{2}(r_1 + r_2) \\\\ \n&\\quad - \\frac{1}{2}(r_1 + r_2)^2 \\\\ \n&= 36 - \\frac{9}{2}r_1 - 4r_2 = 36 - \\frac{9}{2}r_1 - 4(5 - r_1) = 16 - \\frac{1}{2}r_1, \n\\end{align*}\n$$\n\nwhere we used $r_1 + r_2 = 5$. Further we know $2r_1 \\le 8$ and $2r_2 \\le 8$ which implies $r_1$, $r_2 \\le r_1$, $r_2 \\le 4$, thus\n\n$$\nS = 16 - \\frac{1}{2}r_1 \\in \\left\\langle 14, \\frac{31}{2} \\right\\rangle;\n$$\n\nand the least possible value of the area is 14, for $r_1 = 4$ and $r_2 = 1$, and the greatest value possible is $\\frac{31}{2}$, for $r_1 = 1$ and $r_2 = 4$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p12_data_2675a287b8.png",
+          "title": null
+        }
+      ],
+      "statement_latex": "There are two touching circles, $k_1(S_1, r_1)$ and $k_2(S_2, r_2)$ in an rectangle ABCD with $|AB| = 9$, $|BC| = 8$. Moreover $k_1$ touches AD and CD, while $k_2$ touches AB and BC.\n\na) Prove $r_1 + r_2 = 5$.\n\nb) What is the least and what is the greatest possible area of $AS_1S_2$?\n\n(Pavel Novotný)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_09cc5bb8ed83",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $b$ the sum of numbers on side faces of the pyramid, let $a$ be the number on the base. After a step involving any base vertex, $b$ increases or decreases by 2 and $a$ increases or decreases by 1, that means the value $V = b - 2a$ stays the same. If we choose for a step the apex, only $b$ increases or decreases by $n$, thus $V$ increases or decreases by $n$ as well. Therefore $V$ is in the process always divisible by $n$. But in the position with number 1 written on each side, the corresponding $V$ is $n-2$, which in not divisible by $n$ (as $n > 2$).",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The number 0 is written on each of the $n+1$ faces of an $n$-sided pyramid. In a step we choose a vertex and we increase by 1 each number on the faces, which contain the vertex. Show, that in such way, we cannot get number 1 written on each face."
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_6d1b1aeb0a5e",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We show that the only solution is $a = 1$, $b = 4$ and $c = 3$.\n\nLet $s = b + c \\ge 7$. Substituting $a = 5 - b$ and $c = s - b$ the first condition gives\n\n$$\n(5 - b)^2 + b^2 + (s - b)^2 = 26,\n$$\n\nthus\n\n$$\n3b^2 - 2(s + 5)b + s^2 - 1 = 0. \\quad (5)\n$$\n\nThe equation has a real solution iff the discriminant $4(s + 5)^2 - 12(s^2 - 1) \\ge 0$. This yields $s^2 - 5s - 14 \\le 0$, or $(s + 2)(s - 7) \\le 0$. Since $s \\ge 7$, there must be $s = 7$. If we substitute to (5) we get\n\n$$\n3b^2 - 24b + 48 = 0;\n$$\n\nwith the only solution $b = 4$. Then $a = 1$ and $c = 3$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all real $a, b, c$, such that\n\n$$\na^2 + b^2 + c^2 = 26, \\quad a + b = 5 \\quad \\text{and} \\quad b + c \\ge 7.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_dec8505b1e39",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "a) Let the numbers are $a_1 < a_2 < a_3 < \\dots < a_{21}$. Since they are integers, for every $i \\in \\{1, 2, \\dots, 20\\}$ holds $a_{i+1} - a_i \\ge 1$, and therefore $a_{i+10} - a_i \\ge 10$ for every $i \\in \\{1, 2, \\dots, 11\\}$.\n\nThe problem condition is fulfilled if and only if the sum\n\n$$\na_1 + a_2 + \\dots + a_{11} > a_{12} + a_{13} + \\dots + a_{21}. \\quad (1)\n$$\n\nThis follows\n\n$$\na_1 > (a_{12} - a_2) + (a_{13} - a_3) + \\dots + (a_{21} - a_{11}) \\ge 10 \\cdot 10 = 100.\n$$\n\nSince the least of the numbers is greater than 100, the other ones are greater than 100 too.\n\nb) We have proved $a_1 \\ge 101$. The other numbers are greater than 101. If the number 101 is in the group of positive integers, then $a_1 = 101$ holds. The strict inequality (1) gives\n\n$$\n(a_{12} - a_2) + (a_{13} - a_3) + \\dots + (a_{21} - a_{11}) \\le a_1 - 1 = 100,\n$$\n\nand because $a_{i+10} - a_i \\ge 10$, the equality $a_{i+10} - a_i = 10$ holds for every $i \\in \\{2, 3, \\dots, 11\\}$. It comes to pass if and only if the numbers $a_2, a_3, \\dots, a_{21}$ are consecutive integers.\n\nThe required group consists of number 101 and arbitrary 20 consecutive integers which are greater than 101. Then the difference of sums of 11 minimal numbers and 10 maximal numbers is 1.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p14_data_704c56bc87.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "1. In a group of 21 different integers a sum of arbitrary eleven ones is greater than a sum of the remaining ten numbers.\n\na) Prove that every considered number is greater than 100.\n\nb) Find all such groups of 21 different integers containing number 101.\n\n(Jaromír Šimša)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_8452a5c11c27",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Initially we will prove that the set $A$ consists from at most two numbers. Suppose that three numbers $a < b < c$ belongs to the set $A$. Then the numbers $a+b < a+c < b+c$ are in $B$ and therefore the number\n\n$$\n\\frac{b+c}{a+c} = 1 + \\frac{b-a}{a+c};\n$$\n\nhave to be in $A$. This is contradiction because $0 < b-a < a+c$ and the number is not integer.\n\nIf the set $B$ contains four numbers $k < l < m < n$, then the set $A$ will contain three different numbers $n/k$, $n/l$, $n/m$. So the set $B$ has at most three elements and $A \\cup B$ has at most five elements.\n\nWe achieve the number 5 of elements if $A = \\{a, b\\}$, $B = \\{k, l, m\\}$, where $a < b$ and $l/k = m/l = a$, $m/k = b$. Then $b = a^2$ ($a \\ge 2$) and $a + a^2$ is one of the elements of $B$; the next two elements are either $a^2 + a^3$ and $a^3 + a^4$ or $1 + a$ and $a^2 + a^3$. Eg. sets $A = \\{2, 4\\}$, $B = \\{3, 6, 12\\}$ have five elements together.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "2. Let A, B be sets of positive integers such that a sum of arbitrary two different numbers from A is in B and a ratio of arbitrary two different numbers from B (greater one to smaller one) is in A. Find the maximum number of elements in $A \\cup B$.\n\n(Martin Panák)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_877864b09c21",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/62MOCZE-SVK_p15_data_46eaf185eb.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "The hypotenuse $AB$ has length $AB = 5$ with respect to Pythagoras' theorem. Then for angles in the triangle there is $\\cos \\alpha = \\frac{4}{5}$, $\\cos \\beta = \\frac{3}{5}$,\n\\[\n\\cot \\frac{\\alpha}{2} = \\sqrt{\\frac{1 + \\cos \\alpha}{1 - \\cos \\alpha}} = 3,\n\\]\n\\[\n\\cot \\frac{\\beta}{2} = \\sqrt{\\frac{1 + \\cos \\beta}{1 - \\cos \\beta}} = 2.\n\\]\n% IMAGE: ![](images/62MOCZE-SVK_p15_data_46eaf185eb.png)\n\nSince both circles $k_1$, $k_2$ whole lie in the triangle $ABC$, they are externally tangent—in the opposite case the leg tangent to the smaller circle intersects the greater circle. Let circles $k_1$ and $k_2$ touch the side $AB$ at points $D$ resp. $E$ and let point $F$ be orthogonal projection of the point $S_2$ to the element $S_1D$ (Fig. 1, under assumption is $r_1 > r_2$). Using Pythagoras' theorem for a triangle $FS_2S_1$ we obtain\n\\[\n(r_1 + r_2)^2 = (r_1 - r_2)^2 + DE^2,\n\\]\nwhich follows $DE = 2\\sqrt{r_1r_2}$.\n\nAn equality $AB = AD + DE + EB$ gives\n\\[\nc = r_1 \\cot \\frac{\\alpha}{2} + 2\\sqrt{r_1r_2} + r_2 \\cot \\frac{\\beta}{2} = 3r_1 + 2\\sqrt{r_1r_2} + 2r_2,\n\\]\nand since $r_1 = \\frac{9}{4}r_2$ we obtain\n\\[\n\\frac{27}{4}r_2 + 3r_2 + 2r_2 = 5,\n\\]\nwhich follows\n\\[\nr_2 = \\frac{20}{47}, \\quad r_1 = \\frac{45}{47}.\n\\]\n\n\\textbf{Remark.} Both circles lie really in the triangle $ABC$ because an incircle of the triangle has diameter $\\rho = ab/(a+b+c) = 1$, while both values $r_1, r_2$ are less than 1.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p15_data_46eaf185eb.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "3. Touching circles $k_1(S_1, r_1)$ and $k_2(S_2, r_2)$ lie in a right-angled triangle $ABC$ with the hypotenuse $AB$ and legs $AC = 4$ and $BC = 3$ in such way, that the sides $AB$, $AC$ are tangent to $k_1$ and the sides $AB$, $BC$ are tangent to $k_2$. Find radii $r_1$, $a$, $r_2$, if $4r_1 = 9r_2$. (Pavel Novotn\\'y)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_a712ea43152a",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $a, b, c$ be positive numbers. We search a solution of the system of equations in the set of positive integers. Due to $x+y+z=1$ the numbers $x, y, z$ are in an interval $(0, 1)$. Substituting $z = 1-x-y$ we obtain\n\\[\na(y - xy - y^2 + x) = c(xy + 1 - x - y), \\quad b(x - x^2 - xy + y) = c(xy + 1 - x - y),\n\\]\nthese equations can be rewritten as\n\\[\nay(1 - y) + ax(1 - y) = c(1 - x)(1 - y), \\quad bx(1 - x) + by(1 - x) = c(1 - x)(1 - y).\n\\]\nSince $x < 1, y < 1$, we have\n\\[\nay + ax = c - cx, \\quad bx + by = c - cy.\n\\]\nFrom the previous two equations we obtain\n\\[\nx + y = \\frac{2c}{a + b + c} \\quad \\text{a} \\quad x - y = \\frac{(b - a)(x + y)}{c} = \\frac{2(b - a)}{a + b + c};\n\\]\nthen we get formulas for $x, y$ and finally by $z = 1 - x - y$ we find a formula for $z$ too:\n\\[\nx = \\frac{b+c-a}{a+b+c}, \\quad y = \\frac{c+a-b}{a+b+c}, \\quad z = \\frac{a+b-c}{a+b+c}. \\qquad (1)\n\\]\nThe system has a solution in positive reals if and only if $b+c > a, c+a > b, a+b > c$\nholds, what is equivalent with existence of a triangle with sides $a, b, c$.\n\nWe need not do check the values (1) due to equivalence of all rearrangements.\n\n\\textbf{Other Solution.} Here is an easier way to obtain (1). Since $x + y + z = 1$ we\ncan rewrite the first part of the system as\n\\[\na(1 - y)(1 - z) = b(1 - z)(1 - x) = c(1 - x)(1 - y). \\qquad (2)\n\\]\nDividing $(1-x)(1-y)(1-z)$ (what is nonzero, even positive) we obtain equivalent\nsystem\n\\[\n\\frac{a}{1-x} = \\frac{b}{1-y} = \\frac{c}{1-z}.\n\\]\nIf $s$ is common (positive) value of three previous fractions, we can easy get\n\\[\nx = 1 - \\frac{a}{s}, \\quad y = 1 - \\frac{b}{s}, \\quad z = 1 - \\frac{c}{s}, \\qquad (3)\n\\]\nwhich substituting to the equation $x + y + z = 1$ gives\n\\[\ns = \\frac{a+b+c}{2}.\n\\]\nIt follows from (3) that this $s$ yields the formulae (1), and then the proof of the\nproblem statement.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "4. Prove that positive a, b, c are length of sides of a triangle if and only if a system of equations\n\\[\na(yz + x) = b(zx + y) = c(xy + z), \\quad x + y + z = 1\n\\]\nwith unknowns $x, y, z$ has a solution in positive reals. (Tom\\'a\\u0161 Jur\\'ik)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_2d885d740b5a",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $a, b, c$ be positive numbers. We search a solution of the system of equations in the set of positive integers. Due to $x+y+z=1$ the numbers $x, y, z$ are in an interval $(0, 1)$. Substituting $z = 1-x-y$ we obtain\n\n$$\na(y - xy - y^2 + x) = c(xy + 1 - x - y), \\quad b(x - x^2 - xy + y) = c(xy + 1 - x - y),\n$$\n\nthese equations can be rewritten as\n\n$$\nay(1 - y) + ax(1 - y) = c(1 - x)(1 - y), \\quad bx(1 - x) + by(1 - x) = c(1 - x)(1 - y).\n$$\n\nSince $x < 1, y < 1$, we have\n\n$$\nay + ax = c - cx, \\quad bx + by = c - cy.\n$$\n\nFrom the previous two equations we obtain\n\n$$\nx + y = \\frac{2c}{a + b + c} \\quad \\text{a} \\quad x - y = \\frac{(b - a)(x + y)}{c} = \\frac{2(b - a)}{a + b + c};\n$$\nthen we get formulas for $x, y$ and finally by $z = 1 - x - y$ we find a formula for $z$ too:\n\n$$\nx = \\frac{b+c-a}{a+b+c}, \\quad y = \\frac{c+a-b}{a+b+c}, \\quad z = \\frac{a+b-c}{a+b+c}. \\qquad (1)\n$$\n\nThe system has a solution in positive reals if and only if $b+c > a, c+a > b, a+b > c$\nholds, what is equivalent with existence of a triangle with sides $a, b, c$.\n\nWe need not do check the values (1) due to equivalence of all rearrangements.\n\n**Other Solution.** Here is an easier way to obtain (1). Since $x + y + z = 1$ we\ncan rewrite the first part of the system as\n\n$$\na(1 - y)(1 - z) = b(1 - z)(1 - x) = c(1 - x)(1 - y). \\qquad (2)\n$$\n\nDividing $(1-x)(1-y)(1-z)$ (what is nonzero, even positive) we obtain equivalent\nsystem\n\n$$\n\\frac{a}{1-x} = \\frac{b}{1-y} = \\frac{c}{1-z}.\n$$\n\nIf $s$ is common (positive) value of three previous fractions, we can easy get\n\n$$\nx = 1 - \\frac{a}{s}, \\quad y = 1 - \\frac{b}{s}, \\quad z = 1 - \\frac{c}{s}, \\qquad (3)\n$$\n\nwhich substituting to the equation $x + y + z = 1$ gives\n\n$$\ns = \\frac{a+b+c}{2}.\n$$\n\nIt follows from (3) that this $s$ yields the formulae (1), and then the proof of the\nproblem statement.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "4. Prove that positive a, b, c are length of sides of a triangle if and only if a system of equations\n\n$$\na(yz + x) = b(zx + y) = c(xy + z), \\quad x + y + z = 1\n$$\n\nwith unknowns $x, y, z$ has a solution in positive reals. (Tom\\'a\\v{s} Jur\\'ik)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_d4ffd29b2261",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Obviously $a \\neq 1$, thus we can rewrite the equation as\n\n$$\n\\frac{a^2 + 1}{a - 1} = \\frac{2b^2 - 3}{2b - 1}. \\qquad (1)\n$$\n\nThe numerator of the fraction on the left is positive, the numerator on the right is negative just for $b \\in \\{-1, 0, 1\\}$.\n\nFor $b = -1$ we get $3a^2 - a + 4 = 0$, which has no real solution.\n\nSimilarly for $b = 0$ we get $a^2 - 3a + 4 = 0$ which has no real solution either.\n\nFor $b = 1$ we get $a^2 + a = a(a + 1) = 0$, with solutions $a \\in \\{0, -1\\}$. Thus pairs $(0, 1)$ and $(-1, 1)$ are solutions of the problem.\n\nLet us further assume $2b^2 - 3 > 0$, and let us find out with which numbers we can reduce the fractions in (1).\n\nIf some integer $n$ divides both $a^2+1$ and $a-1$, it divides $a^2+1-(a+1)(a-1) = 2$ as well. Similarly if $n$ divides both $2b^2 - 3$ and $2b - 1$, it divides $(2b - 1)(2b + 1) - 2(2b^2 - 3) = 5$.\n\nThus there are four possibilities to fulfill the equation in (1).\n\n(i) $a^2 + 1 = 2b^2 - 3$ and $a - 1 = 2b - 1$, which has no real solution.\n\n(ii) $a^2 + 1 = 2(2b^2 - 3)$ and $a - 1 = 2(2b - 1)$; substituting $a = 4b - 1$ into the first equation we get $3b^2 - 2b + 2 = 0$, with no real solutions.\n\n(iii) $5(a^2 + 1) = 2b^2 - 3$ and $5(a - 1) = 2b - 1$, with solution $a = 0, b = -2$.\n\n(iv) Finally $5(a^2 + 1) = 2(2b^2 - 3)$ and $5(a - 1) = 2(2b - 1)$ with solutions $a = -1, b = -2$ and $a = 7, b = 8$.\n\nThus there are five solutions of the problem:\n\n$$\n(0, 1), (-1, 1), (0, -2), (-1, -2), (7, 8).\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p18_data_5ab16f3bb8.png",
+          "title": null
+        }
+      ],
+      "statement_latex": "Find all pairs of integers $a, b$ such that\n\n$$\n\\frac{a^2 + 1}{2b^2 - 3} = \\frac{a - 1}{2b - 1}.\n$$\n\n(Pavel Novotn\\'y)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_ec4d56adda8a",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $z_i$ denotes through the process the number of coins of $i$th Robin Hood.\n\nLet $n = 3$. After any step, $z_1 - z_2$ modulo 3 does not change. That means for $z_1 = 101, z_2 = 100$, and $z_3 = 99$ (out of many choices), $z_1$ will never be the same as $z_2$. Thus $n = 3$ is not a solution.\n\nNow we show that for each $n \\ge 4$ any initial $z_i$ the loot can be split in equal parts.\n\nLet $s = \\sum |z_i - 100|$. We decrease number $s$ as long as it can be done in the way, that some of the outlaws with maximal count of coins gives his two coins to (some of the) Hoods, with the minimal count of coins. If $s$ can be reduced to 0 in this way, we are done.\n\nIf $s \\ne 0$, some of the outlaws has $100-k$ coins ($k > 0$), $k$ outlaws have 101 coins each and all the others have 100 coins each. If $k \\ge 2$, we decrease $s$ in two steps:\n\n$$\n100 - k, 101, 101 \\longrightarrow 100 - k + 1, 102, 99 \\longrightarrow 100 - k + 2, 100, 100.\n$$\n\nIf $k$ is even, then after $\\frac{1}{2}k$ such \"double\" steps every outlaw will have 100 coins each. If $k$ is odd then we end in the state in which one of the outlaws has 99 coins, one has 101 coins and all the others have 100 coins. We finish as follows:\n\n$$\n99, 100, 100, 101 \\longrightarrow 99, 101, 101, 99 \\longrightarrow 99, 102, 99, 100 \\longrightarrow 100, 100, 100, 100.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Each of $n$ Robin Hoods ($n \\ge 3$) robbed some coins. Together they have earned $100n$ coins. They have decided to cut the loot in a following way: in one step one Robin can take his two coins and give to some other two Hoods, one coin each. Find all positive integers $n \\ge 3$ for which they can split the loot in equal parts (100 coins each). (J\\'an Maz\\'ak)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_c3edd2394d42",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/62MOCZE-SVK_p20_data_8b81ebb0ec.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Denote the lengths of $AB$, $AD$, and $BD$ by $a$, $b$, and $c$, respectively. If $a = b$ then both $OS$ and $CT$ coincide with $AC$ and the conclusion is trivial. Suppose $a > b$ (the case $b > a$ being completely analogous).\n\nLet $T'$ be the reflection of $T$ in $S$ (Fig. 1). As $CT \\parallel AT'$, it suffices to prove $OS \\parallel AT'$. Denoting by $E$ the intersection of $AO$ and the diagonal $BD$ we may as well prove\n\n$$\n\\frac{AO}{OE} = \\frac{T'S}{SE} \\qquad (1)\n$$\n\n(note that since $a > b$, points $T'$, $S$, $E$, and $T$ lie on the diagonal $BD$ in this order). We express both ratios in terms of $a, b, c$.\n\n% IMAGE: ![](images/62MOCZE-SVK_p20_data_8b81ebb0ec.png)\n\nFig. 1\n\nFirst, it is well-known that\n\n$$\nDT = \\frac{b+c-a}{2}, \\quad \\text{and hence} \\quad T'S = TS = \\frac{c}{2} - \\frac{b+c-a}{2} = \\frac{a-b}{2}.\n$$\n\nNext, the Angle Bisector Theorem in triangles $ABD$ and $AED$ implies\n\n$$\nBE : ED = AB : AD \\quad \\text{and} \\quad AO : OE = AD : DE\n$$\n\nwhich in turn gives\n\n$$\nBE = \\frac{ac}{a+b} \\quad \\text{and} \\quad DE = \\frac{bc}{a+b}, \\\\ SE = BE - BS = \\frac{ac}{a+b} - \\frac{c}{2} = \\frac{c(a-b)}{2(a+b)}, \\\\ \\frac{AO}{OE} = \\frac{AD}{DE} = \\frac{b}{\\frac{bc}{a+b}} = \\frac{a+b}{c}.\n$$\n\nFinally for the right-hand side we calculate\n\n$$\n\\frac{T'S}{SE} = \\frac{\\frac{a-b}{2}}{\\frac{c(a-b)}{2(a+b)}} = \\frac{a+b}{c}\n$$\n\nwhich finishes the proof.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Given a parallelogram $ABCD$ with center $S$, denote by $O$ the incenter of triangle $ABD$ and by $T$ the point of contact of the incircle of triangle $ABD$ with the diagonal $BD$. Prove that lines $OS$ and $CT$ are parallel. (Jarom\\'ir \\v{S}im\\v{s}a)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_bab0712764ad",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let us find $N$, which lead to zero on the board after only one step. Obviously $|m - 3c| = 0$ iff $m = 3c$, which is $N = 10m + c = 31c$. All such $N$ are of the form $N = 31c, c \\in \\{1, 2, \\dots, 9\\}$.\n\nWe show that the solution of the problem are exactly all multiples of 31. Since $c = N - 10m$, there is $m - 3c = 31m - 3N$, that is the divisibility by 31 is preserved in the step. Now we show, that a multiple of 31 actually decreases in the step. We have already shown that for $N \\le 31 \\cdot 9$. Let $N = 31k$, where $k \\ge 10$. Then $m \\ge 31$, $m - 3c > 0$, thus $|m - 3c| = 31m - 3N < 4N - 3N = N$ and we are done.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "There is written a number $N$ (in the decimal representation) on the board. In a step we erase the last digit $c$ and instead of the number $m$, which is now left on the board, we write number $|m - 3c|$ (for example, if $N = 1204$ was written on the board, then after the step there will be $120 - 3 \\cdot 4 = 108$). We continue until there is a one-digit number on the board. Find all positive integers $N$ such that after a finite number of steps number 0 is left on the board. (Peter Novotn\\'y)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_6f859a6f6794",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/62MOCZE-SVK_p21_data_7ead852cd7.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Alternate angles ABD and CDB are equal (Fig. 2), hence $\\angle BCA + \\angle ABD + \\angle BDA + \\angle ACD = 180^{\\circ}$. The equality $\\angle BCA + \\angle ABD = \\angle BDA + \\angle ACD$ thus holds if and only if\n\\[\n\\angle BCA + \\angle ABD = 90^{\\circ}.\n\\]\n(1)\n\n% IMAGE: ![](images/62MOCZE-SVK_p21_data_7ead852cd7.png)\n\nFig. 2\n\nPoints K and L lie on a circle with diameter BD. Hence the inscribed angles BDK and BLK are equal and (due to equal alternate angles ABD and CDB)\n\\[\n\\angle BLK + \\angle ABD = \\angle BDK + \\angle CDB = 90^{\\circ}.\n\\]\n\nLines KL and AC are parallel if and only if $\\angle BLK = \\angle BCA$ which is by the last equality equivalent to (1). The equivalence is thus proven.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/62MOCZE-SVK_p21_data_7ead852cd7.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "Let ABCD be a parallelogram such that the projections K, L of D onto the sides AB, BC, respectively, are their interior points. Prove that $KL \\parallel AC$ if and only if\n\\[\n\\angle BCA + \\angle ABD = \\angle BDA + \\angle ACD.\n\\]\n\n(J\\'an Maz\\'ak)"
+    },
+    {
+      "_provenance": {
+        "folder": "62MOCZE-SVK",
+        "pages_map": {
+          "P0": "page24.md",
+          "P1": "page25.md",
+          "P2": "page26.md"
+        }
+      },
+      "author": null,
+      "booklet title": "62MOCZE-SVK",
+      "booklet_url": null,
+      "competition name": null,
+      "copyright_info": null,
+      "has_solutions": true,
+      "id": "p_2c8ebb7739e8",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "If $a = b = 1$ the parameter $p > 0$ has to satisfy:\n\\[\n\\begin{cases} 2\\sqrt{p+1} \\ge p+1, \\\\ 2 \\ge \\sqrt{p+1}, \\\\ p \\le 3. \\end{cases}\n\\]\nWe show that for $p \\in (0, 3)$ the inequality holds for any real $a$ and $b$. If $p \\in (0, 1)$ the inequality holds trivially:\n\\[\n\\sqrt{a^2 + pb^2} > a, \\quad \\sqrt{b^2 + pa^2} > b \\quad \\text{a} \\quad (p-1)\\sqrt{ab} \\le 0.\n\\]\nLet further be $p \\in (1, 3)$. The left hand side, LHS, of the inequality can be understood as the sum of the lengths of vectors $(a, b\\sqrt{p})$ and $(b, a\\sqrt{p}) \\in \\mathbb{R}^2$, According to the triangle inequality then\n\\[\n\\begin{aligned} LHS = \\sqrt{a^2 + pb^2} + \\sqrt{b^2 + pa^2} &= |(a, b\\sqrt{p})| + |(b, a\\sqrt{p})| \\\\ &\\ge |(a+b, (a+b)\\sqrt{p})| = (a+b)\\sqrt{1+p}. \\end{aligned} \\quad (1)\n\\]\nFor the RHS we have (with the help of AM-GM inequality)\n\\[\n\\text{RHS} = a + b + (p-1)\\sqrt{ab} \\le a + b + (p-1)\\frac{a+b}{2} = \\frac{(p+1)(a+b)}{2}.\n\\]\nNow $LHS \\ge RHS$ evidently, because even stronger inequality\n\\[\n(a+b)\\sqrt{p+1} \\ge \\frac{(p+1)(a+b)}{2}\n\\]\nis equivalent to $\\sqrt{p+1} \\le 2$, which is obviously satisfied for any $p \\in (1, 3)$.\n\n\\textit{Remark.} We can get (1) using Cauchy-Schwarz inequality for pairs $(a, b\\sqrt{p})$ and $(1, \\sqrt{p})$:\n\\[\na + pb \\le \\sqrt{a^2 + pb^2} \\cdot \\sqrt{1+p},\n\\]\nwhich implies\n\\[\n\\sqrt{a^2 + pb^2} \\ge \\frac{a + pb}{\\sqrt{1+p}}, \\quad \\sqrt{b^2 + pa^2} \\ge \\frac{b + pa}{\\sqrt{1+p}},\n\\]\nsumming last two inequalities we get (1) and analogously for the second inequality.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all real p such that the inequality\n\\[\n\\sqrt{a^2 + pb^2} + \\sqrt{b^2 + pa^2} \\ge a + b + (p - 1)\\sqrt{ab}\n\\]\nholds for any real a and b.\n\n(Jarom\\'\\i r \\v{S}\\'im\\v{s}a)"
+    }
+  ]
+}

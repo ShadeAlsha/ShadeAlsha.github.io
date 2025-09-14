@@ -1,0 +1,3472 @@
+{
+  "2010": [
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_af24d9b5773b",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/Singapur_2010_p2_data_1c30fcda44.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Note that the points B, D, G, F are concyclic and the points A, B, G, C are also concyclic. Also since $\\angle EDG = \\angle FDG = \\angle FBG = \\angle CBG = \\angle GAC = \\angle GAE$, the points A, D, G, E are concyclic. Since $\\angle GEC = \\angle ADG = \\angle BDG = \\angle CFG$, the points G, C, E, F are concyclic. Since $BD = EC$, $\\angle CFE = \\angle BFD$, the circle passing through the points B, D, G, F and the circle passing through the points G, C, E, F are equivalent. And since the points A, B, G, C are concyclic, $\\angle DBG = \\angle ECG$ and therefore $DG = GE$. Finally, since the points B, D, G, F are concyclic, $\\angle ABC = \\angle ABF = \\angle FGD$. Together with $\\angle ECF = \\angle ACB = \\angle ABC$, we have $\\angle FGD = \\angle ECF$. Therefore $DF = FE$. Hence $DGF \\equiv EGF$, so $\\angle DFG = \\angle EFG = 90^\\circ$. Thus $DE \\perp FG$.\n% IMAGE: ![](images/Singapur_2010_p2_data_1c30fcda44.png)",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In an isosceles triangle ABC, $AB = AC$. Let E be a point on AC and extend AB to a point D such that $BD = EC$. Let F be the intersection of BC and DE and let the circumcircle of ABC intersects the circumcircle of BDF at G. Prove that DE is perpendicular to FG."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_6deeab5b7c26",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "By checking the parity of the prime factorization of all the integers in T, we partition them into disjoint triples, whose products are all squares:\n$$\n\\{8, 13, 26\\}, \\{11, 18, 22\\}, \\{14, 21, 24\\}, \\{12, 15, 20\\}, \\{9, 16, 25\\}.\n$$\nIf $|T| \\ge 16$, at least one of these triples will be in T, a contradiction.\nWe can easily check that the subset (obtained by strategically removing one element 8, 18, 24, 12, 9 from each of the triples above):\n$$\n\\{7, 10, 11, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26\\}\n$$\nsatisfies the condition given. Thus the maximum number of elements in T is 15.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "A subset $T$ of $\\{7, 8, ..., 26\\}$ does not contain three elements whose product is a perfect square. Determine the maximum number of elements in $T$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a74f46fc1cf7",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Clearly, any set containing only one element is a T-set. Also, since \\{1, 2, 3\\} is a T-set, any of its subset is certainly contained in a T-set.\nNow let S be a finite set of positive integers with at least two elements, and let $n(> 3)$ be the largest element in S. Let $\\sigma(S)$ denote the sum of the elements of S.\nLet $T_1 = \\{1, 2, \\dots, n\\}$. Note that $\\sigma(T_1) = n(n+1)/2$. Let $T_2 = T_1 \\cup \\{n(n+1)/2\\}$. Then $\\sigma(T_2) = n(n+1)$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "A finite set of distinct positive integers is called a $T$-set if each of its members divides the sum of them all. Prove that every finite set of positive integers is a subset of some $T$-set."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_5d3f310077da",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Consider the inversion in the circle $\\omega$ centred at $O$ with radius $OT$. The circle $\\alpha$ with diameter $OT$ is inverted into the tangent line $\\alpha'$ to $\\alpha$ at $T$. Thus $A'$ and $B'$ are the inverses of $A$ and $B$ respectively. The circle $\\beta$ centred at $C$ with radius $CA$ or $CB$ is orthogonal to $\\alpha$ so that its inverse $\\beta'$ remains orthogonal to $\\alpha'$. This implies that the segment $A'B'$ is the diameter of $\\beta'$ and its midpoint is the centre of $\\beta'$. As the points $O$ and the centres of $\\beta$ and $\\beta'$ are collinear under the inversion, the point $C'$ is the midpoint of $A'B'$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapur_2010_p3_data_2af8d60268.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "5.\n\n% IMAGE: ![](images/Singapur_2010_p3_data_2af8d60268.png)"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_19157fa01c7c",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "$x_0 + x_3 \\le 1$, $x_4 \\le 1$, $y_0 + y_1 + y_2 + y_3 \\le 2$. Thus $y_0 + y_2 \\le 1$ or $y_1 + y_3 \\le 1$. By symmetry, we can assume the latter. Then Cinderella empties $B_0$ and $B_4$. At the beginning of the next round, $B_0$ and $B_4$ are empty. The total of the two adjacent buckets is $y_1 + y_3 \\le 1$. The remaining bucket is $B_2$ and its content is $\\le 1$ since $x_2 = 0$. Therefore the buckets will never overflow.\n\nAlt: Cinderella can maintain the following two conditions:\n\n(a) Every two non-adjacent buckets have total content $\\le 1$;\n\n(b) The total contents of all buckets is at most $3/2$.\n\nWe use the same notation as in the first solution. The conditions clearly holds at the beginning. Suppose it hold at the beginning of the current round. A pair of buckets $(B_i, B_{i+2})$ is called *critical* if $y_i + y_{i+2} > 1$. By (b), we have\n\n$$\n(y_0 + y_2) + (y_1 + y_3) + \\dots + (y_4 + y_1) \\le 5.\n$$\n\nThus one of the pairs, say $(B_0, B_2)$, is not critical. If $(B_3, B_0)$ and $(B_2, B_4)$ are both critical, then $y_1 < 1/2$ and Cinderella can empty $B_3$ and $B_4$. This clearly leaves no critical pairs and the total content is $y_1 + (y_0 + y_2) \\le 3/2$. Thus both conditions are satisfied. Now suppose, without loss of generality, that $(B_3, B_0)$ is not critical. If $y_0 \\le 1/2$, then one of the inequalities $y_0 + y_1 + y_2 \\le 3/2$ and $y_0 + y_3 + y_4 \\le 3/2$ must hold. Cinderella can then empty $B_3$ and $B_4$ or $B_1$ and $B_2$, respectively. The conditions will hold. If $y_0 > 1/2$, then by $y_0 + \\dots + y_4 \\le 3/2$, at least one of the pairs $(B_0, B-3)$ and $(B_2, B_4)$ is not critical. Without loss of generality, assume the former. Since $(B_3, B_0)$ is not critical, and $y_0 > 1/2$, we must have $y_3 \\le 1/2$. But then, as before, Cinderella can maintain the conditions by either emptying $B_1$ and $B_2$ or $B_4$ and $B_0$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "7. The answer is no. Denote the five buckets, in some cyclic order, by $B_i$, $i = 0, \\dots, 4$. Cinderella enforces that the following conditions are satisfied at the beginning of every round:\n\n(a) Two adjacent buckets, say $B_1, B_2$ are empty;\n\n(b) The buckets adjacent to the empty buckets in (a), i.e., $B_0, B_3$, have total content at most 1;\n\n(c) the remaining bucket $B_4$ has content at most 1.\n\nThese conditions clearly hold at the beginning of the first round. Assume that Cinderella manages to maintain them until the beginning of the current round. For $k = 0, \\dots, 4$, denote by $x_k$ the content of bucket $B_k$ at the beginning of the round and $y_k$ the content after the Stepmother has distributed her liter of water. Then we have $x_1 = x_2 = 0$,"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_84b4ecadd42a",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "To complete the induction, we'll now show that $a_{n+1}^3 - a_{n+1}^2 - 2a_{n+1} \\sum_{k=1}^{n} a_k \\ge 0$. Since $a_{k+1} - a_k \\ge 1$, we have $a_{k+1}^2 - a_k^2 \\ge a_{k+1} + a_k$. Summing up over $k=1, \\dots, n$, and using $a_1^2 - a_1 \\ge 0$, we have\n\n$$\na_{n+1}^2 - a_1^2 \\ge a_{n+1} + 2 \\sum_{k=1}^{n} a_k - a_1 \\Rightarrow a_{n+1}^3 - a_{n+1}^2 - 2a_{n+1} \\sum_{k=1}^{n} a_k \\ge 0\n$$",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "We will prove it by induction. First, it is clear that $a_1^3 \\ge a_1^2$ since $a_1 \\ge 1$. Next, suppose it is true for $n$ terms. Then\n\n$$\n\\begin{aligned}\n\\sum_{k=1}^{n+1} a_k^3 &\\ge a_{n+1}^3 + \\sum_{k=1}^{n} a_k^3 \\ge a_{n+1}^3 + \\left(\\sum_{k=1}^{n} a_k\\right)^2 \\\\\n&= \\left(\\sum_{k=1}^{n+1} a_k\\right)^2 + a_{n+1}^3 - a_{n+1}^2 - 2a_{n+1} \\sum_{k=1}^{n} a_k.\n\\end{aligned}\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a6c59a750d21",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $p$ is prime and every $a_i$ is a prime $> p$, $p$ does not divide $a_i$ for any $i$. By the pigeonhole principle, there exist $1 \\le i < j \\le p$ so that $a_i \\equiv a_j \\pmod{p}$. Now $a_j - a_i = (j-i)d$, and $p$ does not divide $j-i$. So $p$ must divide $d$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Lemma: Suppose $p$ is prime and $a_1, \\dots, a_p$ are primes forming an A.P. with common difference $d$. If $a_1 > p$, we claim that $p \\mid d$.\n\nApply the Lemma to the sequences $a_1, \\dots, a_k$ for $k = 2, 3, 5, 7, 11$ and $13$. Then all such $k$'s are factors of $d$. So $d > 2 \\cdot 3 \\cdot 5 \\cdot 7 \\cdot 11 \\cdot 13 > 30,000$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2010",
+        "pages_map": {
+          "P0": "page17.md",
+          "P1": "page18.md",
+          "P2": "page19.md"
+        }
+      },
+      "author": "Singapore International Mathematical Olympiad Committee; Singapore Mathematical Society",
+      "booklet title": "Singapur 2010.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xgHbLIVkfJii7A_WvZ9eCRZ4q56_mogS",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_e147293447e9",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "It remains the show that $p \\mid x^2 + y^2 + z^2$. Now\n\n$$\np \\mid x^2 + xy + y^2 = x(x + y + z) + y^2 - xz\n$$\n\nand hence $p \\mid y^2 - xz$. Similarly $p \\mid x^2 - yz$ and $z^2 - xy$. Therefore,\n\n$$\np \\mid x^2 + xy + y^2 + y^2 + yz + z^2 + x^2 + xz + z^2 + y^2 - xz + x^2 - yz + z^2 - xy = 3(x^2 + y^2 + z^2).\n$$\n\nSince $p > 3$, $p \\mid x^2 + y^2 + z^2$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "It is given that\n\n$$\np \\mid x^3 - y^3 = (x - y)(x^2 + xy + y^2).\n$$\n\nMoreover, $-p < x-y < 0$ and so $p \\nmid x-y$. Thus $p \\mid x^2+xy+y^2$. Similarly, $p \\mid y^2+yz+z^2$ and $p \\mid x^2+xz+z^2$. Hence\n\n$$\np \\mid x^2 + xy - yz - z^2 = (x - z)(x + y + z).\n$$\n\nSince $p \\nmid x-z$, $p \\mid x+y+z$. Note that $0 < x+y+z < 3p$. So $x+y+z = p$ or $2p$. We will show that $p \\mid x^2 + y^2 + z^2$. Assuming this for the moment, the proof is complete if $x+y+z = p$. If $x+y+z = 2p$, then $x+y+z$ is even and hence $x^2+y^2+z^2$ is even. So both 2 and $p$ divide $x^2+y^2+z^2$. Moreover, $p > 2$ and so 2 and $p$ are relatively prime. Thus $2p$ divides $x^2+y^2+z^2$ and the proof is also complete in this case."
+    }
+  ],
+  "2011": [
+    {
+      "_provenance": {
+        "folder": "SIN_2011",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2011.pdf",
+      "booklet_url": "https://drive.google.com/open?id=12J_QyRmPTmRV2-xKaY9QsFkl0P4HkHD _",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_9d809fc067fa",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2011_p1_data_ffc2184892.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Drop perpendiculars $OM$ and $QX$ onto $BC$, and $QY$ from $Q$ onto $AD$. First $2DM = DM + BD - BM = BD - (BM - DM) = PD - (CM - DM) = PD - CD = PC$. It is a well-known fact that $2OM = AH$.\n\n% IMAGE: ![](images/Singapur_2011_p1_data_ffc2184892.png)\n\nNext $\\angle CPQ = \\angle DBH = \\angle HAQ$ so that the triangles $CPQ$ and $HAQ$ are similar. Thus the triangles $XPQ$ and $YAQ$ are similar. Therefore\n\n$$\n\\frac{QX}{DX} = \\frac{QX}{QY} = \\frac{PC}{AH} = \\frac{DM}{OM}.\n$$\n\nHence the triangles $DXQ$ and $OMD$ are similar. It follows that $\\angle ODQ = 90^\\circ$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In the acute-angled non-isosceles triangle ABC, O is its circumcentre, H is its orthocentre and $AB > AC$. Let Q be a point on AC such that the extension of HQ meets the extension of BC at the point P. Suppose $BD = DP$, where D is the foot of the perpendicular from A onto BC. Prove that $\\angle ODQ = 90^\\circ$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2011",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2011.pdf",
+      "booklet_url": "https://drive.google.com/open?id=12J_QyRmPTmRV2-xKaY9QsFkl0P4HkHD _",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_83ce8e256927",
+      "language": "en",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Suppose that at most 2 squares are colored red in any $2 \\times 2$ square. Then in any $9 \\times 2$ block, there are at most 10 red squares. Moreover, if there are 10 red squares, then there must be 5 in each row. This can be seen as follows. There are $8 \\times 2 \\times 2$ blocks. Counting multiplicity, there are altogether 16 red squares. Each red square in the interior is counted twice while each red square at the edge is counted once. If there are 11 red squares, then there are at least 7 red squares in the interior. Thus the total count is at least $4+7 \\times 2 = 18 > 16$, a contradiction. If there are exactly 10 red squares, then 4 of them must be at the edge and the red squares in each row are not next to each other and hence there are 5 in each row.\n\nNow let the number of red squares in row $i$ be $r_i$. Then $r_i + r_{i+1} \\le 10$, $1 \\le i \\le 8$. Suppose that some $r_i \\le 5$ with $i$ odd. Then\n\n$$\n(r_1 + r_2) + \\dots + (r_{i-2} + r_{i-1}) + r_i + \\dots + (r_8 + r_9) \\le 4 \\times 10 + 5 = 45\n$$\nwhich leads to a contradiction. On the other hand, suppose that $r_1, r_3, r_5, r_7, r_9 \\ge 6$.\nThen the sum of any 2 consecutive $r_i$'s is $\\le 9$. Again we get a contradiction as\n\n$$\n(r_1 + r_2) + \\cdots + (r_7 + r_8) + r_9 \\le 4 \\times 9 + 9 = 45.\n$$",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "If 46 squares are colored red in a $9 \\times 9$ board, show that there is a $2 \\times 2$ block on the board in which at least 3 of the squares are colored red."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2011",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2011.pdf",
+      "booklet_url": "https://drive.google.com/open?id=12J_QyRmPTmRV2-xKaY9QsFkl0P4HkHD _",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_da1e44a36d88",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $r = 1/x, s = 1/y, t = 1/z$. There exists $\\alpha < 1$ such that $r+s+t = \\alpha^2 rst$ or $\\alpha(r+s+t) = \\alpha^3 rst$. Let $a = \\alpha r, b = \\alpha s, c = \\alpha t$. Write $a = \\tan A, b = \\tan B$, $c = \\tan C$, then $A+B+C = \\pi$. It is clear that\n\n$$\n\\begin{aligned}\n\\frac{1}{2} \\times \\text{LHS} &= \\frac{1}{\\sqrt{1+r^2}} + \\frac{1}{\\sqrt{1+s^2}} + \\frac{1}{\\sqrt{1+t^2}} \\\\\n&< \\frac{1}{\\sqrt{1+a^2}} + \\frac{1}{\\sqrt{1+b^2}} + \\frac{1}{\\sqrt{1+c^2}} \\\\\n&= \\cos A + \\cos B + \\cos B \\\\\n&\\le 3 \\cos \\left( \\frac{A+B+C}{3} \\right) = \\frac{3}{2} = \\frac{1}{2} \\times \\text{RHS.}\n\\end{aligned}\n$$\n\n**2nd soln:** Note that\n\n$$\n\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} < \\frac{1}{xyz} \\Rightarrow xy + yz + xz < 1.\n$$\n\nHence\n\n$$\n\\frac{2x}{\\sqrt{1+x^2}} < \\frac{2x}{\\sqrt{x^2+xy+xz+yz}} = \\frac{2x}{\\sqrt{(x+y)(x+z)}}.\n$$\n\nBy AM-GM we have\n\n$$\n\\frac{2x}{\\sqrt{(x+y)(x+z)}} \\le \\frac{x}{x+y} + \\frac{x}{x+z}.\n$$\n\nSimilarly,\n\n$$\n\\frac{2y}{\\sqrt{(y+z)(y+x)}} \\le \\frac{y}{y+z} + \\frac{y}{y+x}, \\quad \\frac{2z}{\\sqrt{(z+x)(z+y)}} \\le \\frac{z}{z+x} + \\frac{z}{z+y}.\n$$\n\nThe desired inequality then follows by adding up the three inequalities.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $x, y, z > 0$ such that $\\frac{1}{x} + \\frac{1}{y} + \\frac{1}{z} < \\frac{1}{xyz}$. Show that\n\n$$\n\\frac{2x}{\\sqrt{1+x^2}} + \\frac{2y}{\\sqrt{1+y^2}} + \\frac{2z}{\\sqrt{1+z^2}} < 3.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2011",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2011.pdf",
+      "booklet_url": "https://drive.google.com/open?id=12J_QyRmPTmRV2-xKaY9QsFkl0P4HkHD _",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_7f29193ce40e",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $P(x) = a_n x^n + \\cdots + a_1 x + a_0$. Define $Q(x) = P(x+1) - P(x)$. Then $Q(x)$ is of degree $n-1$. We'll prove by contradiction that $|Q(x)| \\le 3$ for all $x$. This will imply that $n \\le 1$. Assume that $|Q(a)| > 3$ for some $a \\in \\mathbb{R}$. Then $|P(a+1) - P(a)| > 3$. Thus there are 3 integers between $P(a)$ and $P(a+1)$. Hence there exists three values",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all polynomials $P(x)$ with real coefficients such that\n\n$$\nP(a) \\in \\mathbb{Z} \\text{ implies that } a \\in \\mathbb{Z}.\n$$"
+    }
+  ],
+  "2012": [
+    {
+      "_provenance": {
+        "folder": "SIN_2012",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2012.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1rOOyRjs1APgcBgtJ250oiFijAxzyNvpO",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_e44f0b1bbdd6",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2012_p1_data_954a6d5ec7.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "% IMAGE: ![](images/Singapur_2012_p1_data_954a6d5ec7.png)\nLet the line AK intersect BC at M. We shall prove that M is the midpoint of BC.\nSince $\\angle FIK = \\angle B$ and $\\angle EIK = \\angle C$, we have\n\\[\n\\frac{FK}{EK} = \\frac{\\sin \\angle FIK}{\\sin \\angle EIK} = \\frac{\\sin B}{\\sin C}.\n\\]\nAlso\n\\[\n\\frac{FK}{\\sin \\angle FAK} = \\frac{AF}{\\sin \\angle AKF} = \\frac{AE}{\\sin \\angle AKE} = \\frac{EK}{\\sin \\angle KAE}.\n\\]\nTherefore,\n\\[\n\\frac{\\sin \\angle FAK}{\\sin \\angle KAE} = \\frac{FK}{EK} = \\frac{\\sin B}{\\sin C}.\n\\]\nConsequently,\n\\[\n\\frac{BM}{CM} = \\frac{BM}{AM} \\cdot \\frac{AM}{CM} = \\frac{\\sin \\angle FAK}{\\sin B} \\cdot \\frac{\\sin C}{\\sin \\angle KAE} = 1,\n\\]\nso that $BM = CM$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The incircle with centre $I$ of the triangle $ABC$ touches the sides $BC, CA$ and $AB$ at $D, E$ and $F$ respectively. The line $ID$ intersects the segment $EF$ at $K$. Prove that $A, K$ and $M$ are collinear where $M$ is the midpoint of $BC$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2012",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2012.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1rOOyRjs1APgcBgtJ250oiFijAxzyNvpO",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_b669c2ffbd78",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Suppose that $f$ is a solution. Let\n\\[\na = \\frac{1}{2}(f(1) - f(-1)), \\quad b = \\frac{1}{2}(f(1) + f(-1))\n\\]\nand $g(x) = f(x) - ax - bx^2$. Then\n\\[\n(x+y)(g(x)-g(y)) = (x-y)g(x+y)\n\\]\nand $g(1) = g(-1) = 0$. Letting $y = 1$ and $y = -1$ above give\n\\[\n\\begin{aligned} (x+1)g(x) &= (x-1)g(x+1) \\\\ xg(x+1) &= (x+2)g(x). \\end{aligned}\n\\]\nThus\n\\[\nx(x+1)g(x) = x(x-1)g(x+1) = (x-1)(x+2)g(x)\n\\]\nfor all $x$. So $g(x) = 0$ for all $x$. Hence $f(x) = ax + bx^2$. We can check directly that any function of this form (for some $a, b \\in \\mathbb{R}$) satisfies the given equation.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ so that\n\\[\n(x+y)(f(x)-f(y)) = (x-y)f(x+y)\n\\]\nfor all $x, y \\in \\mathbb{R}$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2012",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2012.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1rOOyRjs1APgcBgtJ250oiFijAxzyNvpO",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_62dcc271ffb8",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Consider all the 7 triples $(x, y, z)$, where $x, y, z$ are either 0 or 1 but not all 0. For each $i$, at least one of the numbers $a_i, b_i, c_i$ is odd. Thus among the 7 sums $xa_i + yb_i + zc_i$, 3 are even and 4 are odd. Thus there are altogether $4N$ odd sums. Thus there is choice of $(x, y, z)$ for which at least $4N/7$ of the corresponding sums are odd. (You can think of a table where the rows are numbered 1, 2, ..., $N$ and the columns correspond to the 7 choices of the triples $(x, y, z)$. The 7 entries in row $i$ are the 7 sums $xa_i + yb_i + zc_i$. Thus there are 4 odd numbers in each row, making a total of $4N$ odd sums in the table. Since there are 7 columns, one of the columns must contain at least $4N/7$ odd sums.)",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "For each $i = 1, 2, \\dots, N$, let $a_i, b_i, c_i$ be integers such that at least one of them is odd. Show that one can find integers $x, y, z$ such that $xa_i + yb_i + zc_i$ is odd for at least $4N/7$ different values of $i$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2012",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2012.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1rOOyRjs1APgcBgtJ250oiFijAxzyNvpO",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_9daa1289a16d",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First, for each $i = 1, 2, \\dots, \\frac{p-1}{2}$,\n\\[\n\\frac{2i}{p} \\binom{p}{2i} = \\frac{(p-1)(p-2)\\cdots(p-(2i-1))}{(2i-1)!} \\equiv \\frac{(-1)(-2)\\cdots(-(2i-1))}{(2i-1)!} \\equiv -1 \\pmod{p}.\n\\]\nHence\n\\[\n\\begin{aligned} \\sum_{i=1}^{(p-1)/2} i^{p-2} &\\equiv - \\sum_{i=1}^{(p-1)/2} i^{p-2} \\frac{2i}{p} \\binom{p}{2i} &\\equiv -\\frac{2}{p} \\sum_{i=1}^{(p-1)/2} i^{p-1} \\binom{p}{2i} \\\\ &\\equiv -\\frac{2}{p} \\sum_{i=1}^{(p-1)/2} \\binom{p}{2i} \\pmod{p} \\quad \\text{(by Fermat's Little Theorem.)} \\end{aligned}\n\\]\nThe last summation counts the even-sized nonempty subsets of a $p$-element set, of which there are $2^{p-1} - 1$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $p$ be an odd prime. Prove that\n\\[\n1^{p-2} + 2^{p-2} + 3^{p-2} + \\dots + \\left(\\frac{p-1}{2}\\right)^{p-2} \\equiv \\frac{2-2^p}{p} \\pmod{p}.\n\\]"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2012",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2012.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1rOOyRjs1APgcBgtJ250oiFijAxzyNvpO",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_97df5b4935db",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/Singapur_2012_p1_data_954a6d5ec7.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let the line AK intersect BC at M. We shall prove that M is the midpoint of BC.\nSince $\\angle FIK = \\angle B$ and $\\angle EIK = \\angle C$, we have\n\n% IMAGE: ![](images/Singapur_2012_p1_data_954a6d5ec7.png)\n\n\\[\n\\frac{FK}{EK} = \\frac{\\sin \\angle FIK}{\\sin \\angle EIK} = \\frac{\\sin B}{\\sin C}.\n\\]\n\nAlso\n\n\\[\n\\frac{FK}{\\sin \\angle FAK} = \\frac{AF}{\\sin \\angle AKF} = \\frac{AE}{\\sin \\angle AKE} = \\frac{EK}{\\sin \\angle KAE}.\n\\]\n\nTherefore,\n\n\\[\n\\frac{\\sin \\angle FAK}{\\sin \\angle KAE} = \\frac{FK}{EK} = \\frac{\\sin B}{\\sin C}.\n\\]\n\nConsequently,\n\n\\[\n\\frac{BM}{CM} = \\frac{BM}{AM} \\cdot \\frac{AM}{CM} = \\frac{\\sin \\angle FAK}{\\sin B} \\cdot \\frac{\\sin C}{\\sin \\angle KAE} = 1,\n\\]\n\nso that $BM = CM$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapur_2012_p1_data_954a6d5ec7.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "Let the line AK intersect BC at M. We shall prove that M is the midpoint of BC.\nSince $\\angle FIK = \\angle B$ and $\\angle EIK = \\angle C$, we have\n\n% IMAGE: ![](images/Singapur_2012_p1_data_954a6d5ec7.png)\n\n\\[\n\\frac{FK}{EK} = \\frac{\\sin \\angle FIK}{\\sin \\angle EIK} = \\frac{\\sin B}{\\sin C}.\n\\]\n\nAlso\n\n\\[\n\\frac{FK}{\\sin \\angle FAK} = \\frac{AF}{\\sin \\angle AKF} = \\frac{AE}{\\sin \\angle AKE} = \\frac{EK}{\\sin \\angle KAE}.\n\\]\n\nTherefore,\n\n\\[\n\\frac{\\sin \\angle FAK}{\\sin \\angle KAE} = \\frac{FK}{EK} = \\frac{\\sin B}{\\sin C}.\n\\]\n\nConsequently,\n\n\\[\n\\frac{BM}{CM} = \\frac{BM}{AM} \\cdot \\frac{AM}{CM} = \\frac{\\sin \\angle FAK}{\\sin B} \\cdot \\frac{\\sin C}{\\sin \\angle KAE} = 1,\n\\]\n\nso that $BM = CM$."
+    }
+  ],
+  "2013": [
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c3993fb9b0d1",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "The answer is yes. For any positive integer $n$, let $f(n)$ be the sum of $2013^{th}$ power of the digits of $n$. Let $S = \\{1, 2, \\dots, 10^{2017} - 1\\}$, and $n = \\overline{a_1a_2\\dots a_{2017}} \\in S$. Then\n\n$$\nf(n) = \\sum a_i^{2013} \\le 2017 \\cdot 9^{2013} < 10^4 \\cdot 10^{2013} = 10^{2017} \\in S.\n$$\n\nSince $a_i = f^{(i)}(2013) \\in S$, there exist distinct positive integers $i, j$ such that $a_i = a_j$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $a_1, a_2, \\dots$ be a sequence of integers defined recursively by $a_1 = 2013$ and for $n \\ge 1$, $a_{n+1}$ is the sum of the 2013th power of the digits of $a_n$. Do there exist distinct positive integers $i, j$ such that $a_i = a_j$?"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4f24f0a2305d",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2013_p1_data_8e35375529.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let the radius of the circle be $r$. Let $X, Y$ and $Z$ be the feet of the altitudes from $A, B$ and $C$ respectively. Let $PE$ intersect the altitude from $A$ at $U$. We have $AP^2 = AU^2 + PU^2 = AU^2 + r^2 - UH^2 = r^2 + (AU+UH) \\cdot (AU-UH) = r^2 + AH \\cdot (AU-UH) = r^2 + AH \\cdot (UX - UH) = r^2 + AH \\cdot HX$. Similarly, $BQ = r^2 + BH \\cdot HY$, and $CR = r^2 + CH \\cdot HZ$. Since $AH \\cdot HX = BH \\cdot HY = CH \\cdot HZ$, we have $AP = BQ = CR$.\n\n% IMAGE: ![](images/Singapur_2013_p1_data_8e35375529.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $ABC$ be an acute-angled triangle and let $D, E$ and $F$ be the midpoints of $BC, CA$ and $AB$ respectively. Construct a circle, centred at the orthocentre of triangle $ABC$, such that triangle $ABC$ lies in the interior of the circle. Extend $EF$ to intersect the circle at $P, FD$ to intersect the circle at $Q$ and $DE$ to intersect the circle at $R$. Show that $AP = BQ = CR$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_856b396e6cb9",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "The result is true for any nonconstant polynomial $f(n) = a_m n^m + a_{m-1} n^{m-1} + \\dots + a_0$ with integer coefficients. We may assume that $a_m > 0$. Thus there exists a positive integer $n_0$ such that $f(n)$ is positive and increasing on $(n_0, \\infty)$.\n\nIt suffices to show that if for some $n_1 > n_0$, $f(n_1) = p_1^{r_1} \\cdots p_k^{r_k}$ has exactly $k$ distinct prime factors, then for some $n_2 > n_1$, $f(n_2)$ has more than $k$ prime factors. Given such an $n_1$, let $n_2 = n_1 + p_1^{r_1+1} \\cdots p_k^{r_k+1}$. Then\n\n$$\nf(n_2) \\equiv p_1^{r_1} \\cdots p_k^{r_k} \\pmod{p_1^{r_1+1} \\cdots p_k^{r_k+1}}\n$$\n\nHence, for each $j$, $1 \\le j \\le k$, we have that $p_j^{r_j}$ divides $f(n_2)$ but $p_j^{r_j+1}$ does not divide $f(n_2)$. As $f(n_2) > f(n_1) = p_1^{r_1} \\cdots p_k^{r_k}$, it follows that $f(n_2)$ must have at least $k+1$ prime factors.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $N$ be a positive integer. Prove that there exists a positive integer $n$ such that $n^{2013} - n^{20} + n^{13} - 2013$ has at least $N$ distinct prime factors."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_cd8066a1ed09",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Because of the second condition above, $0 \\notin F$. If $F$ contains only positive elements, let $x$ be the smallest element in $F$. But then $x = y+z$, and $y, z > 0$ imply that $y, z < x$, a contradiction. Hence $F$ contains negative elements. A similar argument shows that $F$ contains positive elements.\n\nPick any positive element of $F$ and label it as $x_1$. Assume that positive elements of $F$, $x_1, \\dots, x_k$, have been chosen. We can write $x_k = y + z$, where $y, z \\in F$. We may assume that $y > 0$. Label $y$ as $x_{k+1}$. Carry on in this manner to choose positive elements $x_1, x_2, \\dots$ of $F$, not necessarily distinct. Since $F$ is a finite set, there exist positive integers $i < j$ such that $x_i, \\dots, x_{j-1}$ are distinct and $x_j = x_i$. There are $x_i, \\dots, x_{j-1} \\in F$ such that\n\n$$\n\\begin{aligned} x_i &= x_{i+1} + z_i \\\\ x_{i+1} &= x_{i+2} + z_{i+1} \\\\ \\vdots &\\vdots \\\\ x_{j-1} &= x_j + z_{j-1}. \\end{aligned}\n$$\n\nSince $x_i = x_j$, we see that $x_i + x_{i+1} + \\dots + x_{j-1} = 0$. By the assumption, $j-i > n$. Since the elements $x_i, \\dots, x_{j-1}$ are distinct, $F$ contains at least $j-i \\ge n+1$ positive elements. Similarly, $F$ contains at least $n+1$ negative elements. The result follows.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $F$ be a finite nonempty set of integers and let $n$ be a positive integer. Suppose that\n\n* Any $x \\in F$ may be written as $x = y + z$ for some $y, z \\in F$;\n\n* If $1 \\le k \\le n$ and $x_1, \\dots, x_k \\in F$, then $x_1 + \\dots + x_k \\ne 0$.\n\nShow that $F$ has at least $2n + 2$ distinct elements."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_52da8fc79e3a",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let the sides be $a, b, c$. From the sine rule, we have\n\n$$\n\\begin{aligned} \\frac{a}{b} &= \\frac{\\sin 3B}{\\sin B} = 4\\cos^2 B - 1 \\\\ \\frac{c}{b} &= \\frac{\\sin C}{\\sin B} = \\frac{\\sin 4B}{\\sin B} = 8\\cos^3 B - 4\\cos B \\end{aligned}\n$$\n\nThus\n\n$$\n2 \\cos B = \\frac{a^2 + c^2 - b^2}{ac} \\in \\mathbb{Q}.\n$$",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $ABC$ be a triangle with integral side lengths such that $\\angle A = 3\\angle B$. Find the minimum value of its perimeter."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_e6b2305986b0",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "1. The answer is yes. For any positive integer $n$, let $f(n)$ be the sum of $2013^{th}$ power of the digits of $n$. Let $S = \\{1, 2, \\dots, 10^{2017} - 1\\}$, and $n = \\overline{a_1a_2\\dots a_{2017}} \\in S$. Then\n\n$$\nf(n) = \\sum a_i^{2013} \\le 2017 \\cdot 9^{2013} < 10^4 \\cdot 10^{2013} = 10^{2017} \\in S.\n$$\n\nSince $a_i = f^{(i)}(2013) \\in S$, there exist distinct positive integers $i, j$ such that $a_i = a_j$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_40be0176cd3a",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapur_2013_p1_data_8e35375529.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "2. Let the radius of the circle be $r$. Let $X, Y$ and $Z$ be the feet of the altitudes from $A, B$ and $C$ respectively. Let $PE$ intersect the altitude from $A$ at $U$. We have $AP^2 = AU^2 + PU^2 = AU^2 + r^2 - UH^2 = r^2 + (AU+UH) \\cdot (AU-UH) = r^2 + AH \\cdot (AU-UH) = r^2 + AH \\cdot (UX - UH) = r^2 + AH \\cdot HX$. Similarly, $BQ = r^2 + BH \\cdot HY$, and $CR = r^2 + CH \\cdot HZ$. Since $AH \\cdot HX = BH \\cdot HY = CH \\cdot HZ$, we have $AP = BQ = CR$.\n\n% IMAGE: ![](images/Singapur_2013_p1_data_8e35375529.png)"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4fcf88a2b199",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "It suffices to show that if for some $n_1 > n_0$, $f(n_1) = p_1^{r_1} \\cdots p_k^{r_k}$ has exactly $k$ distinct prime factors, then for some $n_2 > n_1$, $f(n_2)$ has more than $k$ prime factors. Given such an $n_1$, let $n_2 = n_1 + p_1^{r_1+1} \\cdots p_k^{r_k+1}$. Then\n\n$$\nf(n_2) \\equiv p_1^{r_1} \\cdots p_k^{r_k} \\pmod{p_1^{r_1+1} \\cdots p_k^{r_k+1}}\n$$\n\nHence, for each $j$, $1 \\le j \\le k$, we have that $p_j^{r_j}$ divides $f(n_2)$ but $p_j^{r_j+1}$ does not divide $f(n_2)$. As $f(n_2) > f(n_1) = p_1^{r_1} \\cdots p_k^{r_k}$, it follows that $f(n_2)$ must have at least $k+1$ prime factors.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "3. The result is true for any nonconstant polynomial $f(n) = a_m n^m + a_{m-1} n^{m-1} + \\dots + a_0$ with integer coefficients. We may assume that $a_m > 0$. Thus there exists a positive integer $n_0$ such that $f(n)$ is positive and increasing on $(n_0, \\infty)$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2013",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2013.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bydMnekJO9ls0AveJwjPp1v0jKlpPwOL",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_0577518fc038",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Hence there exist coprime positive integers $p, q$ such that $2 \\cos B = \\frac{2}{q}$. Hence\n\n$$\n\\frac{a}{b} = \\frac{p^2}{q^2} - 1 \\quad \\Leftrightarrow \\quad \\frac{a}{p^2 - q^2} = \\frac{b}{q^2};\n$$\n\n$$\n\\frac{c}{b} = \\frac{p^3}{q^3} - \\frac{2p}{q} \\quad \\Leftrightarrow \\quad \\frac{c}{p^3 - 2pq^2} = \\frac{b}{q^3}.\n$$\n\nThus\n\n$$\n\\frac{a}{(p^2 - q^2)q} = \\frac{b}{q^3} = \\frac{c}{p^3 - 2pq^2} = \\frac{e}{f}, \\quad \\text{gcd}(e, f) = 1.\n$$\n\nSince perimeter is minimum, $\\text{gcd}(a, b, c) = 1$. From $\\text{gcd}(e, f) = 1$, we have $f \\mid q^3$ and $f \\mid p^3 - 2pq^2$. We'll prove that $f = 1$.\n\nIf $f > 1$, then it has a prime divisor $f' > 1$ such that $f' \\mid q^3$ and $f' \\mid p^3 - 2pq^2$. Thus $f' \\mid q$ and $f' \\mid p$, contradicting $\\text{gcd}(p, q) = 1$. Thus $f = 1$. From $\\text{gcd}(a, b, c) = 1$, we conclude that $e = 1$. Thus\n\n$$\na = (p^2 - q^2)q, \\quad b = q^3, \\quad c = p^3 - 2pq^2.\n$$\n\nFrom $0\\degree < \\angle A + \\angle B = 4\\angle B < 180\\degree$, we get $0\\degree < \\angle B < 45\\degree$ and hence $\\sqrt{2} < 2 \\cos B < 2$ implying that $\\sqrt{q} < p < 2q$. The smallest positive integers satisfying this inequality is $p = 3, q = 2$. Since $a + b + c = p^2q + p(p^2 - 2q^2)$ and $p^2 - 2q^2 = 1$, we see that the minimum perimeter is achieved when $p = 3, q = 2$ and the value is 21.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let the sides be $a, b, c$. From the sine rule, we have\n\n$$\n\\begin{aligned} \\frac{a}{b} &= \\frac{\\sin 3B}{\\sin B} = 4\\cos^2 B - 1 \\\\ \\frac{c}{b} &= \\frac{\\sin C}{\\sin B} = \\frac{\\sin 4B}{\\sin B} = 8\\cos^3 B - 4\\cos B \\end{aligned}\n$$\n\nThus\n\n$$\n2 \\cos B = \\frac{a^2 + c^2 - b^2}{ac} \\in \\mathbb{Q}.\n$$"
+    }
+  ],
+  "2014": [
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_6074332bf670",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2014_p1_data_c0547a825c.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let AC intersect BD at R. Then $\\angle BAR = \\angle BAC = \\angle BA'P = \\angle BAP$. That is AB bisects $\\angle PAR$. As $\\angle BAD = 90^\\circ$, we also have AD is the external bisector of $\\angle PAR$. By the angle bisector theorem, we have\n$$\n\\frac{BR}{BP} = \\frac{DR}{DP} = \\frac{AR}{AP} \\qquad (1)\n$$\nAs B and B' are symmetric with respect to the line AC, we have $\\angle BQR = \\angle B'QR = \\angle DQR$. Thus QR bisects $\\angle BQD$. By the angle bisector theorem and (1), we have\n$$\n\\frac{QD}{QB} = \\frac{RD}{RB} = \\frac{PD}{PB}.\n$$\nThus $QP$ is the external bisector of $\\angle BQD$. Hence $\\angle RQP = 90^\\circ$.\n% IMAGE: ![](images/Singapur_2014_p1_data_c0547a825c.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The quadrilateral ABCD is inscribed in a circle which has diameter BD. Points A' and B' are symmetric to A and B with respect to the line BD and AC respectively. If the lines A'C, BD intersects at P and AC, B'D intersect at Q, prove that PQ is perpendicular to AC."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_8efffc774474",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $x = 1$, we have $f(f(y) + 1) = y + f(1)$. From this we conclude that $f$ is a bijection.\nLet $y = 0$, we have $f(xf(0) + x) = f(x)$. Since $f$ is injective, we have $xf(0) + x = x$, i.e., $xf(0) = 0$ for all $x$. Hence $f(0) = 0$.\nFor $x \\neq 0$, take $y = -f(x)/x$, then $f(xf(y) + x) = 0$. Thus $xf(y) + x = 0$ or $f(y) = -1$. Thus $f(-f(x)/x) = -1$. Hence $-f(x)/x = c$, where $c$ is the constant satisfying $f(c) = -1$. Thus $f(x) = -cx$ for $x \\neq 0$. Since $f(0) = 0$, $f(x) = -cx$ for all $x \\in \\mathbb{R}$.\nSubstitute this into the original equation, we get $f(-xcy+x) = -c(-xcy+x) = xy-cx$.\nThus $c^2xy = xy$. Hence $c^2 = 1$ or $c = \\pm 1$. It is easy to check that both $f(x) = x$ and $f(x) = -x$ satisfy the functional equation.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $\\mathbb{R}$ be the set of real numbers. Find all functions $f: \\mathbb{R} \\to \\mathbb{R}$ such that for all $x, y \\in \\mathbb{R}$,\n$$\nf(xf(y) + x) = xy + f(x).\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_8f443dea9210",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "By Cauchy -Schwarz inequality,\n$$\n\\text{LHS} \\le \\left( \\frac{1}{a_1} + \\frac{1}{a_2 - a_1} + \\dots + \\frac{1}{a_n - a_{n-1}} \\right) \\left( \\frac{a_1}{(1+a_1)^2} + \\frac{a_2 - a_1}{(1+a_2)^2} + \\dots + \\frac{a_n - a_{n-1}}{(1+a_n)^2} \\right).\n$$\nNote that $\\frac{a_1}{(1+a_1)^2} \\le \\frac{a_1}{1+a_1}$ and for $i=2, \\dots, n$,\n$$\n\\frac{a_i - a_{i-1}}{(1+a_i)^2} \\le \\frac{a_i - a_{i-1}}{(1+a_{i-1})(1+a_i)} = \\frac{1}{1+a_{i-1}} - \\frac{1}{1+a_i}.\n$$\nThus, after telescoping,\n$$\n\\frac{a_1}{(1+a_1)^2} + \\frac{a_2 - a_1}{(1+a_2)^2} + \\dots + \\frac{a_n - a_{n-1}}{(1+a_n)^2} \\le \\frac{a_1}{1+a_1} + \\frac{1}{1+a_1} - \\frac{1}{1+a_n} < 1\n$$\nand we are done.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $0 < a_1 < a_2 < \\dots < a_n$ be real numbers. Prove that\n$$\n\\left(\\frac{1}{1+a_1} + \\frac{1}{1+a_2} + \\dots + \\frac{1}{1+a_n}\\right)^2 \\le \\frac{1}{a_1} + \\frac{1}{a_2-a_1} + \\frac{1}{a_3-a_2} + \\dots + \\frac{1}{a_n-a_{n-1}}.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_feb5185ad9d6",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Consider the 4 \\times 4 grid. Place 4 overlapping copies of $G$ as shown (left figure), where the number $i = 1, 2, 3, 4$ indicates the cells of the $i^{th}$ copy of $G$. The same grid is also covered by 8 overlapping copies of $2 \\times 2$ grid (right), with each cell covered the same number of times. (Note that in the first figure the top left cells of the 4 copies of $G$ form a $2 \\times 2$ grid while in the second figure, the top left cells of the $8 \\times 2 \\times 2$ grid form the configuration $G$. This is important for the general case.)\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>12</td><td>2</td></tr><tr><td>13</td><td>234</td><td>134</td><td>24</td></tr><tr><td>13</td><td>124</td><td>123</td><td>24</td></tr><tr><td>3</td><td>34</td><td>34</td><td>4</td></tr></table>\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>23</td><td>3</td></tr><tr><td>14</td><td>124</td><td>235</td><td>35</td></tr><tr><td>46</td><td>467</td><td>578</td><td>58</td></tr><tr><td>6</td><td>67</td><td>78</td><td>8</td></tr></table>\n\nThus the sum of the sums of the numbers in the cells of the 4 copies of $G$ is equal to that of the 8 copies of the $2 \\times 2$ grid. Since the former is positive, one of the $2 \\times 2$ grid must be positive as well.\n\nIt is easy to see that the result holds for any two configurations $G_1, G_2$, provided the grid is large enough. Choose a pair of coordinate axes. Let the number of cells in",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In a 50 x 50 grid, an integer is written in each of the 2500 cells. Let G be the configuration of 8 cells formed by removing the central cell of a 3 x 3 grid. It is given that for any group of 8 cells in the 50 x 50 grid forming the configuration G, the sum of the numbers written in the 8 cells is positive. Prove that there is a 2 x 2 grid so that the sum of the numbers in the 4 cells is positive."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_b76a71283f75",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Substitute this into the original equation, we get $f(-xcy+x) = -c(-xcy+x) = xy-cx$.\nThus $c^2xy = xy$. Hence $c^2 = 1$ or $c = \\pm 1$. It is easy to check that both $f(x) = x$ and\n$f(x) = -x$ satisfy the functional equation.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $x = 1$, we have $f(f(y) + 1) = y + f(1)$. From this we conclude that $f$ is a bijection.\n\nLet $y = 0$, we have $f(xf(0) + x) = f(x)$. Since $f$ is injective, we have $xf(0) + x = x$, i.e., $xf(0) = 0$ for all $x$. Hence $f(0) = 0$.\n\nFor $x \\neq 0$, take $y = -f(x)/x$, then $f(xf(y) + x) = 0$. Thus $xf(y) + x = 0$ or $f(y) = -1$. Thus $f(-f(x)/x) = -1$. Hence $-f(x)/x = c$, where $c$ is the constant satisfying $f(c) = -1$. Thus $f(x) = -cx$ for $x \\neq 0$. Since $f(0) = 0$, $f(x) = -cx$ for all $x \\in \\mathbb{R}$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_0c67904fe25e",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "$G_1$ and $G_2$ be $m$ and $n$ respectively. Place $G_1$ and $G_2$ in some position. Let $a_1, \\dots, a_m$ be the centres of the cells covered by $G_1$ and let $b_1, \\dots, b_n$ be the centres of the cells covered by $G_2$. Let $G_1(b_i)$ be the position of $G_1$ after it has been translated by $b_i$ and let $P_1(b_i)$ be the corresponding sum. The sum $P_2(a_i)$ is similarly defined. It is clear that the cells, counting multiplicity, covered by $G_1$ when it is translated by the vectors $b_1, b_2, \\dots, b_n$ are the same as the cells, counting multiplicity, covered by $G_2$ when it is translated by the vectors $a_1, a_2, \\dots, a_m$. Thus\n\n$$\n\\sum P_1(b_i) = \\sum P_2(a_j).\n$$\n\nSince the LHS is positive, at least one of the terms on the RHS is positive.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P1"
+          ],
+          "path": "<table><tr><td>1</td><td>12</td><td>12</td><td>2</td></tr><tr><td>13</td><td>234</td><td>134</td><td>24</td></tr><tr><td>13</td><td>124</td><td>123</td><td>24</td></tr><tr><td>3</td><td>34</td><td>34</td><td>4</td></tr></table>",
+          "title": ""
+        },
+        {
+          "alt": "",
+          "pages": [
+            "P1"
+          ],
+          "path": "<table><tr><td>1</td><td>12</td><td>23</td><td>3</td></tr><tr><td>14</td><td>124</td><td>235</td><td>35</td></tr><tr><td>46</td><td>467</td><td>578</td><td>58</td></tr><tr><td>6</td><td>67</td><td>78</td><td>8</td></tr></table>",
+          "title": ""
+        }
+      ],
+      "statement_latex": "Consider the 4 \\times 4 grid. Place 4 overlapping copies of $G$ as shown (left figure), where the number $i = 1, 2, 3, 4$ indicates the cells of the $i^{th}$ copy of $G$. The same grid is also covered by 8 overlapping copies of $2 \\times 2$ grid (right), with each cell covered the same number of times. (Note that in the first figure the top left cells of the 4 copies of $G$ form a $2 \\times 2$ grid while in the second figure, the top left cells of the $8 \\times 2 \\times 2$ grid form the configuration $G$. This is important for the general case.)\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>12</td><td>2</td></tr><tr><td>13</td><td>234</td><td>134</td><td>24</td></tr><tr><td>13</td><td>124</td><td>123</td><td>24</td></tr><tr><td>3</td><td>34</td><td>34</td><td>4</td></tr></table>\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>23</td><td>3</td></tr><tr><td>14</td><td>124</td><td>235</td><td>35</td></tr><tr><td>46</td><td>467</td><td>578</td><td>58</td></tr><tr><td>6</td><td>67</td><td>78</td><td>8</td></tr></table>\n\nThus the sum of the sums of the numbers in the cells of the 4 copies of $G$ is equal to\nthat of the 8 copies of the $2 \\times 2$ grid. Since the former is positive, one of the $2 \\times 2$ grid\nmust be positive as well.\n\nIt is easy to see that the result holds for any two configurations $G_1, G_2$, provided\nthe grid is large enough. Choose a pair of coordinate axes. Let the number of cells in"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_0ebc09e1eb1e",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $p_i$ denote the $i$th prime, i.e. $p_1 = 2, p_2 = 3$, etc. We call a positive integer $N$ admissible if it is odd and has the property stated in the problem. Any admissible number exceeding $p_i^2$ must clearly contain the factor $p_i$ for $i \\ge 2$. By Bertrand's postulate, $p_{n+1} < 2p_n$. Thus for any $n \\ge 5$, we have $p_{n+1}^2 < 4p_n^2 < 8p_{n-1}p_n$. Since $p_2p_3 = 15 > 8$,\n\n$$\np_{n+1}^2 < p_2 p_3 \\cdots p_n \\quad (n \\ge 5) \\qquad (1)\n$$\n\nIf there were an admissible number $N$ such that $p_{n+1}^2 \\ge N > p_n^2$ for some $n \\ge 5$, then $N$ would be divisible by $p_2p_3 \\cdots p_n$ and so $N \\ge p_2p_3 \\cdots p_n > p_{n+1}^2$ by (1) which gives a contradiction. Therefore no admissible number can exceed $p_5^2 = 121$.\n\nThe number 105 can be checked to be admissible. Also since any admissible number exceeding 49 must be divisible by $3 \\times 5 \\times 7 = 105$, there can be no admissible number $N$ between 105 and 121.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The largest such integer $N$ is 105. Let $p_i$ denote the $i$th prime, i.e. $p_1 = 2, p_2 = 3$, etc. We call a positive integer $N$ \\textit{admissible} if it is odd and has the property stated in the problem. Any admissible number exceeding $p_i^2$ must clearly contain the factor $p_i$ for $i \\ge 2$. By Bertrand's postulate, $p_{n+1} < 2p_n$. Thus for any $n \\ge 5$, we have $p_{n+1}^2 < 4p_n^2 < 8p_{n-1}p_n$. Since $p_2p_3 = 15 > 8$,\n\n$$\np_{n+1}^2 < p_2 p_3 \\cdots p_n \\quad (n \\ge 5) \\qquad (1)\n$$\n\nIf there were an admissible number $N$ such that $p_{n+1}^2 \\ge N > p_n^2$ for some $n \\ge 5$, then $N$ would be divisible by $p_2p_3 \\cdots p_n$ and so $N \\ge p_2p_3 \\cdots p_n > p_{n+1}^2$ by (1) which gives a contradiction. Therefore no admissible number can exceed $p_5^2 = 121$.\n\nThe number 105 can be checked to be admissible. Also since any admissible number exceeding 49 must be divisible by $3 \\times 5 \\times 7 = 105$, there can be no admissible number $N$ between 105 and 121."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2014",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "Singapore Mathematical Society",
+      "booklet title": "Singapur 2014.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1jSNTqYPNbdH9MG1cxtjjPCe_ITvE74Cz",
+      "competition name": "Singapore Mathematical Olympiad (SMO)",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_69836b81de3d",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "$G_1$ and $G_2$ be $m$ and $n$ respectively. Place $G_1$ and $G_2$ in some position. Let $a_1, \\dots, a_m$ be the centres of the cells covered by $G_1$ and let $b_1, \\dots, b_n$ be the centres of the cells covered by $G_2$. Let $G_1(b_i)$ be the position of $G_1$ after it has been translated by $b_i$ and let $P_1(b_i)$ be the corresponding sum. The sum $P_2(a_i)$ is similarly defined. It is clear that the cells, counting multiplicity, covered by $G_1$ when it is translated by the vectors $b_1, b_2, \\dots, b_n$ are the same as the cells, counting multiplicity, covered by $G_2$ when it is translated by the vectors $a_1, a_2, \\dots, a_m$. Thus\n\n$$\n\\sum P_1(b_i) = \\sum P_2(a_j).\n$$\n\nSince the LHS is positive, at least one of the terms on the RHS is positive.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "table",
+          "pages": [
+            "P0"
+          ],
+          "path": "<table><tr><td>1</td><td>12</td><td>12</td><td>2</td></tr><tr><td>13</td><td>234</td><td>134</td><td>24</td></tr><tr><td>13</td><td>124</td><td>123</td><td>24</td></tr><tr><td>3</td><td>34</td><td>34</td><td>4</td></tr></table>",
+          "title": null
+        },
+        {
+          "alt": "table",
+          "pages": [
+            "P0"
+          ],
+          "path": "<table><tr><td>1</td><td>12</td><td>23</td><td>3</td></tr><tr><td>14</td><td>124</td><td>235</td><td>35</td></tr><tr><td>46</td><td>467</td><td>578</td><td>58</td></tr><tr><td>6</td><td>67</td><td>78</td><td>8</td></tr></table>",
+          "title": null
+        }
+      ],
+      "statement_latex": "4. Consider the 4 \\times 4 grid. Place 4 overlapping copies of $G$ as shown (left figure), where the number $i = 1, 2, 3, 4$ indicates the cells of the $i^{th}$ copy of $G$. The same grid is also covered by 8 overlapping copies of $2 \\times 2$ grid (right), with each cell covered the same number of times. (Note that in the first figure the top left cells of the 4 copies of $G$ form a $2 \\times 2$ grid while in the second figure, the top left cells of the $8 \\times 2 \\times 2$ grid form the configuration $G$. This is important for the general case.)\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>12</td><td>2</td></tr><tr><td>13</td><td>234</td><td>134</td><td>24</td></tr><tr><td>13</td><td>124</td><td>123</td><td>24</td></tr><tr><td>3</td><td>34</td><td>34</td><td>4</td></tr></table>\n\n% IMAGE: <table><tr><td>1</td><td>12</td><td>23</td><td>3</td></tr><tr><td>14</td><td>124</td><td>235</td><td>35</td></tr><tr><td>46</td><td>467</td><td>578</td><td>58</td></tr><tr><td>6</td><td>67</td><td>78</td><td>8</td></tr></table>\n\nThus the sum of the sums of the numbers in the cells of the 4 copies of $G$ is equal to\nthat of the 8 copies of the $2 \\times 2$ grid. Since the former is positive, one of the $2 \\times 2$ grid\nmust be positive as well.\n\nIt is easy to see that the result holds for any two configurations $G_1, G_2$, provided\nthe grid is large enough. Choose a pair of coordinate axes. Let the number of cells in"
+    }
+  ],
+  "2015": [
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_4274c288634e",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We have\n\\[\nn = 300070003 + 10^6x + 10^2y = 37(8110000 + 27027x + 3y) + (3 + x - 11y).\n\\]\nSince $0 \\le x, y \\le 9$, we have $-96 \\le 3 + x - 11y \\le 12$. Also $37 \\mid 3 + x - 11y$. Thus $3 + x - 11y = 0, -37$ or $-74$ and we get $(x, y) = (8, 1), (4, 4), (0, 7)$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $n = \\overline{30x070y03}$ be a 9-digit integer. Find all possible values of the pair $(x, y)$, so that $n$ is a multiple of 37."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_e24b742771dc",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let the coordinates of A be (0,0), B be (1,0), D be (c,b), E be (a,b), F be (e,f) and C be (x,y). Then $AB \\parallel ED$. For $AF \\parallel CD$, we need $(b-y)/(c-x) = f/e$. For $EF \\parallel CB$ we need $(x-1)/y = (a-e)/(b-f)$. From these equations, we get\n\\[\nxb - ay = b - f + cf - be. \\quad (*)\n\\]\nThus the proof is now complete since the following is true by (*).\n\\[\n[ACE] = [BDF] \\Leftrightarrow \\begin{vmatrix} 0 & 0 & 1 \\\\ x & y & 1 \\\\ a & b & 1 \\end{vmatrix} = \\begin{vmatrix} 1 & 0 & 1 \\\\ c & b & 1 \\\\ e & f & 1 \\end{vmatrix} \\Leftrightarrow xb - ay = b - f + cf - be.\n\\]",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In a convex hexagon ABCDEF, AB is parallel to DE, BC is parallel to EF and CD is parallel to FA. Prove that the triangles ACE and BDF have the same area."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_bdc432eed9df",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "When the $k^{th}$ candy is dropped, the teacher has skipped $1+2+...+(k-1) = k(k-1)/2$ children. Then it is dropped behind $a_i$, where $i = k + k(k-1)/2 = k(k+1)/2$ (mod 30). Thus $2i = k(k+1)$ (mod 60). From here it is clear that the $i^{th}$ and $j^{th}$ candies are given to the same child if $i \\equiv j$ (mod 60). Thus the sequence of children receiving candies is periodic with period 60. Note that $k(k+1) \\equiv (60-k-1)(60-k) \\pmod{60}$. Thus the $k^{th}$ and $(60-k-1)^{th}$ are given to the same child. Thus we only need to compute $k(k+1)/2$ (mod 30) for $k = 1, ..., 29$. This yields the following sequence of children receiving the first 29 candies. Thus 18 children never receive any candy.\n\n1, 3, 6, 10, 15, 21, 28, 6, 15, 25, 6, 18, 1, 15, 30\n16, 3, 21, 10, 30, 21, 13, 6, 30, 25, 21, 18, 16, 15",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "There are 30 children, $a_1, a_2, \\dots, a_{30}$, seated clockwise in a circle on the floor. The teacher walks behind the children in the clockwise direction with a box of 1000 candies. She drops a candy behind the first child $a_1$. She then skips one child and drops a candy behind the third child, $a_3$. Now she skips two children and drops a candy behind the next child, $a_6$. She continues this way, at each stage skipping one child more than at the preceding stage before dropping a candy behind the next child. How many children will never receive a candy? Justify your answer."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_b00d739feb83",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $x < y$ be two numbers in $A$. For them to determine a unique isosceles triangle, we must have $2x \\le y$. If $A = \\{2^0, 2^1, 2^2, ..., 2^{10}\\}$, then any two of the numbers $x < y$ satisfy $2x \\le y$. So the maximum size is $\\ge 11$.\n\nNow suppose that there is a set $A$ with $|A| = 12$ that has the property. Let $a_1, a_2, ..., a_{12} \\ge 2a_1, a_3 \\ge 2a_2 \\ge 2^2a_1, ..., a_{12} \\ge 2a_{11} \\ge 2^{11}a_1 \\ge 2^{11} = 2048$, a contradiction. Thus the maximum size is 11.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let A be a set of numbers chosen from 1, 2, ..., 2015 with the property that any two distinct numbers, say x and y, in A determine a unique isosceles triangle (which is non equilateral) whose sides are of length x or y. What is the largest possible size of A?"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_57c581a50929",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "An integer is divisible by 30 iff it is divisible by 2, 3 and 5. Note that $2 | k^2 + 1$ iff $k$ is odd. Thus we may assume that $k$ is odd. Write $k = 2t + 1$.\n\nIf $k \\equiv 0 \\text{ or } 1 \\pmod{3}$, then $3 \\nmid k^2 + 1$. If $k \\equiv 2 \\equiv -1 \\pmod{3}$, then $3 \\mid k^2 + 1$ iff $k$ is odd, i.e. iff $k = 6t + 5$.\n\nIf $k \\equiv 0 \\text{ or } 1 \\pmod{5}$, $5 \\nmid k^2 + 1$.\n\nIf $k \\equiv 2 \\text{ or } 3 \\pmod{5}$, then $k \\equiv \\pm 2 \\pmod{5}$. Therefore\n\\[\nk^2 + 1 \\equiv (\\pm 2)^k + 1 \\equiv (\\pm 2)^{2t+1} + 1 \\equiv (\\pm 2)4^t + 1 \\\\\\equiv (\\pm 2)(-1)^t + 1 \\not\\equiv 0 \\pmod{5}.\n\\]\nIf $k \\equiv 4 \\equiv -1 \\pmod{5}$, then $5 \\mid k^2 + 1$ iff $k$ is odd. Thus $30 \\mid k^2 + 1$ iff $k$ is odd and $k \\equiv 5 \\pmod{6}$ and $k \\equiv 9 \\pmod{10}$. Thus $k = 30n + 29$, $n = 0, 1, 2, ...$",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all positive integers $k$ such that $k^k + 1$ is divisible by 30. Justify your answer."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_20ed23830bf8",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2015_p4_data_13760dd394.png",
+              "title": ""
+            },
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapur_2015_p4_data_9f38753e6e.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "into 3 \\times 2 or 2 \\times 3 blocks which contain 26 black squares. Thus the removed squares are white. Repeat the argument with the blocks {((3, 1), (3, 2), (3, 3))}, {((1, 1), (2, 1), (3, 1))}, {((1, 3), (2, 3), (3, 3))}, we conclude that all these squares are white. Thus we have a 3 \\times 3 block with at most 1 black square (see figure below). This is a contradiction.\n\n% IMAGE: ![](images/Singapur_2015_p4_data_13760dd394.png)\n\nSuppose there are 28 black squares. Using the same argument as above, we conclude that there are 2 black squares in each of the blocks {((1, 1), (1, 2), (1, 3))}, {((3, 1), (3, 2), (3, 3))}, {((1, 1), (2, 1), (3, 1))} and {((1, 3), (2, 3), (3, 3))}. Thus all the squares in the three blocks {((2, 1), (2, 2), (2, 3))}, {((1, 2), (2, 2), (3, 2))}, {((1, 4), (2, 4), (3, 4))} are white as shown in the following diagram, again leading to a contradiction.\n\n% IMAGE: ![](images/Singapur_2015_p4_data_9f38753e6e.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "We assume each nonblack square is white. Repeat the $3 \\times 3$ block with black squares down the main diagonal 9 times. This is a possible construction with $3 \\times 9 = 27$ black squares. We shall prove that this is the only answer.\n\nSuppose there are 26 black squares. We name the bottom left square as (1, 1). Remove the squares in the block $\\{(1, 1), (1, 2), (1, 3)\\}$. The remaining squares can be partition"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1vBE2194I2wkR0ZFFIEwi495sg_IVqhpc",
+      "competition name": "Singapore Mathematical Olympiad 2015 (Junior Section, Round 2); Singapore Mathematical Olympiad 2015 (Senior Section, Round 2); Singapore Mathematical Olympiad 2015 (Open Section, Round 2)",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_6ae6a6caf350",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Thus\n\n$$\nf(x)f(f(x)) = x^2 \\qquad (2)\n$$\n\nNow replace $x$ by $x-1$ in (2) and apply (1) 3 times, and finally apply (2)\n\n$$\n\\begin{aligned} (x-1)^2 &= f(x-1)f(f(x-1)) = (f(x)-1)[f(f(x)-1)] \\\\ x^2 - 2x + 1 &= (f(x)-1)[f(f(x))-1] = f(x)f(f(x)) - f(x) - f(f(x)) + 1 \\\\ &= x^2 - f(x) - f(f(x)) + 1 \\end{aligned}\n$$\n\nTherefore\n\n$$\nf(x) + f(f(x)) = 2x. \\qquad (3)\n$$\n\nEliminating $f(f(x))$ from (2) and (3) gives\n\n$$\n[x - f(x)]^2 = 0,\n$$\n\nso that $f(x) = x$, as claimed. It is clear that this is also a solution.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The constant function $f(x) = 0$ is a solution.\n\nLet $f$ be a solution that is not identically $0$. We shall show that $f(x) = x$ for all $x$. Letting $x = 0$ in the given equation, we get\n\n$$\nf(0)[f(yf(0) - 1) + 1] = 0.\n$$\n\nSuppose $f(0) \\neq 0$. Let $x = yf(0) - 1$. As $y$ ranges over all real numbers, so does $x$. Thus we get $f(x) = -1$ for all $x$. But this does not satisfy the given equation. So $f(0) = 0$.\n\nNow suppose that $f(a) = 0$ for some $a \\neq 0$. Then the original equation becomes $0 = a^2f(y)$ for all $y$, implying that $f(y) = 0$ for all $y$. This contradicts our assumption that $f$ is not identically $0$. Thus $f(x) = 0$ iff $x = 0$.\n\nLetting $x = y = 1$ in the given equation, we have $f(f(1) - 1) = 0$. Thus $f(1) = 1$. When $x = 1$, the original equation becomes\n\n$$\nf(y - 1) = f(y) - 1. \\quad (1)\n$$\n\nLet $y = 1$ in the given equation and use (1) to obtain\n\n$$\nx^2 - f(x) = f(x)[f(f(x) - 1)] = f(x)[f(f(x)) - 1] = f(x)f(f(x)) - f(x).\n$$"
+    }
+  ],
+  "2016": [
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_b0bfb0642167",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Suppose $n^2+24n+35$ is a square. Let $n^2+24n+35 = m^2$. This equation can be written as $(2n+2m+24)(2n-2m+24) = 436$. Since $436 = 2^2 \\times 109$, we have $\\{2n+2m+24, 2n-2m+24\\} = \\{1, 436\\}, \\{-1, -436\\}, \\{2, 218\\}, \\{-2, -218\\}, \\{4, 109\\}, \\{-4, -109\\}$. For instance, we have $2n+2m+24 = 1, 2n-2m+24 = 436$ giving $n = 389/4, m = -435/4$, and $2n+2m+24 = 436, 2n-2m+24 = 1$ giving $n = 389/4, m = 435/4$. Since the solutions are not integers, they are rejected. Solving $2n + 2m + 24 = 2, 2n - 2m + 24 = 218$ gives $n = 43, m = -54$, and solving $2n + 2m + 24 = -2, 2n - 2m + 24 = -218$ gives $n = -67, m = 54$. The other systems do not give integer solutions. Thus the only solutions are $n = 43$ and $-67$. In both cases, the square is $54^2 = 2916$.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all integers $n$ such that $n^2 + 24n + 35$ is a square."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_784331f91f97",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Note that for any positive numbers $a, b$ between $p$ and $q$, we may assume (due to symmetry) that $0 < p \\le a \\le b \\le q$. We have\n$$\n\\frac{a}{b} + \\frac{b}{a} \\le \\frac{p}{q} + \\frac{q}{p} \\iff \\frac{a^2 + b^2}{ab} \\le \\frac{p^2 + q^2}{pq} \\\\ \\iff p^2 ab + q^2 ab - a^2 pq - b^2 pq = (bq - ap)(aq - bp) \\ge 0\n$$\nSince the last inequality is true, the first is true as well. Thus\n$$\n\\text{LHS} = \\left(\\frac{a_1}{a_9} + \\frac{a_9}{a_1}\\right) + \\dots + \\left(\\frac{a_4}{a_6} + \\frac{a_6}{a_4}\\right) + \\frac{a_5}{a_5} \\ge 1 + \\frac{4(p^2 + q^2)}{pq}\n$$",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $a_1, a_2, \\dots, a_9$ be a sequence of numbers satisfying $0 < p \\le a_i \\le q$ for each $i = 1, 2, \\dots, 9$. Prove that\n$$\n\\frac{a_1}{a_9} + \\frac{a_2}{a_8} + \\dots + \\frac{a_9}{a_1} \\le 1 + \\frac{4(p^2 + q^2)}{pq}.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_6c13ddf5aff3",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/Singapur_2016_p2_data_ff16ffe779.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "First $\\triangle ABC \\sim \\triangle DAC$ so that $AC/BA = DC/AD$. Also $\\triangle DAC \\sim \\triangle DBA$. It follows that $\\triangle AFC \\sim \\triangle BEA$ so that $FC/AC = EA/BA$. Thus $FC/EA = AC/BA = DC/AD$. This shows that $EF$ is parallel to $AC$. Hence $AEFG$ is a parallelogram. Since $\\angle EFA = \\angle FAG = \\angle FAE$, we have $AEFG$ is a rhombus so that $AG = FG$. Thus $\\triangle BFG \\cong \\triangle BAG$. Consequently, $\\angle FBG = \\angle ABG = \\frac{1}{2}\\angle ABC = \\angle FBE$. This means $B, E, G$ are collinear.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In the triangle $ABC$, $\\angle A = 90^\\circ$, the bisector of $\\angle B$ meets the altitude $AD$ at the point $E$, and the bisector of $\\angle CAD$ meets the side $CD$ at $F$. The line through $F$ perpendicular to $BC$ intersects $AC$ at $G$. Prove that $B, E, G$ are collinear."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_e1074444d29e",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We prove the general case where there are $p$ outgoing buses and $q$ returning buses with $p > q$. The number of such tourists is $p - q + 1$. Let $T$ be the set of all tourists. For each $t \\in T$, let $p_t$ be the number of tourists in the bus that $t$ takes in the outgoing trip and let $q_t$ be the number of tourists in the bus that $t$ takes in the return trip. Then\n$$\n\\sum_{t \\in T} \\frac{1}{p_t} = p, \\quad \\sum_{t \\in T} \\frac{1}{q_t} = q \\quad \\Rightarrow \\quad \\sum_{t \\in T} \\frac{1}{p_t} - \\frac{1}{q_t} = p - q\n$$\nSince $|\\frac{1}{p_t} - \\frac{1}{q_t}| < 1$, at least $p-q+1$ terms in the above sum is positive. That is there are at least $p-q+1$ tourists such that $\\frac{1}{p_t} - \\frac{1}{q_t} > 0$, or equivalently $p_t < q_t$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "A group of tourists get on 10 buses in the outgoing trip. The same group of tourists get on 8 buses in the return trip. Assuming each bus carries at least 1 tourist, prove that there are at least 3 tourists such that each of them has taken a bus in the return trip that has more people than the bus he has taken in the outgoing trip."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_a4ed6bec69f7",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $(\\frac{20}{2}) = 190$, the answer is 21. For full solution, see Senior Section Q2.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Determine the minimum number of lines that can be drawn on the plane so that they intersect in exactly 200 distinct points.\n\n(Note that for 3 distinct points, the minimum number of lines is 3 and for 4 distinct points, the minimum is 4.)"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_c41d0934d413",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Summing up, we have\n\n$$\n\\sum_{k=1}^{n} \\frac{2^k}{\\sqrt{k+0.5}} \\le 2^{n+1}\\sqrt{n+1} - 2\\sum_{k=1}^{n} \\sqrt{k}.\n$$\n\nHowever,\n\n$$\n\\sqrt{k} \\ge \\frac{2}{3}((k)^{3/2} - (k-1)^{3/2}).\n$$\n\nThe inequality is now clear.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "3. First, note that\n\n$$\n\\frac{1}{\\sqrt{k+0.5}} \\le 2(\\sqrt{k+1}-\\sqrt{k})\n$$\n\nwhich follows from the fact that\n\n$$\n\\sqrt{k+1}-\\sqrt{k} = \\frac{1}{\\sqrt{k+1}+\\sqrt{k}} \\ge \\frac{1}{2\\sqrt{k}+0.5}\n$$\n\nsince $\\sqrt{x}$ is concave. Hence\n\n$$\n\\frac{2^k}{\\sqrt{k+0.5}} \\le 2^{k+1}(\\sqrt{k+1}-\\sqrt{k})\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_f04a5381bed1",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "possible only when $s = 3$ or $n$. Thus either $a_5 - a_3 = n+1$ or $a_{n+1} - a_{n-1} = n+1$. Therefore one of these equals $a_3 - a_1 = n+1$ which is not possible. Thus the desired set of integers does not exist.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "5. For $n = 2, n(n+1)/2 = 3$. Thus $a_1 = 1, a_2 = 2$ work. Now suppose that $n \\ge 3$ and that the set $\\{a_1, \\dots, a_n\\}$ has the desired properties. We may assume without loss of generality, that $1 \\le a_1 < a_2 < \\dots < a_n \\le \\frac{n(n+1)}{2}$. Also let $a_{n+1} = a_1 + \\frac{n(n+1)}{2}$. First we note that for any two distinct pairs of integers $\\{i, j\\}$ and $\\{k, \\ell\\}$, $i < j, k < \\ell$, chosen from $\\{1, 2, \\dots, n+1\\}$, $a_j - a_i \\ne a_\\ell - a_k$ for if they are equal, we would have $a_j + a_k = a_i + a_\\ell$. In particular, the integers $a_{i+1} - a_i, i = 1, \\dots, n$ are distinct. Since $a_{n+1} - a_1 = \\frac{n(n+1)}{2}$, these differences are $1, 2, \\dots, n$. This also means that $a_j - a_i \\ge n+1$ if $j-i \\ge 2$.\n\nLet $t$ be the integer such that $a_{t+1} - a_t = 1$. Then since both $a_{t+2} - a_t$ and $a_{t+1} - a_{t-1}$ are $\\ge n+1$, $a_{t+2} - a_{t+1} = a_t - a_{t-2} = n$ which is impossible unless $t=1$ or $t=n$. By symmetry, we can take $t=1$. Then, $a_2 - a_1 = 1$ and $a_3 - a_2 = n$. For $n=3$, this means $a_3 = a_2 + 3$. Also we have $n(n+1)/2 = 6$. Thus $a_2 + a_2 \\equiv a_3 + a_3 \\pmod 6$. So such a set does not exist for $n=3$.\n\nNow let $n \\ge 4$ and $s$ be such that $a_{s+1} - a_s = 2$. Then $s \\ge 3$. By the same argument as before, we have $a_{s+2} - a_{s+1}$ and $a_s - a_{s-1}$ are both either $n$ or $n-1$. This is"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_b56e86fcbd79",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "possible only when $s = 3$ or $n$. Thus either $a_5 - a_3 = n+1$ or $a_{n+1} - a_{n-1} = n+1$. Therefore one of these equals $a_3 - a_1 = n+1$ which is not possible. Thus the desired set of integers does not exist.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "For $n = 2, n(n+1)/2 = 3$. Thus $a_1 = 1, a_2 = 2$ work. Now suppose that $n \\ge 3$ and that the set $\\{a_1, \\dots, a_n\\}$ has the desired properties. We may assume without loss of generality, that $1 \\le a_1 < a_2 < \\dots < a_n \\le \\frac{n(n+1)}{2}$. Also let $a_{n+1} = a_1 + \\frac{n(n+1)}{2}$. First we note that for any two distinct pairs of integers $\\{i, j\\}$ and $\\{k, \\ell\\}$, $i < j, k < \\ell$, chosen from $\\{1, 2, \\dots, n+1\\}$, $a_j - a_i \\ne a_\\ell - a_k$ for if they are equal, we would have $a_j + a_k = a_i + a_\\ell$. In particular, the integers $a_{i+1} - a_i, i = 1, \\dots, n$ are distinct. Since $a_{n+1} - a_1 = \\frac{n(n+1)}{2}$, these differences are $1, 2, \\dots, n$. This also means that $a_j - a_i \\ge n+1$ if $j-i \\ge 2$.\n\nLet $t$ be the integer such that $a_{t+1} - a_t = 1$. Then since both $a_{t+2} - a_t$ and $a_{t+1} - a_{t-1}$ are $\\ge n+1$, $a_{t+2} - a_{t+1} = a_t - a_{t-2} = n$ which is impossible unless $t=1$ or $t=n$. By symmetry, we can take $t=1$. Then, $a_2 - a_1 = 1$ and $a_3 - a_2 = n$. For $n=3$, this means $a_3 = a_2 + 3$. Also we have $n(n+1)/2 = 6$. Thus $a_2 + a_2 \\equiv a_3 + a_3 \\pmod 6$. So such a set does not exist for $n=3$.\n\nNow let $n \\ge 4$ and $s$ be such that $a_{s+1} - a_s = 2$. Then $s \\ge 3$. By the same argument as before, we have $a_{s+2} - a_{s+1}$ and $a_s - a_{s-1}$ are both either $n$ or $n-1$. This is"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2016",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapur 2016.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1xN7q3Ftm1grXPqnbGrsHDQi54xDeA2pA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) 2016 Junior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Senior Section, Round 2; Singapore Mathematical Olympiad (SMO) 2016 Open Section, Round 2",
+      "copyright_info": "Singapore Mathematical Society",
+      "has_solutions": true,
+      "id": "p_1ae303953ff5",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "certainly true for $x = 2$ since every bag is contained in a red box and a blue box and that these 2 boxes have an external bag. Inductively, suppose $x < p+q-1$ and there is a collection of $x$ boxes with $x-1$ internal bags and 1 external bag. By putting the box that contains the external bag into the collection, we have a collection of $x+1$ boxes with $x$ internal bags. Since $x+1 < p+q$, the collection also has an external bag. This can continue until $x = p+q-1$. For this collection, we have $x-1$ internal and 1 external bag giving a total $x = p+q-1$ bags. Thus $n \\ge p+q-1$.\n\nNext we shall show that $n = p+q-1$ is sufficient. Apply the division algorithm, assuming that $p > q$, we have $p = kq+r$ where $0 \\le r < q-1$. Suppose that we have solved the problem for $(q, r)$, i.e., we have $q+r-1$ bags containing a total of $qr$ objects and these bags can be distributed into $q$ red boxes, $R_1, \\dots, R_q$ with $r$ objects in each box and into $r$ blue boxes, $B_1, \\dots, B_r$, with $q$ objects in each box. Now add another $kq$ bags with $q$ objects in each bag. We have a total $kq + q + r - 1 = p + q - 1$ bags with a total of $kq^2 + qr = pq$ objects. Put each of these new bags into a new blue box, then, together with $B_1, \\dots, B_r$, we have $kq + r = p$ blue boxes each with $q$ objects. Next into each of the red boxes $R_1, \\dots, R_q$, put $k$ of these new bags so that each box has $kq + r = p$ objects. Thus we have a solution for $(p, q)$. Since $p, q$ are coprime, applying the division algorithm repeatedly, we eventually get to the situation where $r=1$. For the solution to the problem with $q \\times 1$ objects, we simply put 1 object in each bag.\n\nFor $p=43, q=17$, we have $43 = 2 \\times 17 + 9$, $17 = 1 \\times 9 + 8$, $9 = 1 \\times 8 + 1$. Thus our solution is 8 bags with 1 object, 8 bags with 8 objects, 9 bags with 9 objects, 34 bags with 17 objects.\n\n**Note:** In general, for any $p, q$, the number bags is $p+q-\\gcd(p, q)$. Let $d = \\gcd(p, q)$. For any collection of $a$ red bags and $b$ blue boxes with no external bag, we have $pa =qb$. Dividing by $d$, we have $a(p/d) = b(q/d)$. Since $p/d$ and $q/d$ are coprime, we have $a = kq/d$ and $b = kp/d$. Thus number of bags is minimized when $k=1$ for all such collections. Thus $n \\ge p+q-d$. The sufficiency part can be established using the division algorithm.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "We shall prove this general with $p$ red boxes and $q$ blue boxes and $pq$ objects, with $p, q$ coprime. Suppose the bags have been distributed as described, with each red box containing $q$ objects and each blue box containing $q$ objects. Suppose we have a collection of $r$ red and $b$ blue boxes. We say that a bag is internal (with respect to the collection) if it is contained in a red box and a blue box in the collection. It is external if it is contained in only one of the boxes in the collection. If the collection does not have any external bags, then $rq = bp$. Since $p, q$ are coprime, we have $r = p, b = q$. This means any collection of $x$ boxes, with $x < p+q$, must have an external bag.\n\nWe shall prove that for every $x < p+q$, there is a collection of $r$ red and $b$ blue boxes with $r+b = x$ that has at least $x-1$ internal bags and at least 1 external bag. This is"
+    }
+  ],
+  "2017": [
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_737babb4562c",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Without loss of generality, we may assume the square has area 1. Let the sides of the rectangles be $a_i, b_i$, $a_i \\le b_i$ and $S_i = a_i b_i$. We have $\\sum S_i = 1$ and\n\\[\n\\sum \\frac{a_i}{b_i} = \\sum \\frac{S_i}{b_i^2} \\geq \\sum S_i = 1.\n\\]",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "1. A square is cut into several rectangles, none of which is a square, so that the sides of each rectangle are parallel to the sides of the square. For each rectangle with sides $a, b, a < b$, compute the ratio $a/b$. Prove that sum of these ratios is at least 1."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_2951920bf5bf",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "\\[\n|m - a_1| |m - a_2| \\cdots |m - a_{2n}| = (n!)^2.\n\\]\nFirst we show that we cannot have distinct $i, j, k$ so that $|m - a_i| = |m - a_j| = |m - a_k|$. If so, then two of $(m - a_i)$, $(m - a_j)$, $(m - a_k)$ must be of the same sign, say $(m - a_i)$, $(m - a_j)$. Then $a_i = a_j$, a contradiction. Thus the values of $|m - a_1|$, $|m - a_2|$, ..., $|m - a_{2n}|$ are $1, 1, 2, 2, ..., n, n$. Also if $|m - a_i| = |m - a_j|$, then we must have $m - a_i = -(m - a_j)$ otherwise $a_i = a_j$. Therefore $\\sum (m - a_i) = 0$ and $m = \\frac{a_1 + \\cdots + a_{2n}}{2n}$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "2. Let $n$ be a positive integer and $a_1, a_2, \\dots, a_{2n}$ be $2n$ distinct integers. Given that the equation\n\\[\n|x - a_1| |x - a_2| \\dots |x - a_{2n}| = (n!)^2\n\\]\nhas an integer solution $x = m$, find $m$ in terms of $a_1, \\dots, a_{2n}$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_ddf37237a762",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/Singapore_2017_p2_data_6202f97e6c.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let $\\angle CED = x$ and $\\angle ABE = y$. Then\n\\[\n\\angle BAC = \\angle BED = 2x \\Rightarrow \\angle BAE = 2x - y \\text{ and } \\angle EAC = y.\n\\]\nLet F be the point on BE so that $\\angle AFE = \\pi$. (Note that $x = \\angle CED = y + \\angle ECA$ implying $x > y$. Thus F is in fact in the interior of the segment BE.) Since $\\angle AFE = x$ and $\\angle FED = 2x$, we have $AE = EF$. Next we have\n\\[\nAB = AC \\Rightarrow \\triangle BAF \\cong \\triangle ACE (\\text{ASA}) \\Rightarrow BF = AE = EF\n\\]\n$\\therefore [AEC] = [BFA] = [AFE] \\Rightarrow [BEA] = 2[AEC] \\Rightarrow BD = 2CD$.\n% IMAGE: ![](images/Singapore_2017_p2_data_6202f97e6c.png)",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "3. In $\\triangle ABC$, $AB = AC$, $D$ is a point on the side $BC$ and $E$ is a point on the segment $AD$. Given that $\\angle BED = \\angle BAC = 2\\angle CED$, prove that $BD = 2CD$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_5cce54a35f27",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We first show that if two adjacent vertices have different colours, then swapping the colours of these vertices leave $P$ unchanged. To see this, we only need to consider the four possible cases:\n\nRRBR, BRBB, RRBB, BRBR\nwhich change to RBRR, BBRB, RBRB, BBRР.",
+          "pages": [
+            "P2"
+          ],
+          "status": "truncated"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "4. Consider a polygon with $m+n$ sides where $m, n$ are positive integers. Colour $m$ of its vertices red and the remaining $n$ vertices blue. A side is given the number 2 if both its end vertices are red, the number 1/2 if both its end vertices are blue and the number 1 otherwise. Let the product of these numbers be $P$. Find the largest possible value of $P$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4a49ae982ff6",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let the numbers be $X_1, X_2, \\dots, X_7$ in ascending order. Let $[a, d]$ denote the AP with initial term $a$, common difference $d$ and $a \\le d$. We first show that there is an AP $[a, d]$ that contains $X_i$, i.e. $X_i = a + k_i d$, $i = 1, ..., 5$. For example we can take $a = d = 1$. Choose such an AP with maximal $d$. Then not all $k_i$ can be even, or else we can use the AP $[a, 2d]$, contradicting the choice of $d$. Also not all $k_i$ can be odd or else we can use $[a+d, 2d]$. We have two cases. (i) At least 3 of $k_1, ..., k_5$ are odd: use $[a+d, 2d]$. (ii) At least 3 of $k_1, ..., k_5$ are even: use $[a, 2d]$. In either case, we have an AP $[a', d']$ that contains exactly 3 or 4 of $X_1, ..., X_5$. Note that $[a', d']$ is a 'sub-AP' of $[a, d]$.\n\nNext we show that there is AP that contains exactly 3 or 4 of $X_1, ..., X_6$. If $[a', d']$ contains exactly 3 of $X_1, ..., X_5$, or does not contain $X_6$, then it contains exactly 3 or 4 of $X_1, ..., X_6$. We are now left with the case where $[a', d']$ contains exactly 5 of $X_1, ..., X_6$. Then we can apply the above procedure to find a 'sub-AP' $[a'', d'']$ that contains exactly 3 or 4 of $X_1, ..., X_6$.\n\nThe same procedure can be used again to find a 'sub-AP' of $[a'', d'']$ that contains exactly 3 or 4 of $X_1, ..., X_7$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Given 7 distinct positive integers, prove that there is an infinite arithmetic progression of positive integers $a, a+d, a+2d, \\dots$, with $a \\le d$, that contains exactly 3 or 4 of the 7 given integers."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_cef166872e6e",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapore_2017_p2_data_5254f9489a.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let M be the midpoint of AB. If $DE \\parallel AB$, then $\\triangle ABC$ is isosceles with $CA = CB$, and F coincides with M.\n\n% IMAGE: ![](images/Singapore_2017_p2_data_5254f9489a.png)\n\nConsider the case where $DE \\parallel AB$. Let the lines DE and AB intersect at X. By Menelaus theorem, $\\frac{AX}{XB} = \\frac{BD}{CD} = \\frac{CE}{EA} = 1$.\n\n\\(\\therefore XA \\cdot BF = XB \\cdot AF\\) (: CD = CE, BD = BF, AE = AF.)\n\n\\(\\therefore XA \\cdot (XB - XF) = XB \\cdot (XF - XA)\\) (: BF = XB - XF, AF = XF - XA.)\n\n\\(\\therefore 2XA \\cdot XB = (XA + XB) \\cdot XF = 2XM \\cdot XF\\)\n\n\\(\\therefore XM \\cdot XF = XA \\cdot XB = X'P \\cdot XQ \\Rightarrow P, Q, F, M\\) are concyclic.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The incircle of $\\triangle ABC$ touches the sides BC, CA, AB, at D, E, F respectively. A circle through A and B encloses $\\triangle ABC$ and intersects the line DE at points P and Q. Prove that the midpoint of AB lies on the circuncircle of $\\triangle PQF$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_cbc86aaf9841",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Write $A = (a_1^2 + a_2^2 + \\dots + a_n^2)^{1/2}$ and $B = (b_1^2 + b_2^2 + \\dots + b_n^2)^{1/2}$. Then the LHS of the inequality becomes\n\n$$\nA^{p+2} + B^{p+2} - \\sum_{i=1}^{n} a_i b_i (A^p + B^p).\n$$\n\nSince $\\sum a_i b_i \\le AB$ it suffices to prove that\n\n$$\nA^{p+2} + B^{p+2} \\ge BA^{p+1} + AB^{p+1}.\n$$\n\nThis follows readily from rearrangement inequality.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $a_1, a_2, \\dots, a_n, b_1, b_2, \\dots, b_n, p$ be real numbers with $p > -1$. Prove that\n\n$$\n\\sum_{i=1}^{n} (a_i - b_i)(a_i(a_1^2 + a_2^2 + \\dots + a_n^2)^{p/2} - b_i(b_1^2 + b_2^2 + \\dots + b_n^2)^{p/2}) \\ge 0.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a3c4538f0d05",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $\\frac{1^2+2^2+\\dots+n^2}{n} = m^2$, $m \\in \\mathbb{Z}^+$. Then $(n+1)(2n+1) = 6m^2$. Thus $n$ is odd and $n = 6p \\pm 1$ or $n = 6p+3$ for some integer $p$. If $n = 6p+3$, then $6m^2 = (6p+4)(12p+7)$ which gives no solution since 3 does not divide the RHS.\n\nIf $n = 6p-1$, $m^2 = p(12p-1)$. Since $p$ and $12p-1$ are coprime, both are squares. Let $p = t^2$, $12p-1 = s^2$. Then $s^2 = 12t^2-1$, i.e., $s^2 \\equiv -1 \\pmod 3$ (mod 4), a contradiction.\n\nIf $n = 6p+1$, $m^2 = (3p+1)(4p+1)$. Since $3p+1$ and $4p+1$ are coprime, both are squares. Let $3p+1 = u^2$ and $4p+1 = v^2$. Thus $4p+1 \\equiv 1 \\pmod 8$ implying that $p$ is even and therefore $u$ is odd. Therefore $3p+1 \\equiv 1 \\pmod 8$ implying that $p \\equiv 0 \\pmod 8$. By checking small even multiples of 8, we find that $p=56$ is the smallest so that $3p+1$ and $4p+1$ are squares. Thus $n=337$ is the smallest value that works.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find the smallest positive integer $n$ so that $\\sqrt{\\frac{1^2+2^2+\\dots+n^2}{n}}$ is an integer."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_73b63acd4885",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "By the binomial theorem, we have for $k \\ge 2$ and $a \\le 1/k^2$,\n\n$$\n\\begin{align*} (1+a)^k &= 1+ka+a \\left( \\frac{ak(k-1)}{2!} + \\frac{a^2k(k-1)(k-2)}{3!} + \\dots + \\frac{a^{k-1}k!}{k!} \\right) \\\\ &\\le 1+ka+a \\left( \\frac{k(k-1)}{k^2} + \\frac{1}{2!} + \\frac{k(k-1)(k-2)}{k^4} \\frac{1}{3!} + \\dots + \\frac{k!}{k^2k^{k-2}k!} \\right) \\\\ &\\le 1+ka+a \\left( \\frac{1}{2!} + \\dots + \\frac{1}{k!} \\right) < 1+ka+a \\left( \\frac{1}{1 \\cdot 2} + \\dots + \\frac{1}{(k-1)!} \\right) \\\\ &\\le 1+ka+a \\left( 1-\\frac{1}{k} \\right) < 1+(k+1)a. \\end{align*}\n$$\n\nLet $X_k = (1 + \\frac{k}{n^2})^k$, $k = 1, \\dots, n$. Then, for $2 \\le k \\le n$, $\\frac{1}{n^2} \\le \\frac{1}{k^2}$. Therefore\n\n$$\n1 + \\frac{k}{n^2} < X_k < 1 + \\frac{k+1}{n^2}.\n$$\n\nMultiplying throughout by $n^{2n}$, we have\n\n$$\nn^{2n} + k n^{2n-2} < n^{2n} \\left( 1 + \\frac{1}{n^2} \\right)^k < n^{2n} + (k+1)n^{2n-2}.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $n \\ge 3$ be an integer. Prove that there exist positive integers $x_1, \\dots, x_n$ in geometric progression and positive integers $y_1, \\dots, y_n$ in arithmetic progression such that $x_1 < y_1 < x_2 < y_2 < \\dots < x_n < y_n$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_678764ec7f84",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First we show that we cannot have distinct $i, j, k$ so that $|m - a_i| = |m - a_j| = |m - a_k|$. If so, then two of $(m - a_i), (m - a_j), (m - a_k)$ must be of the same sign, say $(m - a_i), (m - a_j)$. Then $a_i = a_j$, a contradiction. Thus the values of $|m - a_1|, |m - a_2|, \\dots, |m - a_{2n}|$ are 1, 1, 2, 2, \\dots, $n, n$. Also if $|m - a_i| = |m - a_j|$, then we must have $m - a_i = -(m - a_j)$ otherwise $a_i = a_j$. Therefore $\\sum (m - a_i) = 0$ and $m = \\frac{a_1 + \\dots + a_{2n}}{2n}$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "\\[\n|m - a_1| |m - a_2| \\cdots |m - a_{2n}| = (n!)^2.\n\\]\n\nFirst we show that we cannot have distinct $i, j, k$ so that $|m - a_i| = |m - a_j| = |m - a_k|$. If so, then two of $(m - a_i)$, $(m - a_j)$, $(m - a_k)$ must be of the same sign, say $(m - a_i)$, $(m - a_j)$. Then $a_i = a_j$, a contradiction. Thus the values of $|m - a_1|$, $|m - a_2|$, ..., $|m - a_{2n}|$ are 1, 1, 2, 2, ..., n, n. Also if $|m - a_i| = |m - a_j|$, then we must have $m - a_i = -(m - a_j)$ otherwise $a_i = a_j$. Therefore $\\sum (m - a_i) = 0$ and $m = \\frac{a_1 + \\cdots + a_{2n}}{2n}$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2017",
+        "pages_map": {
+          "P0": "page4.md",
+          "P1": "page5.md",
+          "P2": "page6.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore_2017.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1VabaGChRcN1A9bfum80kOM78FWs0T3PE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_07636d51da27",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "The value of P remains unchanged in each case. Thus by swapping the colours of adjacent vertices repeatedly, we get to the case where vertices of the same colour form one block. We now have m-1 edges whose end vertices are red and m-1 edges whose end vertices are blue. The value of P is $2^{m-n}$, a constant.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "We first show that if two adjacent vertices have different colours, then swapping the colours of these vertices leave P unchanged. To see this, we only need to consider the four possible cases:\n\nRRBR, BRBB, RRBB, BRBR\nwhich change to RBRR, BBRB, RBRB, BBRР."
+    }
+  ],
+  "2018": [
+    {
+      "_provenance": {
+        "folder": "SIN_2018",
+        "pages_map": {
+          "P0": "page16.md",
+          "P1": "page17.md",
+          "P2": "page18.md"
+        }
+      },
+      "author": "Lucas Boo Tse Yang; Cheng Puhua; Joel Tan Junyao; Lee Ker Yang; Ng Yu Peng; (Edison) Shi Cheng; Dr Wong Yan Loi; Dr Tay Tiong Seng; David Lin Kewei; Eugene Lee Hua Jun; Tan Siah Yong; Mr Thomas Teo Teck Kian; Mr Zong Lixing; Dylan Toh Shan Hong; Ma Zhao Yu; Sheldon Kieren Tan; Ang Jie Jun (Morris); Ang Yan Sheng; Yap Jit Wu; Liu Yijia",
+      "booklet title": "Singapoure_2018.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1W7OeR7IIVJBz5JxwPLBL_ttiEGw4sKcE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 1",
+      "copyright_info": "Made with love by: David Typesetting; Eugene IMO team photo and graphic Siah Yong Front cover page puzzle design",
+      "has_solutions": true,
+      "id": "p_b78a034c5768",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Also $AB/BC = BC/CD$. That is $\\ell/x = x/(\\ell/2)$. From this we get $x = \\ell/\\sqrt{2}$. Since $\\ell = 14\\sqrt{2}$, we have $x = 14$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapoure_2018_p4_data_d7451514a8.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "% IMAGE: ![](images/Singapoure_2018_p4_data_d7451514a8.png)\n\nLet the lines BC and AD intersect at M. The conditions $\\angle A < 90^\\circ$, $\\angle B < 90^\\circ$ and AB > CD imply that C lies between MB and D lies between MA. Given the"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2018",
+        "pages_map": {
+          "P0": "page16.md",
+          "P1": "page17.md",
+          "P2": "page18.md"
+        }
+      },
+      "author": "Lucas Boo Tse Yang; Cheng Puhua; Joel Tan Junyao; Lee Ker Yang; Ng Yu Peng; (Edison) Shi Cheng; Dr Wong Yan Loi; Dr Tay Tiong Seng; David Lin Kewei; Eugene Lee Hua Jun; Tan Siah Yong; Mr Thomas Teo Teck Kian; Mr Zong Lixing; Dylan Toh Shan Hong; Ma Zhao Yu; Sheldon Kieren Tan; Ang Jie Jun (Morris); Ang Yan Sheng; Yap Jit Wu; Liu Yijia",
+      "booklet title": "Singapoure_2018.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1W7OeR7IIVJBz5JxwPLBL_ttiEGw4sKcE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 1",
+      "copyright_info": "Made with love by: David Typesetting; Eugene IMO team photo and graphic Siah Yong Front cover page puzzle design",
+      "has_solutions": true,
+      "id": "p_35091449f93b",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First let's assume the two boxes are different. The balls labelled 1 and 2 can be put into either box. All balls with even labels must then be put into the same box that the ball labelled 2 goes. Thus any ball with label which has a common factor greater than 1 with anyone of those even labels must be put into the same box too. Therefore, we only need to consider those balls with labels greater than 50. That leaves with 10 balls labelled by the primes: 53, 59, 61, 67, 71, 73, 79, 83, 89, 97. Thus we have twelve entities, namely the ten prime numbers, the number 1 and all the balls that must go with 2. Each can be put into any of the two boxes. Taking away the 2 cases where one of the boxes is empty, the number ways is $2^{12} - 2 = 4094$. Since the two boxes are identical, we need to divide this number by 2. Therefore the answer is 2047.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapoure_2018_p5_data_6b19aa133c.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "3. One hundred balls labelled 1 to 100 are to be put into two identical boxes so that each box contains at least one ball and the greatest common divisor of the product of the labels of all the balls in one box and the product of the labels of all the balls in the other box is 1. Determine the number of ways that this can be done."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2018",
+        "pages_map": {
+          "P0": "page16.md",
+          "P1": "page17.md",
+          "P2": "page18.md"
+        }
+      },
+      "author": "Lucas Boo Tse Yang; Cheng Puhua; Joel Tan Junyao; Lee Ker Yang; Ng Yu Peng; (Edison) Shi Cheng; Dr Wong Yan Loi; Dr Tay Tiong Seng; David Lin Kewei; Eugene Lee Hua Jun; Tan Siah Yong; Mr Thomas Teo Teck Kian; Mr Zong Lixing; Dylan Toh Shan Hong; Ma Zhao Yu; Sheldon Kieren Tan; Ang Jie Jun (Morris); Ang Yan Sheng; Yap Jit Wu; Liu Yijia",
+      "booklet title": "Singapoure_2018.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1W7OeR7IIVJBz5JxwPLBL_ttiEGw4sKcE",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 2; Singapore International Mathematical Olympiad 2018 Camp Quiz Day 1",
+      "copyright_info": "Made with love by: David Typesetting; Eugene IMO team photo and graphic Siah Yong Front cover page puzzle design",
+      "has_solutions": true,
+      "id": "p_19e11b3d0a02",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $a < b < c < d$ be the 4 smallest factors of $n$. Then $n = a^2 + b^2 + c^2 + d^2$. If $n$ is odd, then $a, b, c, d$ are all odd, impossible. Thus $n$ is even. Hence $a = 1, b = 2$. If $4 \\mid n$, then one of $c, d$ is 4 and the other is odd. By taking mod 4, we see the LHS is 0 while the RHS is 2, a contradiction. Thus 4 is not a factor. Note that $c$ cannot be even otherwise $c/2$ is also a factor which means $c$ has to be 2. Thus $c$ is odd and $d$ is even. Therefore $d = 2c$. So we have $n = 1 + 4 + c^2 + 4c^2 = 5 + 5c^2$. Hence 5 is a factor. If 3 is a factor, then $c = 3$ and $d = 5$, a contradiction. Therefore $c = 5$ and $n = 5(1 + 5^2) = 130$. It is easily checked that the smallest 4 factors are 1, 2, 5, 10 and 130 is the sum of their squares.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "4. Determine all positive integers $n$ with at least 4 factors such that $n$ is the sum of the squares of its 4 smallest factors."
+    }
+  ],
+  "2023": [
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_e5e0cb9f7591",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapore2023-booklet_p1_data_872a397d83.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "We use the notation $[PQR]$ to denote the area of $\\triangle PQR$.\n\n$$\nMN \\parallel AD \\Rightarrow [AMN] = [DMN] \\Rightarrow [AON] = [DOM].\n$$\n\n$$\nNC \\parallel AB \\Rightarrow [ACN] = [BCN] \\Rightarrow [AON] = [BOC].\n$$\n\n$$\n\\text{Thus } [DOM] = [BOC] \\Rightarrow [MCD] = [BCD] \\Rightarrow MB \\parallel DC.\n$$\n\n$$\n\\text{Finally } AB \\parallel NC, MB \\parallel DC \\Rightarrow \\angle ABM = \\angle NCD.\n$$\n\n% IMAGE: ![](images/Singapore2023-booklet_p1_data_872a397d83.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In a convex quadrilateral ABCD, the diagonals intersect at O, M and N are points on the segments OA and OD respectively. Suppose MN is parallel to AD and NC is parallel to AB. Prove that $\\angle ABM = \\angle NCD$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_143567d3f348",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $31 \\times 32 = 992$ and $31 \\times 33 = 1023$, any two numbers larger than 31 cannot be neighbours. So there must be a number < 32 between a pair of such numbers. Also 1 cannot be chosen. Also the two neighbours of 31 are 32 or less. So the maximum number of chosen integers is $\\le 30 \\times 2 - 1 = 59$. This bound can be achieved by the following where 11 follows 31 to form a cycle.\n\n11, 83, 12, 76, 13, 71, 14, 66, 15, 62, 16, 58, 17, 55, 18, 52, 19, 49,\n20, 47, 3, 99, 2, 98, 4, 97, 5, 96, 6, 95, 7, 94, 8, 93, 9, 92, 10, 46, 21, 45,\n22, 43, 23, 41, 24, 39, 25, 38, 26, 37, 27, 35, 28, 34, 29, 33, 30, 32, 31",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "What is the maximum number of integers that can be chosen from 1, 2, ..., 99 so that the chosen integers can be arranged in a circle with the property that the product of every pair of neighbouring integers is a 3-digit number?"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_fba9291b3175",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/Singapore2023-booklet_p2_data_04d272f779.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Label the squares in the grid (0,0) to (2022, 2022). Consider the position of the gap after a domino is moved. Note that the parity of the coordinates of the square containing the gap will not change. Also, the same square cannot contain the gap twice, otherwise this implies that a domino was moved into that square, and was moved out of the square again later, which is disallowed.\n\nConsidering coordinates modulo 2, in the $2023 \\times 2023$ grid, there are $1012^2$ squares labelled (0,0), $1012 \\times 1011$ squares labelled (0,1) or (1,0), and $1011^2$ squares labelled (1,1). Hence, the number of moves is at most $1012^2 - 1$, if all the (0,0) squares are the 'gap square' at some point.\n\nThis is attainable by connecting these squares in a 'snake' pattern, and sliding dominoes accordingly; the remaining $1 \\times 2022$ rectangles can be also tiled with dominoes that do not move throughout.\n\n% IMAGE: ![](images/Singapore2023-booklet_p2_data_04d272f779.png)",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Define a domino to be a $1 \\times 2$ rectangular block. A $2023 \\times 2023$ square grid is filled with non-overlapping dominoes, leaving a single $1 \\times 1$ gap. John then repeatedly slides dominoes into the gap; each domino is moved at most once. What is the maximum number of times that John could have moved a domino? (Example: In the $3 \\times 3$ grid shown below, John could move 2 dominoes: D, followed by A.)\n\n<table><tr><td>A</td><td>B</td><td>C</td></tr><tr><td>D</td><td></td><td></td></tr></table>"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_6d97b4da5947",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "The average of $p, q$ is $\\frac{p+q}{2}$. Therefore $2(100p + q) = (p+q)k$ for some integer $k$. Thus\n\n$$\n200p + 2q = (p+q)k \\Rightarrow 198p = (p+q)(k-2).\n$$\n\nSince $p, q$ are primes, $(p+q) \\mid 198$. Now $11 + 13 = 24 \\le p+q \\le 89 + 97 = 186$. Since $198 = 2 \\times 3^2 \\times 11$, the only even factor of 198 that lies between 24 and 186 is 66. Thus $p+q = 66$ and there are 4 pairs: (13, 53), (19, 47), (23, 43), (29, 37).",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Two distinct 2-digit prime numbers p, q can be written one after the other in 2 different ways to form two 4-digit numbers. For example, 11 and 13 yield 1113 and 1311. If the two 4-digit numbers formed are both divisible by the average value of p and q, find all possible pairs {$p, q$}."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_b129d2862273",
+      "language": "en",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Suppose $k, a, b$ satisfy the equation. Rewrite the equation as\n\n$$\na = \\sqrt{(k^2 - 4)b^2 - 4} = \\sqrt{(kb)^2 - 4(b^2 + 1)} \\quad (1)\n$$\n\nConsider the quadratic equation\n\n$$\nx^2 - kbx + (b^2 + 1) = 0 \\quad (2)\n$$\n\nIts solutions are\n\n$$\nc = \\frac{kb \\pm \\sqrt{(kb)^2 - 4(b^2 + 1)}}{2} = \\frac{kb \\pm a}{2} \\quad (3)\n$$\n\nwhere $a > 0, k \\ge 3$. Since $a$ and $kb$ have the same parity, $c \\in \\mathbb{Z}^+$. If one of the roots is $b$, then (2) becomes $(2-k)b^2 + 1 = 0$ which gives $k = 3, b = 1$ and hence $a = 1$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all positive integers k such that there exist positive integers a, b such that\n\n$$\na^2 + 4 = (k^2 - 4)b^2.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_3337246379ab",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "**Solution 1:** Let the diagonals AC and BD intersect at O; note that O also lies on $\\Gamma$. Let $H'G \\cap AO = C'$. Now Pascal's theorem on FAOBGH' shows that $C', D, E$ are collinear, so $C = C'$ and $H = H'$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "**Solution 2:** By power of point, $DF \\times DH' = DA^2 = DC^2$. Therefore $\\triangle DH'C \\sim \\triangle DCF$. Therefore, since $\\angle ECB = \\angle EFB = 90^\\circ$ implies that ECBF is cyclic,\n\n$$\n\\angle DH'C = \\angle DCF = \\angle ECF = \\angle EBF = \\angle EBF\n$$\n\nHence if $CH'$, EB intersect at $G'$ then $FG'BH'$ is cyclic, which implies $G'$ lies on $\\Gamma$, so $G' = G$ and thus $H' = H$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapore2023-booklet_p3_data_90fb3cb8cc.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "1. Note that A, F, G, B are concyclic, since they lie on the circle $\\Gamma$ with diameter AB. Let DF intersect $\\Gamma$ again at $H'$; it suffices to show that $H = H'$.\n\n% IMAGE: ![](images/Singapore2023-booklet_p3_data_90fb3cb8cc.png)\n"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2023",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2023-booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1twr43HeFBwOMRybQcb0dHiwjsfSTDNd9",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_fc7e064991ed",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "bridges destroyed, where the second inequality follows from $s + l \\ge \\sqrt{2k}$ and the last inequality from induction. Adding this to the first bridge we destroyed, we get $f(k) \\le \\lfloor\\sqrt{k}\\rfloor$, completing our induction as desired.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "3. The answer is $t = [\\sqrt{n-1}]$. We first give a configuration where one has to destroy at least $t$ bridges. It suffices to prove for $n = t^2 + 1$ that we require $t$ bridges to be destroyed. Consider $t$ islands in a row, with each pair of adjacent islands connected by a bridge. We call such a configuration a \"line\". Take $t$ distinct lines, and then connect each end of a line to a new island, called $X$. We then have $t^2 + 1$ islands with $t^2$ bridges. Let the fire starts at $X$. After $t-1$ nights only $t-1$ bridges can be destroyed. So the bridges of one line along with the bridge to $X$, remain untouched and the fire can still spread to the last island on the line.\n\nNow we show that given a connected configuration of $n$ islands with $n-1$ bridges, such that there are $k$ unburnt islands and that the burnt islands are connected, let $f(k)$ be the minimum number of bridges we have to destroy before the fire stops spreading. Then $f(k) \\le [\\sqrt{k}]$. Noting that the burnt islands are connected because it spreads from an island to islands connected to it, the result then follows by taking $k = n-1$. We proceed by induction.\n\nClearly $f(1) = 1$. Now suppose the result holds for all integers $< k$. Removing all the burnt islands so far gives us say $l$ disjoint components of islands that are unburnt. Since there are $k$ unburnt islands, one of this component has at least $s = [k/l]$ islands. Destroy the bridge that connects this component to the burnt islands. Then the next morning, for each of the other $l-1$ components, the fire spreads to one island. The burnt islands remain connected. Now we have $k-s-l+1$ unburnt islands. By induction, we can stop the fire with an additional\n\n$$\nf(k-s-1+l) \\le f([k-s-l+1]) \\le f([k-\\sqrt{2k}+1]) = f([\\sqrt{k}-1]^2) \\le [\\sqrt{k}]-1\n$$\n"
+    }
+  ],
+  "2024": [
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_69072acbb6a4",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapore2024_p1_data_3b6826f8e9.png",
+              "title": ""
+            },
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapore2024_p1_data_edff4fe6fa.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "There are 2 cases as shown in the figures below:\n\n% IMAGE: ![](images/Singapore2024_p1_data_3b6826f8e9.png)\n\nFig.1\n\n% IMAGE: ![](images/Singapore2024_p1_data_edff4fe6fa.png)\n\nFig.2\n\nIn Fig. 1,\n\n\\[\nXY^2 = AX^2 + AY^2 = (AX - AY)^2 + 2AX \\cdot AY = (AX - AY)^2 + 2.\n\\]\n\nThus $XY$ is minimum when $AX = AY$ and so $XY^2 = 2$.\n\nIn Fig. 2, let $B$ be the origin and $BA$ be the $x$-axis, $X$ be $(x, 0)$ and $Y$ be $(y, y)$. Then $2[BXY] = xy = 1$ and\n\n\\[\nXY^2 = (x - y)^2 + y^2 = x^2 + 2y^2 - 2xy = x^2 + 2y^2 - 2 = (x - \\sqrt{2}y)^2 + 2\\sqrt{2} - 2.\n\\]\n\nSo $XY$ is minimum when $x = \\sqrt{2}y$ and the minimum value is $2\\sqrt{2} - 2$.\n\nSince $2\\sqrt{2} - 2 < 2$, the length of the shortest segment is $\\sqrt{2\\sqrt{2} - 2}$.\n\nAlternatively, we have $2[BXY] = BX \\cdot BY \\sin 45^\\circ = BX \\cdot BY \\cos 45^\\circ = 1$. Therefore $BX \\cdot BY = \\sqrt{2}$. Using the cosine rule,\n\n\\[\nXY^2 = BX^2 + BY^2 - 2BX \\cdot BY \\cos 45^\\circ = BX^2 + BY^2 - 2 = (BX - BY)^2 + 2\\sqrt{2} - 2.\n\\]\n\nTherefore $XY$ is minimum when $BX = BY$ and $XY^2 = 2\\sqrt{2} - 2$.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let ABC be an isosceles right-angled triangle of area 1. Find the length of the shortest segment that divides the triangle into 2 parts of equal area."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_739ffdb7d9a2",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/Singapore2024_p2_data_a5fcbb87e7.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let $AB = x$, $BF = x'$, $AF = x'$, $AD = y$, $DE = y'$, $AE = y'$, $CF = z$, $CE = z'$, $EF = z'$. Then $x : y' : z' = x : y : z'$.\n\nLet $\\angle CDE = \\angle FBC = a$, $\\angle DCE = \\angle BFC = b$, $\\angle DEC = \\angle BCF = c$ and $\\angle ADC = \\angle ABC = d$. Then $\\angle BCD = \\angle BAD = 180^\\circ - d$.\n\n\\[\n\\therefore \\angle ECF = 360^\\circ - b - c - (180^\\circ - d) = a + d = \\angle ABF = \\angle EDA.\n\\]\n\n\\[\n\\text{Also } \\frac{x'}{x} = \\frac{y'}{y} = \\frac{z'}{z} \\text{ (since } \\triangle BCF \\sim \\triangle DEC.)\n\\]\n\n\\[\n\\therefore \\triangle ABF \\sim \\triangle ADE \\sim \\triangle FCE.\n\\]\n\n\\[\n\\therefore \\angle DEA = \\angle CEF.\n\\]\n\n\\[\n\\therefore \\angle AEF = \\angle DEC = c. \\text{ Similarly } \\angle AFE = b.\n\\]\n\n\\[\n\\therefore \\triangle AFE \\sim \\triangle DCE \\sim \\triangle BFC.\n\\]\n\n% IMAGE: ![](images/Singapore2024_p2_data_a5fcbb87e7e.png)",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let ABCD be a parallelogram and the points E, F are in the exterior. If triangles BCF and DEC are similar, i.e., $\\triangle BCF \\sim \\triangle DEC$, prove that triangle AEF is similar to these two triangles."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_18497d85c4cd",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/Singapore2024_p1_data_3b6826f8e9.png",
+              "title": ""
+            },
+            {
+              "alt": "",
+              "pages": [
+                "P0"
+              ],
+              "path": "images/Singapore2024_p1_data_edff4fe6fa.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "There are 2 cases as shown in the figures below:\n\n% IMAGE: ![](images/Singapore2024_p1_data_3b6826f8e9.png)\n\nFig.1\n\n% IMAGE: ![](images/Singapore2024_p1_data_edff4fe6fa.png)\n\nFig.2\n\nIn Fig. 1,\n\n\\[\nXY^2 = AX^2 + AY^2 = (AX - AY)^2 + 2AX \\cdot AY = (AX - AY)^2 + 2.\n\\]\n\nThus $XY$ is minimum when $AX = AY$ and so $XY^2 = 2$.\n\nIn Fig. 2, let $B$ be the origin and $BA$ be the $x$-axis, $X$ be $(x, 0)$ and $Y$ be $(y, y)$. Then $2[BXY] = xy = 1$ and\n\n\\[\nXY^2 = (x - y)^2 + y^2 = x^2 + 2y^2 - 2xy = x^2 + 2y^2 - 2 = (x - \\sqrt{2}y)^2 + 2\\sqrt{2} - 2.\n\\]\n\nSo $XY$ is minimum when $x = \\sqrt{2}y$ and the minimum value is $2\\sqrt{2} - 2$.\n\nSince $2\\sqrt{2} - 2 < 2$, the length of the shortest segment is $\\sqrt{2\\sqrt{2} - 2}$.\n\nAlternatively, we have $2[BXY] = BX \\cdot BY \\sin 45^\\circ = BX \\cdot BY \\cos 45^\\circ = 1$. Therefore $BX \\cdot BY = \\sqrt{2}$. Using the cosine rule,\n\n\\[\nXY^2 = BX^2 + BY^2 - 2BX \\cdot BY \\cos 45^\\circ = BX^2 + BY^2 - 2 = (BX - BY)^2 + 2\\sqrt{2} - 2.\n\\]\n\nTherefore $XY$ is minimum when $BX = BY$ and $XY^2 = 2\\sqrt{2} - 2$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In triangle ABC, $\\angle B = 90^\\circ$, $AB > BC$, and P is the point such that $BP = BC$ and $\\angle APB = 90^\\circ$, where P and C lie on the same side of AB. Let Q be the point on AB such that $AP = AQ$, and let M be the midpoint of QC. Prove that the line through M parallel to AP passes through the midpoint of AB."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_dec2e18fb730",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Singapore2024_p2_data_a5fcbb87e7.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Let $AB = x$, $BF = x'$, $AF = x'$, $AD = y$, $DE = y'$, $AE = y'$, $CF = z$, $CE = z'$, $EF = z'$. Then $x : y' : z' = x : y : z'$.\n\nLet $\\angle CDE = \\angle FBC = a$, $\\angle DCE = \\angle BFC = b$, $\\angle DEC = \\angle BCF = c$ and $\\angle ADC = \\angle ABC = d$. Then $\\angle BCD = \\angle BAD = 180^\\circ - d$.\n\n\\[\n\\therefore \\angle ECF = 360^\\circ - b - c - (180^\\circ - d) = a + d = \\angle ABF = \\angle EDA.\n\\]\n\n\\[\n\\text{Also } \\frac{x'}{x} = \\frac{y'}{y} = \\frac{z'}{z} \\text{ (since } \\triangle BCF \\sim \\triangle DEC.)\n\\]\n\n\\[\n\\therefore \\triangle ABF \\sim \\triangle ADE \\sim \\triangle FCE.\n\\]\n\n\\[\n\\therefore \\angle DEA = \\angle CEF.\n\\]\n\n\\[\n\\therefore \\angle AEF = \\angle DEC = c. \\text{ Similarly } \\angle AFE = b.\n\\]\n\n\\[\n\\therefore \\triangle AFE \\sim \\triangle DCE \\sim \\triangle BFC.\n\\]\n\n% IMAGE: ![](images/Singapore2024_p2_data_a5fcbb87e7.png)",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find the minimum value of\n\n\\[\n\\frac{x_1^3 + \\cdots + x_n^3}{x_1 + \\cdots + x_n}\n\\]\n\nwhere $x_1, x_2, \\dots, x_n$ are distinct positive integers."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_70fe4bdad3fa",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let the triangular regions be $P_i$, $i = 1, \\dots, 7$, with $A(P_i) = 7$ and suppose that $A(P_i \\cap P_j) < 1$ if $i \\neq j$. Then\n\n\\[\n\\begin{align*}\nA(P_1 \\cup P_2) &= A(P_1) + A(P_2) - A(P_1 \\cap P_2) > 14 - 1 = 13 \\\\\nA(P_1 \\cup P_2 \\cup P_3) &= A(P_1 \\cup P_2)) + A(P_3) - A((P_1 \\cup P_2) \\cap P_3) \\\\\n&> 13 + 7 - A((P_1 \\cap P_3) \\cup (P_2 \\cap P_3)) \\\\\n&\\geq 13 + 7 - A(P_1 \\cap P_3) - A(P_2 \\cap P_3) \\geq 18 \\\\\nA(P_1 \\cup P_2 \\cup P_3 \\cup P_4) &= A(P_1 \\cup P_2 \\cup P_3) + A(P_4) - A((P_1 \\cup P_2 \\cup P_3) \\cap P_4) \\\\\n&> 18 + 7 - 3 > 22 \\\\\n\\dots \\\\\nA(P_1 \\cup P_2 \\cup \\dots \\cup P_7) > 27 + 7 - 6 > 28\n\\end{align*}\n\\]",
+          "pages": [
+            "P0",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Prove that for every positive integer $n$, there is an unique $n$-digit integer $A(n)$ which is a multiple of $5^n$ and whose digits are all odd."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_857b183018cd",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "From $2^1 = 2, 2^2 = 4, 2^3 = 8, 2^4 = 16, 2^5 = 32, 5^1 = 5, 5^2 = 25, 5^3 = 125, 5^4 = 625, 5^5 = 3125$, 3 is a possible value. We shall show that there are no others.\n\nSuppose the first digits of $2^n$ and $3^n$ are both $a$ and that they have $s$ and $t$ digits, respectively.\n\nWhen $n > 3$, we have\n\n\\[\na \\cdot 10^s < 2^n < (a+1) \\cdot 10^s, a \\cdot 10^t < 5^n < (a+1) \\cdot 10^t.\n\\]\n\n\\[\n\\therefore a^2 \\cdot 10^{s+t} < 2^n \\cdot 5^n = 10^n < (a+1)^2 \\cdot 10^{s+t}\n\\]\n\n\\[\n\\therefore a^2 < 10^{n-s-t} < (a+1)^2\n\\]\n\nSince $a > 1$ and $a+1 < 10$, $n-s-t = 1$, $a^2 < 10$ and $(a+1)^2 > 10$ and so $a = 3$.",
+          "pages": [
+            "P0",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Alice and Bob play a game. Bob starts by picking a set $S$ consisting of $M$ vectors of length $n$ with entries either 0 or 1. Alice picks a sequence of numbers $y_1 \\le y_2 \\le \\cdots \\le y_n$ from the interval $[0, 1]$, and a choice of real numbers $x_1, \\dots, x_n \\in \\mathbb{R}$. Bob wins if he can pick a vector $(z_1, z_2, \\dots, z_n) \\in S$ such that\n\n\\[\n\\sum_{i=1}^{n} x_i y_i \\le \\sum_{i=1}^{n} x_i z_i,\n\\]\n\notherwise Alice wins. Determine the minimum value of $M$ so that Bob can guarantee a win?"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a0296b6e45c0",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Suppose that there are integer solutions. By completing squares, the equation becomes\n\n\\[\n(y+1)^2 = (x^2 + 10x + 2)^2 + 2000.\n\\]\n\nLet $a = y + 1$, $b = x^2 + 10x + 2$, $u = a - b$, $v = a + b$. Then $uv = 2000$ and $b = \\frac{v-u}{2}$.\n\nThe equation $x^2 + 10x + 2 - b = x^2 + 10x + 2 + \\frac{u-v}{2} = 0$ in the unknown $x$ has integer solutions. Therefore the discriminant\n\n\\[\n\\Delta = 100 - 4\\left(2 + \\frac{u-v}{2}\\right) = 92 + 2(u-v)\n\\]\n\nis a square. Since $v-u$ is even and $uv = 2000$, $u, v$ are both even and we have\n\n\\[\n\\{u, v\\} = \\{2, 1000\\}, \\{4, 500\\}, \\{8, 250\\}, \\{10, 200\\}, \\{20, 100\\}, \\{40, 50\\}\n\\]\n\nand the negative counterparts. $\\Delta$ is a square only when $(u, v) = (8, 250), (-250, -8)$. Thus $(x, y) = (7, 128), (7, -130), (-17, -128), (-17, -130)$.",
+          "pages": [
+            "P0",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $p$ be a prime number. Determine the largest possible $n$ such that the following holds. It is possible to fill an $n \\times n$ table with integers $a_{ik}$ in the $i$-th row and $k$-th column, for $1 \\le i, k \\le n$, such that for any quadruple $i, j, k, l$ with $1 \\le i < j \\le n$ and $1 \\le k < l \\le n$, the number $a_{ik}a_{jl} - a_{il}a_{jk}$ is not divisible by $p$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_3bf6074176f1",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "where $x > 0$. Since $f(x) = \\frac{1}{a_1} \\frac{a_1^2+a_1x}{1+a_1x} = \\frac{a_1(a_1+a_1x)}{a_1+a_1^2x}$, it follows that\n\n$$\nf(x) \\geq \\begin{cases} 1/a_1 & \\text{if } a_1 \\geq 1 \\\\ a_1 & \\text{if } 0 < a_1 < 1. \\end{cases}\n$$\n\nSo for any value of $a_1$, there exists $0 < t \\le 1$ so that $f(x) \\ge t$. (In fact just take $t$ to be the smaller of $a_1$ and $1/a_1$.)\n\nThus for any $n$, $A(n) \\ge t$ and so\n\n$$\nA_{2n} = A_{n+n} = \\frac{2a_n}{1+a_n^2} \\ge t \\\\ \\therefore ta_n^2 - 2a_n + t \\le 0\n$$\n\nThus $a_n$ lies between the 2 roots of the equation $tx^2 - 2x + t = 0$. The roots are $\\frac{1\\pm\\sqrt{1-t^2}}{t}$. Letting $b = \\frac{1-\\sqrt{1-t^2}}{t}$ and $c = \\frac{1+\\sqrt{1-t^2}}{t}$ and we are done.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $A_{k+n} = \\frac{a_k+a_n}{1+a_k a_n}$. So for any $n$, $A_n = \\frac{a_1+a_{n-1}}{1+a_1 a_{n-1}}$. Consider the function\n\n$$\nf(x) = \\frac{a_1 + x}{1 + a_1 x}\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2024",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "Singapore2024.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1EVLHX2N3j70xYlMW-BbqJyjBKIotf1ty",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_1557698939df",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $AP = AQ$ and $MP = MQ$, $AM$ bisects $\\angle QAP = \\beta$. Since $\\angle BNM = \\beta$, $\\angle AMN = \\angle MAN = \\beta/2$. Therefore $MN = AN$. Thus $N$ is the midpoint of $AB$.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Singapore2024_p5_data_5c2a9b395c.png",
+          "title": ""
+        }
+      ],
+      "statement_latex": "1.\n\n% IMAGE: ![](images/Singapore2024_p5_data_5c2a9b395c.png)\n\nLet $\\angle BPC = \\angle BCP = \\alpha$, $\\angle CBP = \\beta$. As $\\angle QAP = 90^\\circ - \\angle PBA = \\angle CBP = \\beta$. Therefore $\\angle APQ = \\angle AQP = \\alpha$, since $AP = AQ$.\n\nAlso $\\angle CPQ = \\alpha + \\angle BPQ = \\angle APB = 90^\\circ$. Therefore the points B, C, P, Q all lie on a circle with centre M which is the midpoint of QC. Thus $\\angle QBM = \\angle BQC = \\angle BPC = \\alpha$.\n\nSince $MN \\parallel PA$, $\\angle BNM = \\angle QAP = \\beta$. Therefore $\\angle BMN = \\alpha$ and it follows that $BN = MN$."
+    }
+  ],
+  "2025": [
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c25b389754c5",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/combined_25__latex_1_p1_data_083284733a.png",
+              "title": null
+            }
+          ],
+          "label": null,
+          "latex": "Let the centres be $P, Q$ and the midpoint the segment $BZ$ be $R$ as shown in the figure. Since $\\angle DAX = \\angle BAZ$, we have $DZ = BX$. Since $P$ and $R$ are the midpoints of $XZ$ and $BZ$, respectively, $PR = BX/2$. Similarly $QR = DZ/2$. Therefore $QR = PR$ and it follows that $\\triangle PQR$ is isosceles.\n\n% IMAGE: ![](images/combined_25__latex_1_p1_data_083284733a.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Two rhombi \\textit{ABCD} and \\textit{AXYZ} are external to each other with a common vertex \\textit{A}. The vertices of the rhombi are labelled clockwise. If $\\angle DAX = \\angle BAZ$, prove that the centres of the rhombi and the midpoint of the segment BZ form an isosceles triangle."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4a4beb1d5bc8",
+      "language": "und",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $n = y^2$ and $x$ be the number formed by the first 3 digits of $n$. Note that $y$ is a 3-digit number. Then\n\n$$\ny^2 = 1000x + x + 1 = 1001x + 1 \\quad \\Rightarrow \\quad (y-1)(y+1) = 7 \\times 11 \\times 13x.\n$$\n\nSince $y \\le 999$, not all of 7, 11, 13 can be factors of $y-1$. Thus we have 6 cases:\n\n**Case 1:** $77 \\mid y+1, 13 \\mid y-1$. Then $y+1 = 77\\alpha \\le 1000$ and so $\\alpha \\le 12$. Testing $\\alpha = 1, 2, \\dots, 12$, we see that only $\\alpha = 11$ works. We get $y = 846$ and $n = 715716$. The other 5 cases are $7 \\times 13 \\mid y+1, 11 \\mid y-1$; $11 \\times 13 \\mid y+1, 7 \\mid y-1$; $7 \\mid y+1, 11 \\times 13 \\mid y-1$; $11 \\mid y+1, 7 \\times 11 \\mid y-1$; $13 \\mid y+1, 7 \\times 11 \\mid y-1$. They yield the solutions $n = 528529, 183184, 328329, 75076, 24025$. The 2 5-digit numbers are discarded and we have 4 solutions.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all 6-digit integers \\textit{n} such that \\textit{n} is a perfect square and that the number formed by the last 3 digits of \\textit{n} is 1 more than the number formed by the first 3 digits of \\textit{n}."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_91db896038c2",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Jill can always turn the dice so that the numbers are $2a, 2b, 2c$, i.e., all even. On the other hand she can also achieve $7 - 2a, 7 - ab, 2c$.\n\nLet $S = 2a + 2b + 2c$ and $= (7 - 2a) + (7 - 2b) + 2c$. Then both $S, T$ are even and $S+T = 14+4c$. Since $S+T$ is even and not a multiple of 4, one of $S, T$ is a multiple of 4. Therefore Jill can always win.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Jack and Jill play the following game: Jack throws 3 dice and Jill can select some of them, possibly none, and turn each of them to the opposite side. Jill wins if the sum of the values on the dice is a multiple of 4. Can Jill always win? (Note the game is played with standard dice where the sum of the numbers on opposite sides is 7.)"
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_42fab82dc5d6",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $A, B, C, D$ be labeled in the clockwise manner. Let $a_n, b_n, c_n, d_n$ be respectively the number of ways to start $A, B, C, D$ and exit from $A$ in $n$ jumps. Then $b_n = d_n$. Since from $A$, the frog can return to $A$ in an even number of jumps, $a_n = 0$ when $n$ is even.\n\nFrom $A$, in 1 jump, the frog can exit from 2 sides or jump to $B$ or $D$, Thus $a_1 = 2, a_3 = 4$. Therefore for $n \\ge 3, a_n = 2b_{n-1}$.\n\nFrom $B$, the frog can jump to $A$ or $C$. So $b_n = a_{n-1} + c_{n-1}$.\n\nFrom $C$, the frog can jump to $B$ or $D$. So $c_n = 2b_{n-1}$.\n\nTherefore\n\n$$\na_n = 4a_{n-2}.\n$$\n\nConsequently, $a_{2m+1} = 4^{m-1}a_3 = 4^m$ for $m \\ge 1$.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let \\textit{A}, \\textit{B}, \\textit{C}, \\textit{D} be the 4 squares in the centre of a $4 \\times 4$ grid of squares. These 4 squares form the centre of the grid. A frog can jump from one of the 4 squares in the centre to any square in the grid which shares a side. If the frog jumps out of the centre from a particular square for the first time, that square is called an exit square. Find the number of ways in which the frog can start from \\textit{A} with \\textit{A} being the exit square in \\textit{n} jumps. Give your answer in terms of \\textit{n}."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c65f8d0ff8e0",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/combined_25__latex_1_p2_data_f130492134.png",
+              "title": null
+            }
+          ],
+          "label": null,
+          "latex": "Suppose $\\angle APM > 90^\\circ$. Then in $\\triangle BPM, \\angle BPM < 90^\\circ$. Since $\\angle PBM + \\angle BMP = \\angle APM, \\angle PBM, \\angle BMP < \\angle APM$. So none of the angles of $\\triangle BPM$ can be equal to $\\angle APM$ of $\\triangle APM$. Therefore $\\triangle APM$ cannot be similar to $\\triangle BPM$. Thus $\\angle APM = 90^\\circ$ and $PQ \\perp AB$. Similarly $PQ \\perp CD$ and it follows that $AB \\parallel DC$.\n\n% IMAGE: ![](images/combined_25__latex_1_p2_data_f130492134.png)\n\nIt then follows that $\\triangle APM \\sim \\triangle CQM$ and $\\triangle BMP \\sim \\triangle DQM$.\n\nIf $\\triangle APM \\sim \\triangle BPM$, then $P$ is the midpoint of $AB$ and $Q$ is the midpoint of $CD$. Therefore $ABCD$ is an isosceles trapezium.\n\nIf $\\triangle APM \\sim \\triangle MPB$, then $\\angle MAP = \\angle BMP$ and $\\angle PMA = \\angle PBM$. It follows that $\\angle AMB = 90^\\circ$. So the diagonals are perpendicular. The quadrilaterals are either isosceles trapezia or trapezia in which the diagonals are perpendicular.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let \\textit{ABCD} be a convex quadrilateral and \\textit{M} be the intersection of its diagonals. Through \\textit{M} draw a line meeting the side \\textit{AB} at \\textit{P} and the side \\textit{CD} at \\textit{Q}. Find all the quadrilaterals so that there exists the segment \\textit{PQ} that divides the triangles \\textit{ABM} and \\textit{CDM} into 4 similar triangles."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_9f26e3be9eda",
+      "language": "und",
+      "page numbers": [
+        0,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P2"
+              ],
+              "path": "images/combined_25__latex_1_p2_data_f130492134.png",
+              "title": null
+            }
+          ],
+          "label": null,
+          "latex": "Suppose $\\angle APM > 90^\\circ$. Then in $\\triangle BPM, \\angle BPM < 90^\\circ$. Since $\\angle PBM + \\angle BMP = \\angle APM, \\angle PBM, \\angle BMP < \\angle APM$. So none of the angles of $\\triangle BPM$ can be equal to $\\angle APM$ of $\\triangle APM$. Therefore $\\triangle APM$ cannot be similar to $\\triangle BPM$. Thus $\\angle APM = 90^\\circ$ and $PQ \\perp AB$. Similarly $PQ \\perp CD$ and it follows that $AB \\parallel DC$.\n\n% IMAGE: ![](images/combined_25__latex_1_p2_data_f130492134.png)\n\nIt then follows that $\\triangle APM \\sim \\triangle CQM$ and $\\triangle BMP \\sim \\triangle DQM$.\n\nIf $\\triangle APM \\sim \\triangle BPM$, then $P$ is the midpoint of $AB$ and $Q$ is the midpoint of $CD$. Therefore $ABCD$ is an isosceles trapezium.\n\nIf $\\triangle APM \\sim \\triangle MPB$, then $\\angle MAP = \\angle BMP$ and $\\angle PMA = \\angle PBM$. It follows that $\\angle AMB = 90^\\circ$. So the diagonals are perpendicular. The quadrilaterals are either isosceles trapezia or trapezia in which the diagonals are perpendicular.",
+          "pages": [
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Same as Junior Section Question 5."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_5079b4c690d4",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $n = y^2$ and $x$ be the number formed by the first 3 digits of $n$. Note that $y$ is a 3-digit number. Then\n\n$$\ny^2 = 1000x + x + 1 = 1001x + 1 \\quad \\Rightarrow \\quad (y-1)(y+1) = 7 \\times 11 \\times 13x.\n$$\n\nSince $y \\le 999$, not all of 7, 11, 13 can be factors of $y-1$. Thus we have 6 cases:\n\n**Case 1:** $77 \\mid y+1, 13 \\mid y-1$. Then $y+1 = 77\\alpha \\le 1000$ and so $\\alpha \\le 12$. Testing $\\alpha = 1, 2, \\dots, 12$, we see that only $\\alpha = 11$ works. We get $y = 846$ and $n = 715716$. The other 5 cases are $7 \\times 13 \\mid y+1, 11 \\mid y-1$; $11 \\times 13 \\mid y+1, 7 \\mid y-1$; $7 \\mid y+1, 11 \\times 13 \\mid y-1$; $11 \\mid y+1, 7 \\times 11 \\mid y-1$; $13 \\mid y+1, 7 \\times 11 \\mid y-1$. They yield the solutions $n = 528529, 183184, 328329, 75076, 24025$. The 2 5-digit numbers are discarded and we have 4 solutions.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "For any 4-digit positive integer $n$, define $f(n) = (a+b)^2$, where $a, b$ are the numbers formed by the first two and last two digits of $n$, respectively (leading zeroes are allowed). Find all 4-digit positive integers $n$ such that $f(n) = n$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_1c40aabbaf5e",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/combined_25__latex_1_p5_data_ba0d256609.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "Therefore $\\angle PP_1B = \\angle PP_1E_1 - \\angle E_1P_1B = \\angle CBE - \\angle CBP_1 = \\angle P_1BE$. Hence $BE \\parallel PP_1$.\n\n% IMAGE: ![](images/combined_25__latex_1_p5_data_ba0d256609.png)",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let \\angle EPB = x$. Since $P, C, E, B$ are concyclic, $x = \\angle EPB = \\angle BCA$ and therefore $\\triangle AEP \\sim \\triangle ABC$. Thus the points $(A, B, C, D, E, P)$ correspond to the points $(A, E, P, D_1, E_1, P_1)$ in 2 similar configurations associated with triangles $ABC, AEP$. Therefore $\\angle EPA = \\angle E_1 P_1 A = x$ and $\\angle CBE = \\angle PEE_1$.\n\nThus $P, P_1, E, E_1$ are concyclic and $E_1 P_1 \\parallel BC$ and so $\\angle PP_1 E_1 = \\angle PEE_1 = \\angle CBE$, $\\angle E_1 P_1 B = \\angle CBP_1$."
+    },
+    {
+      "_provenance": {
+        "folder": "SIN_2025",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "NULL",
+      "booklet title": "combined(25)_latex (1).pdf",
+      "booklet_url": "https://drive.google.com/open?id=1MPYbr__o7lABXy7hwpVprMwxNJBy59rA",
+      "competition name": "Singapore Mathematical Olympiad (SMO) Junior Section, Round 2; Senior Section, Round 2; Open Section, Round 2",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_44d80fb5fbe2",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/combined_25__latex_1_p7_data_b4bacd4410.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "**Claim:** Among the numbers written over $4m$ minutes, there is either (a) two numbers that sum to a multiple of $m$, or (b) a number which is a multiple or half-multiple of $m$.\n\n**Proof of Claim:** Suppose Bob starts at integer lattice point $(u,v) = (u_0, v_0) \\equiv (y_0, -x_0) \\pmod{m}$. Each minute, if Alice moves right, Bob moves down; if Alice moves up, Bob moves right.\n\nIn this manner, Alice's and Bob's coordinates are always related by $(u,v) \\equiv (y,-x) \\pmod{m}$. In particular, whenever Alice writes down the number $f(x,y)$, Bob writes down the number $f(u,v) \\equiv -f(x,y) \\pmod{m}$.\n\nIt suffices to show that Alice's and Bob's paths coincide on some lattice point $(x^*, y^*)$. If this occurs, then either\n\n1. (a) Alice and Bob reach $(x^*, y^*)$ at different times, thus Alice has written down $f(x^*, y^*)$ and $-f(x^*, y^*)$ (mod $m$) at two different times; or\n\n2. (b) Alice and Bob reach $(x^*, y^*)$ at the same time; thus $f(x^*, y^*) \\equiv -f(x^*, y^*)$ (mod $m$), so Alice has written down a multiple or half-multiple of $m$.\n\nWLOG among Alice's first $2m-1$ moves, she moves right at least $m$ times (the alternative is that she moves up at least $m$ times, in which case a similar argument holds by swapping the axes).\n\nThen, within Alice's first $2m-1$ moves, she passes through some lattice point $(u_0, w_0)$, where $x_0 < u_0 \\le x_0 + m$ and $u_0 \\equiv y_0 \\pmod m$. We then select Bob's starting point as $(u_0, v_0)$ where $w_0 < v_0 \\le w_0 + m$ and $v_0 \\equiv -x_0 \\pmod m$.\n\nConsequently, the path $\\mathcal{L}_{\\text{Bob}}$ traversed by Bob within his first $2m-1$ moves starts vertically above $(u_0, w_0)$, and at distance $\\le m$ from $(u_0, w_0)$. Since Bob moves down at least $m$ times and moves right at most $m-1$ times within his first $2m-1$ moves, his path $\\mathcal{L}_{\\text{Bob}}$ traverses within the upper-right quadrant $\\{(x, y) : x \\ge u_0, y \\ge w_0\\}$ with respect to $(u_0, w_0)$, and leaves the quadrant from the bottom edge at a distance $\\le m$ from $(u_0, w_0)$ (see Figure 1).\n\nThus, a further $2m$ moves by Alice starting from $(u_0, w_0)$ will take her from below $\\mathcal{L}_{\\text{Bob}}$ to above it, guaranteeing a lattice point intersection with $\\mathcal{L}_{\\text{Bob}}$.\n\nSince two multiples of $m$ or two half-multiples of $m$ sum to a multiple of $m$, thus by the claim, Alice is guaranteed to write two numbers that sum to a multiple of $m$ within $3 \\cdot 4m = 12m$ moves.\n\n% IMAGE: ![](images/combined_25__latex_1_p7_data_b4bacd4410.png)\n\nFigure 1: Sample game for $m=6$. Alice's path is lightly shaded and starts at $(x_0, y_0) = (2, 1)$ which is at the bottom. Bob's path is heavily shaded and starts at $(u_0, v_0) = (7, 10)$ at the top. Alice's path after $(u_0, w_0)$ which is at the bottom left corner of the box, is guaranteed to intersect Bob's path; the intersection is the square with 2. When Bob is at the intersection, Alice has also made 5 moves is at the square with 4. The numbers written by Alice in these 2 squares sum to a multiple of $m=6$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $c_n$ be the number of coins on the $n^{th}$ minute. Consider the ordered pair $(x_n, y_n) = (c_n, n - c_n)$, noting that each minute either $x_n$ or $y_n$ increases by 1. The number written on the $n^{th}$ minute is\n\n$$\n2c_n^2 - n^2 = 2x_n^2 - (x_n + y_n)^2 = x_n^2 - 2x_ny_n - y_n^2.\n$$\n\nIt thus suffices to prove the slightly more general problem:\n\nAlice starts at an arbitrary integer lattice point $(x,y) = (x_0, y_0)$. Every minute, she walks one unit right or up (corresponding to increasing $x$ or $y$ by 1), then writes down the number $f(x,y) = x^2 - 2xy - y^2$. Show that for any positive integer $m$, there will eventually be two numbers on the board that sum to a multiple of $m$.\n\nThe function $f$ has the special property of $90^\\circ$ rotational anti-symmetry, i.e., taken mod $m$:\n\n$$\nf(x, y) + f(y, -x) \\equiv 0\n$$"
+    }
+  ]
+}

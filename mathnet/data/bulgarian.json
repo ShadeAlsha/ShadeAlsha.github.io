@@ -1,0 +1,1235 @@
+{
+  "2013": [
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4c057c605faa",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $2^3 + 2^3 = 16$ we have that $p = q = 2$ is a solution of the problem. Let $p^{q+1} + q^{p+1} = x^2$, where $x \\in \\mathbb{N}$ and $p$ is odd. Thus $p+1$ is even and\n\n$$\np^{q+1} = (x - q^{\\frac{p+1}{2}})(x + q^{\\frac{p+1}{2}}).\n$$\n\nDenote the greatest common divisor of the two factors on the right hand side by $d$. If $d > 1$ we have that $d$ is a power of $p$ and $d$ is a factor of $2x$. It is easy to see that $p|q$, i.e. $p = q$. Thus $2p^{p+1} = x^2$, which is impossible. Therefore $d = 1$ and $x - q^{\\frac{p+1}{2}} = 1$, $x + q^{\\frac{p+1}{2}} = p^{q+1}$. Hence $2q^{\\frac{p+1}{2}} = p^{q+1} - 1$ which for $q$ odd is impossible modulo 4. We conclude that $q = 2$ and $2^{\\frac{p+3}{2}} = p^3 - 1 = (p-1)(p^2 + p + 1)$. Since $(p-1, p^2 + p + 1) = 1$ we conclude that $p-1 = 1$, a contradiction.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all prime numbers $p$ and $q$ such that $p^{q+1} + q^{p+1}$ is a perfect square."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_738f41e2ee26",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Note that when $x > y + 1/2$ run through the interval $(0, n)$ then $x + y$ runs through the interval $(0, 2n - 1/2)$. Straightforward induction shows that $f$ is bounded in all intervals $(0, 2k + 1/2)$. When $0 < x < y$ it follows that $f$ is also bounded in the intervals $(-2k, 0)$. Thus, $f$ is bounded in every bounded subset of $\\mathbb{R}$. Let $x \\neq 0$. When $y \\to 0$ it follows from the boundedness of $f$ and the given equality that $f(x + y) \\to f(x)$, i.e. $f$ is continuous at $x$. For $y = -x$ we have $f(x) - f(-x) = f(2x)$. Thus $f(-x) - f(x) = f(-2x)$ and therefore $-f(-2x) = f(2x) = 2f(x)$. It follows by induction on $n \\ge 3$ that for $x = (n-1)y$ we have $f(ny) = nf(y)$. Hence $f(r) = ar$, where $a = f(1)$ and $r \\in \\mathbb{Q}^+$. Since $f$ is odd and continuous we obtain that $f(x) = ax$ for any $x \\neq 0$. When $x = y$ we have that $f(0) = 0$ implying that $f(x) = ax$ for any $x$. It is easily checked that $f(x) = ax$ is indeed a solution of the problem.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all functions $f : \\mathbb{R} \\to \\mathbb{R}$, bounded in the interval $(0, 1)$ and such that\n\n$$\nx^2 f(x) - y^2 f(y) = (x^2 - y^2) f(x + y) - xy f(x - y)\n$$\n\nfor all $x, y \\in \\mathbb{R}$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_3044e9924861",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Consider the following two colorings: (1) Point (x, y) is in color i, 1-i-2 if and only if x \\equiv i (mod 2). (2) Point (x, y) is in color i, 1 - i - 3 if and only if x \\equiv i (mod 3). It is clear that if S exists then 2S is an integer. Coloring (1) implies that S could be 1, 2, 3 or greater and coloring (2) shows that S could be 3/2, 3 or greater. Therefore if S exists then S \\ge 3.\n\nWe prove that for arbitrary coloring there exists a triangle of area 3 having all its vertices in one and the same color. Note that for some $d \\in \\{1.2.3\\}$ there exist points $A = (x, y)$ and $B = (x+d, y)$ of the same color. Indeed, it suffices to consider the points $(0,0), (1,0), (2,0), (3,0)$. If $m \\equiv AB$ and $l$ is parallel to $m$ at distance $\\frac{6}{d}$ from $m$ then the line $l \\parallel Ox$ is either having points of only two colors or we have a triangle of area 3. We say that a color $c$ permits distance $a$ in the line $l$ if there exist two points on $l$ having color $c$ and at distance $a$ apart.\n\nIf there exists a distance $a \\in \\{1.2.3.6\\}$ that is permitted by the two colors on $l$ then the line $p \\parallel l$ at a distance $\\frac{6}{a}$ from $l$ is having all its points in the same color. If such a distance does not exist then one of the colors $l$ permits all distances in the set $\\{2.3.6\\}$. (Indeed, assume that color $c_1$ does not permit distance 1, and there exists at least one point $P_0$ from $l$ having color $c_1$. Two neighbors of $P_0$ - points $P_{-1}$ and $P_1$ are colored in $c_2$, so $c_2$ permits distance 2. Therefore $c_1$ does not permit distance 2 and points $P_{-2}$ and $P_2$ are of color $c_2$. As above $c_2$ does not permit distance 3. $c_1$ does not permit distance 3 and $P_{-3}$ and $P_3$ are of color $c_2$. Thus $c_2$ permits all distances in $\\{2.3.6\\}$. In both cases there exists a line $p \\parallel Ox$ and color $c$ from $p$ that permits all distances in the set $\\{2.3.6\\}$.\n\nConsider the lines $u_1, u_2, u_3$, parallel to $p$ and such that $u_i, i = 1, 2, 3$ is at distance $i$ above $p$. It follows from the above that all such lines are having points only in two colors. Finally, consider all nine points of intersection of lines $u_1, u_2, u_3$ with lines $x = 0, x = 3, x = 6$. It is easy to see that there exists a triangle of area 3 having all its vertices colored in the same color.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "All points in the plane having integer coordinates are colored in three colors. Find the least positive integer $S$ having the following property: for arbitrary such covering there exists a triangle of area $S$ having all its vertices in one and the same color."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_8726d6ecd33d",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First solution. The inequality follows by the fact that if $\\theta \\in [0, \\frac{\\pi}{2}]$, then\n\n$$\n\\cos 2\\theta = 1 - \\sin 2\\theta \\cdot \\tan \\theta \\ge 1 - \\tan \\theta.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "Second solution. Set $x = \\tan\\alpha$, $y = \\tan\\beta$ and $z = \\tan\\gamma$. Then $x, y, z \\ge 0$, $x+y+z \\le 3$ and we have to prove that\n\n$$\n\\cos 2\\alpha + \\cos 2\\beta + \\cos 2\\gamma = \\frac{1-x^2}{1+x^2} + \\frac{1-y^2}{1+y^2} + \\frac{1-z^2}{1+z^2} \\ge 0.\n$$\n\nThis inequality can be written as\n\n$$\n\\frac{1}{1+x^2} + \\frac{1}{1+y^2} + \\frac{1}{1+z^2} \\ge \\frac{3}{2}.\n$$\n\nTo prove the last inequality, it remains to use that $\\frac{1}{1+t^2} \\ge 1 - \\frac{t}{2}$ is equivalent to $t(t-1)^2 \\ge 0$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Problem 4. (Nikolai Nikolov) Prove that if $\\alpha, \\beta, \\gamma \\in [0, \\frac{\\pi}{2}]$ and $\\tan\\alpha + \\tan\\beta + \\tan\\gamma \\le 3$. then\n\n$$\n\\cos 2\\alpha + \\cos 2\\beta + \\cos 2\\gamma \\ge 0.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_11e06dd30656",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Solution. Let $O$ be circumcenter of $\\triangle ABC$ and $S$ be its symmetric point with respect to $AB$. Then $SOCH$ is a parallelogram. $SH \\perp A_1B_1$ and $SH = R$ (1). Denote by $\\rho$ the inradius of triangle $A_1B_1C_1$, and by $q$ its semi perimeter. If $T$ is the orthogonal projection of $S$ to $A_1B_1$ then $HT = \\rho$, $ST = R + \\rho$, $TC' = q$. We have $HC'' = \\sqrt{\\rho^2 + q^2}$ which due to symmetry implies that $H$ is the circumcenter of $\\triangle A'B'C'$ and $R' = HC'$ (2). On the other hand $OC'' = SC' = \\sqrt{(R+\\rho)^2 + q^2}$ and therefore $O$ is the circumcenter of $\\triangle A''B''C''$ and $R'' = SC'$ (3). It follows from (1), (2) and (3) that $R, R'$ and $R''$ are side lengths of triangle $HSC'$ and\n\n$$\nS_{HSC'} = \\frac{HS.TC'}{2} = \\frac{R.q}{2} = \\frac{1}{2} (S_{A_1OB_1C} + S_{B_1OC_1A} + S_{C_1OA_1B}) = \\frac{S_{ABC}}{2}.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Problem 5. (Alexander Ivanov) Consider acute $\\triangle ABC$ with altitudes $AA_1, BB_1$ and $CC_1$ ($A_1 \\in BC, B_1 \\in AC, C_1 \\in AB$). A point $C'$ on the extension of $B_1A_1$ beyond $A_1$ is such that $A_1C' = B_1C_1$. Analogously, a point $B'$ on the extension of $A_1C_1$ beyond $C_1$ is such that $C_1B' = A_1B_1$ and point $A'$ on the extension of $C_1B_1$ beyond $B_1$ is such that $B_1A' = C_1A_1$. Denote by $A'', B''$ and $C''$ the symmetric points of $A', B'$ and $C''$ with respect to $BC, CA$ and $AB$ respectively. Prove that if $R, R'$ and $R''$ are circumradiuses of $\\triangle ABC, \\triangle A'B'C'$ and $\\triangle A''B''C''$, then $R, R'$ and $R''$ are side lengths of a triangle with area equals one half of the area of $\\triangle ABC$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_00aaf039dff3",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Solution. Let $m^2+n^2+p^2-2mn-2mp-2np = (m+n-p)^2-4mn$ be a perfect square. Then the quadratic $f(x) = mx^2+(m+n-p)x+n$ has two rational roots both positive or both negative. Therefore $f(x) = (d_1x-a)(d_2x-b)$ where $d_1, d_2 \\in \\mathbb{N}$, $d_1d_2 = m$ and $a$ and $b$ are such that $ab = n$. Since $p = f(-1) = (a+d_1)(b+d_2)$ and $p$ is a prime we have that $a$ and $b$ are not both positive. Assume $a$ and $b$ are both negative. It follows from $p = (a+d_1)(b+d_2)$ that $a+d_1$ and $b+d_2$ equal (in some order) to $-1$ and $-p$ or $1$ and $p$. In the latter case we have contradiction to $p > m$. If $a+d_1 = -1$, $b+d_2 = -p$ we have\n$n = ab = (1 + d_1)(p + d_2)$. Conversely, if $n = (1 + d_1)(p + d_2)$ where $d_1, d_2 \\in N$, $d_1d_2 = m$ direct verification shows that $(m + n - p)^2 - 4mn = (d_1p - d_2)^2$.\n\nTherefore each factor of $m$ yields a solution. We shall prove that all these solutions are distinct. Assume the contrary, i.e. $l|m, k|m, l \\neq k$ imply one and the same solution. Hence\n\n$$\nn = (l+1)(\\frac{m}{l} + p) = (k+1)(\\frac{m}{k} + p)\n$$\n\nimplying that $pl + \\frac{m}{l} = pk + \\frac{m}{k}$. It follows that $pkl = m$, i.e. $p|m$ which is a contradiction since $p > m$.\n\nFinally, the number of positive integers $n$ for which $m^2 + n^2 + p^2 - 2mn - 2mp - 2np$ is a perfect square equals the number of factors of $m$ and does not depend on $p$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Problem 6. (Alexander Ivanov) Let $m$ be a positive integer and $p$ be a prime number such that $p > m$. Prove that the number of positive integers $n$ for which $m^2 + n^2 + p^2 - 2mn - 2mp - 2np$ is a perfect square does not depend on $p$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_7e04bce3da18",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "*Solution.* Let $Y \\in BC$ be such that $AY \\parallel XA_1$. Thus $BY = a-b$ and since $\\frac{a}{c} = \\frac{c}{a-b}$ we have that $\\triangle ABC \\sim \\triangle YBA$. Therefore $\\angle AXA_1 = \\angle BAY = \\gamma$ which implies that quadrilateral $XAA_1C$ is cyclic. It follows from $\\angle XAC = \\angle XA_1C = 90^\\circ - \\frac{\\gamma}{2}$ that $\\alpha = 90^\\circ + \\frac{\\gamma}{2}$. Moreover $\\angle AA_1C = 90^\\circ$, i.e. $AA_1$ is simultaneously altitude and angular bisector. Hence $\\gamma = \\beta$ and $90^\\circ + \\frac{\\gamma}{2} + 2\\gamma = 180^\\circ$, i.e. $\\gamma = 36^\\circ$. The angles of $\\triangle ABC$ are $36^\\circ, 36^\\circ$ and $108^\\circ$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "**Problem 1.** (Emil Kolev) The incircle of $\\triangle ABC$ touches the sides BC and AC at points $A_1$ and $B_1$, respectively. The lines $B_1A_1$ and AB are concurrent at X such that A lies between X and B. If $\\angle CXB = 90^\\circ$ and $BC^2 = AB^2 + BC \\cdot AC$ find the angles of $\\triangle ABC$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_2bd580a83f64",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "*Solution.* Let first $n = p_1^k$ be a prime power. It is clear that $k = 1, 2$ and $3$ satisfy the conditions of the problem. For $k \\ge 4$ the two factors $a = p_1^{k-2}$ and $b = p_1^{k-1}$ are factors of $n$, $1 < a < b < n$ and $ab = p_1^{2k-3}$ is not a factor of $n$. We conclude that there exists a prime number $p$ such that $\\frac{a+b}{p} = \\frac{p_1^{k-2}(p_1+1)}{p}$ is a factor of $n$. i.e. $p_1 + 1|p_1^2p$. Hence $p = p_1 + 1$ implying $p_1 = 2$ and $n = 2^k$. Direct verification shows that $k = 4$ and $5$ are solutions, whereas when $k \\ge 6$ the factors $a = 2^{k-1}$ and $b = 2^{k-1}$ satisfy the condition of the problem but both $ab = 2^{2k-5}$ and $\\frac{a+b}{p} = \\frac{9.2^{k-1}}{p}$ ($p$ is arbitrary prime number) are not factors of $n$. Therefore in this case the solutions are all positive integers $n = p, p^2$ and $p^3$ for arbitrary prime number $p, n = 16$ and $32$.\n\nAssume $n$ has at least two prime factors and let $n = p_1^{a_1} p_2^{a_2} \\dots p_s^{a_s}$ be its canonical representation. First suppose that $s > 2$ and consider the two factors $a = \\frac{n}{p_2}$ and $b = \\frac{n}{p_1}$. It is clear that $ab = \\frac{n^2}{p_1p_2}$ is not a factor of $n$. Therefore there exists a prime $p$ such that $\\frac{a+b}{p}$ is a factor of $n$. Hence $a+b = \\frac{n}{p_1} + \\frac{n}{p_2}$ divides $np$, implying that $p_1 + p_2|np_1p_2$. Thus $p = p_1 + p_2$ which can be true only if one of the numbers $p_1$ and $p_2$ equals 2 (and, moreover $s = 2$). Therefore $s = 2$ and $n = p_1p_2$, which is a solution, or $n = 2^a q^3$ where $q$ is odd prime number.\n\nLet $n = 2^a q^3$ and assume that $\\beta \\ge 2$. Consider the factors $a = 2^a$ and $b = 2^a q$. Since $ab = 2^{2a}q$ is not a factor of $n$ there exists a prime $p$ such that $\\frac{a+b}{p} = \\frac{2^a(q+1)}{p}$ divides $n$. Since $q+1$ is even we conclude that $p = 2$ and $q+1|2q^3$.\n\nwhich is impossible. Therefore $p=1$? $n=2^a q$. $a \\ge 2$.\n\nIt is easy to see that $n = 4q$ satisfies the condition of the problem if and only if $q+2$ is prime. Assume $a \\ge 3$ and consider $a = 2^a$ and $b = 2^{a-1}q$. As above ab is not a factor of $n$ and we must have that $\\frac{a+b}{p} = \\frac{2^{a-1}(q+2)}{p}$ divides $n = 2^a q$. Hence $p = q+2$. Analogously, by $a = 2^a$ and $b = 2^{a-2}q$ we find that $q+4$ is a prime. Thus, $q, q+2$ and $q+4$ are prime numbers which is true only for $q = 3$ (since one of these numbers is divisible by 3). It follows that $n = 2^a \\cdot 3$ where $a \\ge 3$. Direct verification shows that $a = 3$ implies a solution. When $a \\ge 4$ the two factors $a = 2^{a-1} \\cdot 3$ and $b = 2^{a-1} \\cdot 3$ are such that neither $ab = 2^{2a-5} \\cdot 9$ nor $\\frac{a+b}{p} = \\frac{2^{2a-1}}{p}$ (p is arbitrary prime number) does not divide $n$.\n\nFinally, the solutions in this case are $n = pq$, for prime $p$ and $q$, $n = 4p$ for odd prime $p$ such that $p+2$ is also a prime, and $n = 24$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "**Problem 2.** (Peter Boyvalenkov) Find all positive integers $n > 1$ having the following property: For arbitrary two factors $a$ and $b$ of $n$, $1 < a < b < n$, at least one of the numbers $ab$ and $\\frac{a+b}{p}$, for some prime $p$ is a factor of $n$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a126f0ee194d",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "First, we shall prove the following\n\n\\textbf{Lemma.} If $P(x) = b_0x^n + b_1x^{n-1} + b_2x^{n-2} + \\dots + b_{n-1}x + b_n$ has $n$ real distinct roots then $(n-1)b_1^2 - 2nb_0b_2 > 0$.\n\n\\textit{Proof.} First differentiate $n-2$ times the function $f(x)$. As a result we have quadratic function having two real distinct roots and therefore its discriminant is positive.\n\nConsider the polynomial $P(x) = (x-a_1)(x-a_3)\\dots(x-a_{2n-1})+(x-a_2)(x-a_1)\\dots(x-a_{2n})$. It is straightforward to verify that it satisfies the condition of the lemma and the corresponding inequality is exactly the desired inequality\n\n$$\n(n-1)S^2 > 4n(A_1 + A_2).\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $n \\ge 2$ be a positive integer and $a_1 < a_2 < \\dots < a_{2n}$ be real numbers. If $S = \\sum_{i=1}^{2n} a_i$. $A_1 = \\sum_{i,j,i<j} a_{2i}a_{2j}$ and $A_2 = \\sum_{i,j,i<j} a_{2i-1}a_{2j-1}$ prove the inequality\n\n$$\n(n-1)S^2 > 4n(A_1 + A_2).\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_de47a01fe335",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "It is easy to be seen that the left hand side is divisible by 9 implying that the equation has no solution for $n = 1$.\n\nLet $n=2$. We have $2013^2 = (3.11.61)^2$, $3^2 = 2^3+1^3$ and $11.61 = 8^3+4^3+1^3+3.8.4.1$. We use the identity\n\n$$\n(a^3 + b^3 + c^3 - 3abc)(x^3 + y^3 + z^3 - 3xyz) = u^3 + v^3 + w^3 - 3uw.\n$$\n\nwhere $u = ax + by + cz$, $v = ay + bz + cx$ and $w = az + bx + cy$. We apply the above identity first for $(8, 4, -1)$ and $(4, 8, -1)$, and then for the obtained triples $(65, 0, 56)$ and $(2, 1, 0)$ and obtain $65^3 + 56^3 = (11.61)^2$ and $130^3 + 177^3 + 56^3 - 3.130.177.56 = 2013^2$.\n\n\\textbf{Remark.} Using similar arguments it is possible to find the solution $186^3+112^3+65^3 - 3.186.112.65 = 2013^2$.\n\nNote also that $a = b - d$, $b$ and $c = b + d$ is a solution if and only if $bd^2 = (11.61)^2$, but then $b$ is a perfect square.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find the least positive integer $n$, such that there exist positive integers $a, b$ and $c$, none of which is a perfect square and\n\n$$\na^3 + b^3 + c^3 - 3abc = 2013^n.\n$$"
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_0c3838db7444",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Denote by $A_1, B_1$ and $C_1$ the projections of $A, B$ and $C$ on $NP, PM$ and $MN$, respectively. It follows from the condition of the problem (Carnot's theorem) that $(NC_1^2 - MC_1^2) + (MB_1^2 - PB_1^2) + (PA_1^2 - NA_1^2) = 0$. Hence $0 = (CN^2 - CM^2) + (BM^2 - BP^2) + (AP^2 - AN^2) = (CN^2 - AN^2) + (AP^2 - BP^2) + (BM^2 - CM^2)$ and the same theorem implies that the perpendiculars from $M, N$ and $P$ to $BC, AC$ and $AB$ are concurrent at a point $O$.\n\nSince $OMH_CN$ and $OMH_BP$ are parallelograms we conclude that $PH_BH_CN$ is also a parallelogram. Therefore the segments $PH_C$ and $NH_B$ bisect each other at some point. The segment $MH_A$ passes through the same point.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Points $M, N$ and $P$ lie on the sides $BC, CA$? $AB$ of triangle $ABC$. Triangles $CNM, APN$ and $BMP$ are acute and let $H_C, H_A$ and $H_B$ be their respective orthocenters. Prove that if the three lines $AH_A, BH_B$ and $CH_C$ are concurrent then $MH_A, NH_B$ and $PH_C$ are also concurrent."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2013",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Nikolai Nikolov; Emil Kolev",
+      "booklet title": "Bulgari 2013 booklet.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1pTlKX1MVWh4BezF255BlTqGzHzRdJu_u",
+      "competition name": "BULGARIAN MATHEMATICAL OLYMPIAD and TEAM SELECTION TEST; National mathematical olympiad Final round; Team selection test for the 54th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_297fcbef0ae9",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We call a unit square bad if it is covered more than once.\n\n(Bound) Choose arbitrary row and mark its cells in the columns $r+1, r+n+1, \\dots, r+(m-1)n+1$. Consider all $n \\times n$ squares having nonempty intersection with the chosen row. Since $mn < mn+r < (m+1)n$ we have at least $m+1$ such squares. Moreover each such square covers at least one of the marked cells. Since we have $m$ marked cells we conclude that at least one of them is bad.\n\nAnalogously, there is at least one bad unit square among the intersecting squares of this row with columns with numbers $r+2, r+n+2, ..., r+(m-1)n+2$ and so on. Thus in this row we have at least $n-r$ bad squares. The same reasoning shows that there are at least $n-r$ bad squares in any of the remaining rows. We repeat the above observation for all remaining $(m+1)r$ columns and conclude that there are at least $n-r$ bad cells in each of them. Therefore there are at least\n\n$$\n(mn+r)(n-r) + (m+1)r(n-r) = (mn+mr+2r)(n-r)\n$$\n\nbad cells.\n\n(Construction) Consider the first $n+r$ rows (starting from below) and first $n+r$ columns (starting from the left). Their intersection form a $(n+r) \\times (n+r)$ square A. Cover this square using four $n \\times n$ squares in its four corners. It is easy to see that the number of bad cells equals $(n+r)^2 - 4r^2$. Consider the \\Gamma-shaped figure consisting of all cells in $(2n+r) \\times (2n+r)$ square without the cells of A. We cover all cells in this figure by five $n \\times n$ squares (two squares in each of the two rectangular parts and one square in the right upper corner) and leave $n^2 - r^2$ bad cells. The same procedure is applied $m-1$ times for all \\Gamma-shaped figures of width $n$. The number of bad cells equals\n\n$$\n(n+r)^2 - 4r^2 + (m-1)(n^2 - r^2) = (mn + mr + 2r)(n-r).\n$$",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $m, n$ and $r$. $n \\ge 2$. $1 \\le r \\le n-1$. be positive integers and consider a square table $(mn+r) \\times (mn+r)$. The table is covered by squares $n \\times n$ with sides parallel to the sides of the table. Each unit square is covered at least once and some unit squares are covered multiple times. Find the minimum possible unit squares covered at least two times."
+    }
+  ],
+  "2015": [
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_9d8f7d49cef0",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Denote $s = \\sin \\frac{\\hat{A}B}{2}$, $t = \\sin \\frac{\\hat{B}L}{2}$, $u = \\sin \\frac{\\hat{L}C+\\hat{A}K}{2}$, $v = \\sin \\frac{\\hat{C}K}{2}$, $w = \\sin \\frac{\\hat{D}K}{2}$ and $x = \\sin \\frac{\\hat{L}D+\\hat{A}K}{2}$. Then we consecutively have\n\n$$\n\\frac{NL.KP.MQ}{KM.PN.LQ} = \\frac{NL}{NC} \\cdot \\frac{NC}{NP} \\cdot \\frac{KP}{AK} \\cdot \\frac{AK}{KM} \\cdot \\frac{MQ}{DQ} \\cdot \\frac{DQ}{LQ} = \\frac{t}{v} \\cdot \\frac{u}{s} \\cdot \\frac{v}{u} \\cdot \\frac{x}{w} \\cdot \\frac{s}{x} \\cdot \\frac{w}{t} = 1.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        },
+        {
+          "images": [],
+          "label": null,
+          "latex": "We choose $T \\in MN$ such that $\\angle NTB = \\angle ADB = \\angle ACB$ and N is between P and T. Then $\\triangle CNP \\sim \\triangle TNB$ and therefore $(TL + NL)PN = CN.BN$, whence $TL = \\frac{NL.KP}{PN}$. Analogously, $\\triangle DQM \\sim \\triangle TQB$ implies $TL = \\frac{LQ.KM}{MQ}$ and we have the desired result.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The hexagon ABLCDK is inscribed and the line LK intersects the segments AD, BC, AC and BD in points M, N, P and Q, respectively. Prove that $NL.KP.MQ = KM.PN.LQ$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4e0b4d54b3ee",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Answer: 101. We shall prove the following more general assertion.\n\n**Lemma.** Some of the squares of a table P are colored blue. A partition of P into rectangles of integer sides is called *good* if every rectangle contains exactly one blue square. Then P possesses a unique good partition if and only if the blue squares form a rectangle.\n\n*Proof.* It is easy to see that if the blue squares form a rectangle, there is only one good partition (there are unique choices for the angle squares of the blue rectangle, then for the remaining boundary squares and finally for the inner squares).\n\nWe now consider the other direction. Let us denote the unique good partition of P by S. We call *dividing* any (vertical or horizontal) line which cuts the table into two rectangles each of them containing at least one blue square.\n\nWe first prove that every sub-rectangle $\\Pi$ which contains at least one blue square possesses good partition. We go by induction on the number of the blue squares in $\\Pi$. The assertion is obvious for a single blue square. For more blue squares we cut $\\Pi$ into two smaller rectangles $\\Pi_1$ and $\\Pi_2$, each of them containing blue square(s) and apply the induction hypothesis.\n\nIt follows from the above that every dividing line $\\ell$ determines good partition which includes the line $\\ell$. Therefore every dividing line is included in the partition $S$.\n\nLet $\\ell_1, \\ell_2, \\dots, \\ell_p$ be all vertical dividing lines (from left to right end) and $m_1, m_2, \\dots, m_q$ are all horizontal dividing lines (from bottom to upper end). Then these lines divide the table into rectangles, each of them containing at most one blue square. Therefore $S$ does not include any lines different from these and, in fact, every rectangle contains exactly one blue square.\n\nLet $\\ell_0$ is the rightmost vertical line such that there are no blue squares on its left side, $\\ell_{p+1}$ is the leftmost vertical line such that there are no blue squares on its right side, and $m_0$ and $m_{q+1}$ are defined analogously. It is clear that the distance between $\\ell_i$ and $\\ell_{i+1}$ equals 1 for every $0 \\le i \\le p$ and, analogously, the distance between $m_j$ and $m_{j+1}$ equals 1 for every $0 \\le j \\le q$ (otherwise further dividing lines could be added). Therefore the set of the blue squares coincides with the rectangle defined from the lines $\\ell_0, \\ell_{p+1}, m_0$ and $m_{q+1}$, which completes the proof of the lemma.\n\nIn our problem, we see that the 101 blue squares form a rectangle. Moreover, one of the sides of this rectangle must be 1, and the other one, equal to 101, must be equal to $n$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "One hundred and one of the squares of an $n \\times n$ table are colored blue. It is known that there exists a unique way to cut the table to rectangles along boundaries of its squares with the following property: every rectangle contains exactly one blue square. Find the smallest possible $n$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_e4c780cfda6b",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We shall use the following assertion.\n\nLemma. Let $k \\ge 2$ be a positive integer. Then the equation $2x^{2k} + 1 = y^2$ does not have solutions in positive integers.\n\nProof. Assume that $x, y$ and $k \\ge 2$ are positive integers such that $2x^{2k} + 1 = y^2$ and $x$ is minimum possible. It is obvious that $x$ is even and $y$ is odd. Let us denote $x = 2a$ and $y = 2b + 1$. Then $2^{2k-1}a^{2k} = b(b+1)$ and $(b, b+1) = 1$. There are two possibilities:\n\n- if $b = x_1^{2k}$ and $b+1 = 2^{2k-1}x_2^{2k}$, $x_1, x_2 \\in \\mathbb{N}$, $x_1x_2 = a$, then $2^{2k-1}x_2^{2k} - x_1^{2k} = 1$, which gives a contradiction modulo 4;\n\n- if $b = 2^{2k-1}x_1^{2k}$ and $b+1 = x_2^{2k}$, $x_1, x_2 \\in \\mathbb{N}$, $x_1x_2 = a$, then $x_2^{2k} - 2^{2k-1}x_1^{2k} = 1$, which leads to the equation $y_1^2 = 2^{2k-1}x_1^{2k} + 1, y_1 = x_2^k$, where\n\n% Solution continues on P1\nwe notice that $x_1 < x$.\n\nIt is clear that the above argument of decreasing the degrees of 2 can be continued until we have degree at most 5. Therefore we reach the equation $y_0^2 = 8x_0^{2k} + 1$, where $x_0 < x$ and $y_0 = y_2^k$, $y_2 \\in \\mathbb{N}$. Clearly, $y_0$ is odd and we set $y_0 = 2c+1$. We obtain $c(c+1) = 2x_0^{2k}$, where $(c, c+1) = 1$. We have again two possibilities:\n\n- if $c = x_3^{2k}$ and $c+1 = 2x_4^{2k}$, $x_3, x_4 \\in \\mathbb{N}$, $x_3x_4 = x_0$, then $4x_4^{2k} = 2c+2 = y_2^k+1$, whence $(2x_4^k-1)(2x_4^k+1) = y_2^k$. This leads to $2x_4^k-1 = y_3^k$, $2x_4^k+1 = y_4^k$, $y_3, y_4 \\in \\mathbb{N}$, $y_3y_4 = y_2$, and finally $y_4^k - y_3^k = 2$, which is impossible;\n\n- if $c = 2x_3^{2k}$ and $c+1 = x_4^{2k}$, $x_3, x_4 \\in \\mathbb{N}$, $x_3x_4 = x_0$, then $2x_3^{2k}+1 = (x_4^k)^2$, which contradicts to the choice of $x$ as minimal.\n\nThis completes the proof of the lemma.\n\nThe roots of the characteristic equation $t^2 - 6t + 1 = 0$ of our sequence are $t_{1,2} = 3 \\pm 2\\sqrt{2}$. Therefore we find (using the conditions $a_1 = 2$ and $a_2 = 12$)\n\n$$\na_n = \\frac{(3 + 2\\sqrt{2})^n - (3 - 2\\sqrt{2})^n}{2\\sqrt{2}}.\n$$\n\nDenote $(3 + 2\\sqrt{2})^n = \\alpha_n + \\beta_n\\sqrt{2}$, $\\alpha_n, \\beta_n \\in \\mathbb{N}$. Then $(3 - 2\\sqrt{2})^n = \\alpha_n - \\beta_n\\sqrt{2}$, $\\alpha_n = \\beta_n$ and $\\alpha_n^2 - 2\\beta_n^2 = 1$. Now, if $a_n$ is perfect power for some $n$, then the last two equalities give a contradiction with the lemma.\n\nRemark. The last calculation can be replaced by the following argument. Let $b_n$ is the sequence with the same recurrence relation and initial conditions $b_1 = 3$ и $b_2 = 17$. Then it is easy to prove by induction that $2a_n^2 + 1 = b_n^2$.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Problem 3. The sequence $a_1, a_2, \\dots$ is defined by the equalities $a_1 = 2, a_2 = 12$ and $a_{n+1} = 6a_n - a_{n-1}$ for every positive integer $n \\ge 2$. Prove that no member of this sequences is equal to a perfect power (greater than one) of a positive integer."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c72498363792",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Solution. It follows from (i) that $f$ is strictly increasing function. Also, (ii) implies\n\n$$\nx + y \\geq f(f(x + y)). \\qquad (1)\n$$\n\nFurthermore, (i) gives $f(f(x+y)) \\ge f(f(x)+y)$ and the substitution $x \\to y$ and $y \\to f(x)$ in (i) implies $f(f(x)+y) \\ge f(x)+f(y)$.\n\nSince $f$ is increasing we have $\\lim_{x \\to 0^+} f(x) = \\inf_{x>0} f(x) = \\ell \\ge 0$. Note that (ii) implies $\\lim_{x \\to 0^+} f(f(x)) = 0$.\n\nAssume $\\ell > 0$. Since $f$ is increasing we have $f(f(x)) \\ge f(\\ell) > 0$, a contradiction to $\\lim_{x \\to 0^+} f(f(x)) = 0$. Therefore $\\ell = 0$ and $\\lim_{x \\to 0^+} f(x) = 0$. Letting $y \\to 0^+$ in (1) we obtain $x \\ge f(x)$ for all positive $x$. It follows now from (i) that\n\n$$\nx + y \\ge f(x + y) \\ge f(x) + y, \\\\ x - f(x) \\ge f(x + y) - f(x) - y \\ge 0.\n$$\n\nFix $x+y$ and let $x \\to 0^+$ in the above inequalities. We have $f(x+y) = x+y$ meaning that $f(x) = x$ for all positive $x$. This function is obviously a solution to the problem.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Problem 4. Find all functions $f: \\mathbb{R}^+ \\to \\mathbb{R}^+$, that satisfy the inequalities\n\n(i) $f(x + y) \\geq f(x) + y$\n\n(ii) $f(f(x)) \\leq x$\n\nfor all positive $x$ and $y$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4e589c693621",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Since $AC \\parallel LQ$ and $BC \\parallel LP$, we have $S_{ALQ} = S_{CLQ} = S_{PLC} = S_{PLB}$. Let the point $K$ be such that $AKBC$ is a parallelogram. By analogy we have $S_{AKQ} = S_{AKC} = S_{CKB} = S_{PKB}$.\n\nThe locus of the points $X$ such that $\\triangle AXQ$ and $\\triangle PXB$ are oriented in one and the same direction and have equal areas is a straight line $\\ell$ passing through the intersecting point of $AQ$ and $BP$. Therefore $\\ell \\equiv KL$ and $AQ, BP$ and $KL$ intersect in a point.\n\nLet $N$ be the midpoint of $CL$. The line $KL$ is the image of $MN$ under homothety of center $C$ and coefficient 2. Since the point $T$ is symmetric to $C$ with respect to $MN$ we have that $T$ lies on $KL$ which completes the proof.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In a triangle $\\triangle ABC$ points $L, P$ and $Q$ lie on the segments $AB, AC$ and $BC$, respectively, and are such that $PCQL$ is a parallelogram. The circle with center the midpoint $M$ of the segment $AB$ and radius $CM$ and the circle of diameter $CL$ intersect for the second time at point $T$. Prove that the lines $AQ, BP$ and $LT$ intersect in a point."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_925bd783a211",
+      "language": "en",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Answer: 730.\n\n\\textbf{Lemma.} A sequence $A = a_1, a_2, \\dots, a_k$ consisting of distinct numbers does not possess 10 term increasing subsequence if and only if its terms can be colored in 9 colors such that the members of one and the same color from a decreasing sequence.\n\n\\textit{Proof.} First, assume that such a coloring exists. Any 10-term subsequence of $A$ contains two terms colored in the same way. Hence, the sequence is not increasing.\n\nSuppose now, $A$ does not contain 10-term increasing subsequence. Color in color $i$ any term $a$ of $A$ such that the longest increasing subsequence of $A$, having $a$ as its last element, has length $i$. It is easy to see that this coloring has the desired properties. This completes the proof of the Lemma.\n\nWe prove that among any 730 students there exist 10 that form a nice sequence.\n\nLet $M_1, M_2, \\dots, M_{730}$ be a sequence in which the students are ordered in increasing order according to their algebra marks. Let $a_i$ be the geometry mark of $M_i$. If the sequence $a_1, a_2, \\dots, a_{730}$ has 10-term subsequence then we have a nice sequence.\n\nIn the opposite case according to the Lemma we color all students in 9 colors such that the geometry marks for any color form a decreasing subsequence. There exist at least 82 students having the same color. Let $N_1, N_2, \\dots, N_{82}$ be of the same color and they are ordered in increasing order for algebra marks and decreasing order for geometry marks.\n\nLet $b_i$ be number theory mark for $N_i$. If the sequence $b_1, b_2, \\dots, b_{82}$ has 10-term decreasing subsequence, then we have the desired nice sequence. In the opposite case we can color students $N_1, N_2, \\dots, N_{82}$ in 9 colors such that number theory marks for any color to form increasing sequence. We have at least 10 students of the same color and they from nice subsequence with their marks in algebra and number theory.\n\nIt remains to show an example of 729 students without 10-term nice subsequence.\n\nLet $k$ be an integer between 0 and 728. For $0 \\le i < j \\le 2$ denote by $f_{ij}(k)$ the integer from representation of $k$ in base 9 when the digits in $i$-th and $j$-th place are replaced by their compliments to 8. (If $k \\le 80$ then we add 0's to the left.)\n\nConsider 729 students with algebra marks 0, 1, ..., 728 and the student of mark $k$ has geometry mark $f_{01}(k)$, number theory mark $-f_{02}(k)$, and combinationics mark $-f_{12}(k)$.\n\nIt is clear that for any two areas there exist two numbers $0 \\le i < j \\le 2$, such that for any student one of the marks for these two areas is obtained from the other through the function $f_{ij}$.\n\nWe prove that a 10-term nice sequence for algebra and geometry does not exist. For remaining pairs the proof is the same.\n\nLet $M_1, M_2, \\dots, M_{729}$ be the sequence in increasing order according to algebra marks. Let $a_i$ be the geometry mark of $M_i$. It suffices to show that a 10-term increasing subsequence of $a_1, a_2, \\dots, a_{729}$ does not exist.\n\nFor any $i$ color $a_i$ in color $s$ where $s$ is the second digit of the representation of base 9 of $a_i$. It is easy to see that any monochromatic subsequence of $a_1, a_2, \\dots, a_{729}$ is decreasing. Hence, according to the Lemma, the proof is complete.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "In a mathematical olympiad students received marks for any of the four areas: algebra, geometry, number theory and combinatorics. Any two of the students have distinct marks for all four areas. A group of students is called \\textit{nice} if all students in the group can be ordered in increasing order simultaneously of at least two of the four areas. Find the least positive integer $N$, such that among any $N$ students there exist a nice group of ten students."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2015",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev",
+      "booklet title": "Bugarska 2015.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1bVzpSehvM0eJMFEeaM1oS5M0sJFP5Gh7",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPYAD; National Mathematical Olympiad; First Team Selection Test for 56th IMO",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_da35ddf01139",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Answer: 730.\n\n**Lemma.** A sequence $A = a_1, a_2, \\dots, a_k$ consisting of distinct numbers does not possess 10 term increasing subsequence if and only if its terms can be colored in 9 colors such that the members of one and the same color from a decreasing sequence.\n\n*Proof.* First, assume that such a coloring exists. Any 10-term subsequence of $A$ contains two terms colored in the same way. Hence, the sequence is not increasing.\n\nSuppose now, $A$ does not contain 10-term increasing subsequence. Color in color $i$ any term $a$ of $A$ such that the longest increasing subsequence of $A$, having $a$ as its last element, has length $i$. It is easy to see that this coloring has the desired properties. This completes the proof of the Lemma.\n\nWe prove that among any 730 students there exist 10 that form a nice sequence.\n\nLet $M_1, M_2, \\dots, M_{730}$ be a sequence in which the students are ordered in increasing order according to their algebra marks. Let $a_i$ be the geometry mark of $M_i$. If the sequence $a_1, a_2, \\dots, a_{730}$ has 10-term subsequence then we have a nice sequence.\n\nIn the opposite case according to the Lemma we color all students in 9 colors such that the geometry marks for any color form a decreasing subsequence. There exist at least 82 students having the same color. Let $N_1, N_2, \\dots, N_{82}$ be of the same color and they are ordered in increasing order for algebra marks and decreasing order for geometry marks.\n\nLet $b_i$ be number theory mark for $N_i$. If the sequence $b_1, b_2, \\dots, b_{82}$ has 10-term decreasing subsequence, then we have the desired nice sequence. In the opposite case we can color students $N_1, N_2, \\dots, N_{82}$ in 9 colors such that number theory marks for any color to form increasing sequence. We have at least 10 students of the same color and they from nice subsequence with their marks in algebra and number theory.\n\nIt remains to show an example of 729 students without 10-term nice subsequence.\n\nLet $k$ be an integer between 0 and 728. For $0 \\le i < j \\le 2$ denote by $f_{ij}(k)$ the integer from representation of $k$ in base 9 when the digits in $i$-th and $j$-th place are replaced by their compliments to 8. (If $k \\le 80$ then we add 0's to the left.)\n\nConsider 729 students with algebra marks 0, 1, ..., 728 and the student of mark $k$ has geometry mark $f_{01}(k)$, number theory mark $-f_{02}(k)$, and combinationics mark $-f_{12}(k)$.\n\nIt is clear that for any two areas there exist two numbers $0 \\le i < j \\le 2$, such that for any student one of the marks for these two areas is obtained from the other through the function $f_{ij}$.\n\nWe prove that a 10-term nice sequence for algebra and geometry does not exist. For remaining pairs the proof is the same.\n\nLet $M_1, M_2, \\dots, M_{729}$ be the sequence in increasing order according to algebra marks. Let $a_i$ be the geometry mark of $M_i$. It suffices to show that a 10-term increasing subsequence of $a_1, a_2, \\dots, a_{729}$ does not exist.\n\nFor any $i$ color $a_i$ in color $s$ where $s$ is the second digit of the representation of base 9 of $a_i$. It is easy to see that any monochromatic subsequence of $a_1, a_2, \\dots, a_{729}$ is decreasing. Hence, according to the Lemma, the proof is complete.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Answer: 730.\n\n**Lemma.** A sequence $A = a_1, a_2, \\dots, a_k$ consisting of distinct numbers does not possess 10 term increasing subsequence if and only if its terms can be colored in 9 colors such that the members of one and the same color from a decreasing sequence.\n\n*Proof.* First, assume that such a coloring exists. Any 10-term subsequence of $A$ contains two terms colored in the same way. Hence, the sequence is not increasing.\n\nSuppose now, $A$ does not contain 10-term increasing subsequence. Color in color $i$ any term $a$ of $A$ such that the longest increasing subsequence of $A$, having $a$ as its last element, has length $i$. It is easy to see that this coloring has the desired properties. This completes the proof of the Lemma.\n\nWe prove that among any 730 students there exist 10 that form a nice sequence.\n\nLet $M_1, M_2, \\dots, M_{730}$ be a sequence in which the students are ordered in increasing order according to their algebra marks. Let $a_i$ be the geometry mark of $M_i$. If the sequence $a_1, a_2, \\dots, a_{730}$ has 10-term subsequence then we have a nice sequence.\n\nIn the opposite case according to the Lemma we color all students in 9 colors such that the geometry marks for any color form a decreasing subsequence. There exist at least 82 students having the same color. Let $N_1, N_2, \\dots, N_{82}$ be of the same color and they are ordered in increasing order for algebra marks and decreasing order for geometry marks.\n\nLet $b_i$ be number theory mark for $N_i$. If the sequence $b_1, b_2, \\dots, b_{82}$ has 10-term decreasing subsequence, then we have the desired nice sequence. In the opposite case we can color students $N_1, N_2, \\dots, N_{82}$ in 9 colors such that number theory marks for any color to form increasing sequence. We have at least 10 students of the same color and they from nice subsequence with their marks in algebra and number theory.\n\nIt remains to show an example of 729 students without 10-term nice subsequence.\n\nLet $k$ be an integer between 0 and 728. For $0 \\le i < j \\le 2$ denote by $f_{ij}(k)$ the integer from representation of $k$ in base 9 when the digits in $i$-th and $j$-th place are replaced by their compliments to 8. (If $k \\le 80$ then we add 0's to the left.)\n\nConsider 729 students with algebra marks 0, 1, ..., 728 and the student of mark $k$ has geometry mark $f_{01}(k)$, number theory mark $-f_{02}(k)$, and combinationics mark $-f_{12}(k)$.\n\nIt is clear that for any two areas there exist two numbers $0 \\le i < j \\le 2$, such that for any student one of the marks for these two areas is obtained from the other through the function $f_{ij}$.\n\nWe prove that a 10-term nice sequence for algebra and geometry does not exist. For remaining pairs the proof is the same.\n\nLet $M_1, M_2, \\dots, M_{729}$ be the sequence in increasing order according to algebra marks. Let $a_i$ be the geometry mark of $M_i$. It suffices to show that a 10-term increasing subsequence of $a_1, a_2, \\dots, a_{729}$ does not exist.\n\nFor any $i$ color $a_i$ in color $s$ where $s$ is the second digit of the representation of base 9 of $a_i$. It is easy to see that any monochromatic subsequence of $a_1, a_2, \\dots, a_{729}$ is decreasing. Hence, according to the Lemma, the proof is complete."
+    }
+  ],
+  "2017": [
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_cd437874454c",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "It follows from the condition of the problem that \\(\\angle MAC = \\angle MBD\\) and \\(\\angle MCA = \\angle MDB\\). Therefore \\(\\angle MAC \\sim \\angle MBD\\). Let X and Y be the midpoints of AC and BD, respectively. It follows that \\(\\angle MXC = \\angle MYD\\), which implies that the point M lies on the circumcircle of \\(\\angle OXY\\). Analogously, N belongs to the same circle.\n\nSince X and Y are also the midpoints of A_1C_1 and B_1D_1, respectively, the above argument for the quadrilateral A_1B_1C_1D_1 yields that P and Q belong to the circumcircle of \\(\\angle OXY\\).",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The diagonals AC and BD of the convex quadrilateral ABCD intersect at point O. The points A_1, B_1, C_1 and D_1 from the segments AO, BO, CO and DO, respectively, are such that AA_1 = CC_1 and BB_1 = DD_1. Let M be the second intersection points of the circumcircles of \\(\\angle AOB\\) and \\(\\angle COD\\); N be the second intersection point of circumcircles of \\(\\angle AOD\\) and \\(\\angle BOC\\); P be the second intersection points of the circumcircles of \\(\\angle A_1OB_1\\) and \\(\\angle C_1OD_1\\), and Q be the second intersecting point of circumcircles of \\(\\angle A_1OD_1\\) and \\(\\angle B_1OC_1\\). Prove that the points M, N, P and Q are concyclic."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_458635a4ffa0",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $a$ be the smallest number on the board such that $(m+1)a > N$. It is easy to see that $a = \\frac{m^{2017}+m^2+m+1}{m+1}$. We will prove that $a$ is the last deleted number.\n\nThe numbers $2a, 3a, \\dots, ma$ are not on the board since they are not congruent 1 modulo $m$. Therefore $a$ can not be deleted as divisor (i.e. before we reach it).\n\nLet $b < a$ is one of the numbers on the board in the beginning. It is enough to prove that there exists a number $c > a$, which is multiple to $b$ and $c$ is on the board. Let $b_0 = b$, $b_{k+1} = (m+1)b_k$ for $k \\ge 0$. Since $b_k \\equiv b_0 \\equiv 1 \\pmod m$, all numbers $b_k \\le N$ are on the board in the beginning. Let $i$ be such that $b_{i-1} < a \\le b_i$. If $a < b_i$, then $b \\mid b_i = (m+1)b_{i-1} \\le N$. If $a = b_i$, then\n\n$$\na + mb_{i-1} = \\frac{(2m+1)a}{m+1}\n$$\n\nis divisible by $b$ and is on the board in the beginning since it is less than\n\n$$\n2a = \\frac{2(m^{2017} + m^2 + m + 1)}{m + 1} < N.\n$$",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $m > 2017$ be positive integer and $N = m^{2017} + 1$. The numbers $N, N-m, N-2m, \\dots, m+1, 1$ are written (in that order) on the blackboard. On every move the leftmost number is deleted together with all its divisors (if any). Find the last deleted number."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_7b4f43115ce9",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We first prove that the function $f$ is injective, i.e. $A \\neq B$ implies $f(A) \\neq f(B)$. Let $a$ be the smallest number which belongs to exactly one of the sets $A$ and $B$. We can assume, $a \\in A, a \\notin B$. Let $C = \\{b_1, b_2, \\dots, b_m\\}$ is the set (possibly empty) of the numbers from $B$ which divide $a$. Then the definition of $a$ yields that the numbers from $A$ which divide $a$ are exactly $a$ and the numbers from $C$. This means that $a$ belongs to exactly one of the sets $f(A)$ and $f(B)$, i.e. $f(A) \\neq f(B)$.\n\nConsider now the directed graph $G$ with vertices the nonempty subsets of $M$ and edges $(A, f(A))$ (direction from $A$ to $f(A)$) iff $A \\neq f(A)$. It follows from the above that every vertex of $G$ is either isolated or it is a tail and a head of exactly one edge. Therefore $G$ can be partitioned into cycles.\n\nWe will prove that all cycles in $G$ have even length, whence it follows that two colors are enough. Let $(A_1, A_2, \\dots, A_m, A_1)$ is a cycle of length $m \\ge 2$. Let $\\{a_1, a_2, \\dots, a_k\\} = \\bigcup_{i=1}^m A_i$, where $a_1 < a_2 < \\dots < a_k$. It is clear that $a_1 \\in A_i$ for every $i = 1, 2, \\dots, m$. Let $t$ be the smallest number such that there exists $i$ such that $a_t \\notin A_i$. There exists index $j$ such that $a_t \\notin A_j$, but $a_t \\in A_{j+1}$. This implies that $a_t$ has odd number of divisors among $a_1, \\dots, a_{t-1}$. Then $a_t \\in A_{j-1}$ and so on, i.e. the $a_t$ alternate, whence we conclude that the cycle's length is even.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $M$ be a set of 2017 positive integers. For every non-empty $A \\subset M$ we define\n\n$$\nf(A) = \\{x \\in M : x \\text{ is divisible by odd number of elements of } A\\}.\n$$\n\nFind the minimum number of colors such that it is possible to paint all nonempty subset of $M$ in such a way that whenever $A \\neq f(A)$, the sets $A$ and $f(A)$ are in different colors."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_893e43f1d373",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Answer: $(p, a, m) = (2, 1, 1), (2, 3, 2), (2, 7, 3), (3, 1, 1), (3, 7, 2), (3, 25, 3), (5, 1, 2), (2, 15, 4), (5, 101, 3)$.\n\nDirect checks for $p = 2, 3, 5$ give the above solutions.\n\nFor $p \\ge 7$ the Wilson theorem implies $a \\equiv 1 \\pmod p$. Moreover, obviously $p-1|a-1$. Therefore $a = kp(p-1)+1$ for some integer $k \\ge 0$. If $k \\ge 6$ then $a \\ge 6p^2 - 6p + 1 > 5p^2$, a contradiction. So we have $0 \\le k \\le 5$.\n\nAfter division by $p-1$ we obtain\n\n$$\n(p-2)! + kp = p^{m-1} + p^{m-2} + \\dots + 1.\n$$\n\nSince $p \\ge 7$, the $2$ and $\\frac{p-1}{2}$ are different and appear in $(p-2)!$, i.e. $p-1|(p-2)!$. This gives $k \\equiv m \\pmod{p-1}$.\n\nIf $m \\ge p$, then\n\n$$\n(p-2)! + kp = p^{m-1} + p^{m-2} + \\dots + 1 > p^{p-1} > (p-1)!,\n$$\n\nwhich easily gives a contradiction. Thus $m \\le p-1$.\n\nIf $k=0$, then $m = p-1$ and\n\n$$\n(p-2)! = p^m - 1 \\ge p^{p-1} - 1 > (p-1)^{p-1} > (p-1)!,\n$$\n\na contradiction. If $k=1$ or $2$, then $m=1$ or $2$, respectively, which is impossible. If $k=3$, then $m=3$, i.e. $(p-2)! = (p-1)^2$, which is impossible.\n\nFor $k=4$ we get $m=4$ and $(p-2)! = (p-1)(p^2+2p-1)$, whence\n\n$$\np-2|p^2+2p-1 = p^2-4+2(p-2)+7,\n$$\n\ni.e. $p=7$, which does not give solutions. For $k=5$ we obtain $m=5$ and $(p-2)! = (p-1)(p^3+2p^2+3p-1)$, whence\n\n$$\np-2|p^3+2p^2+3p-1 = p^3-8+2(p^2-4)+3(p-2)+21,\n$$\n\ni.e. $p=7$, which does not give solutions.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Find all primes $p$ and all positive integers $a$ and $m$ such that $a \\le 5p^2$ and $(p-1)! + a = p^m$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_0d58f0ed8de1",
+      "language": "und",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $\\alpha_1 < \\alpha_2 < \\dots < \\alpha_n$ be the roots of $f(x)$. Assume that\n\n\\[\nx(x+1)(x+2)(x+4)f(x) + a = g^k(x).\n\\]\n\nNote that $a = b^k = g^k(0)$.\n\nIf $k \\ge 3$ is odd then the polynomial $g^k(x)-b^k$ has $n+4$ distinct real roots which will be also roots of $g(x)-b$. However, the degree of $g(x)-b$ is $(n+4)/k < n+4$, i.e. $g(x) = b$, which is impossible.\n\nNow it is enough to prove that $k=2$ is also impossible. We have $a = b^2$, where we can assume that $b > 0$. Then\n\n\\[\nx(x+1)(x+2)(x+4)f(x) = g_1(x)g_2(x),\n\\]\n\nwhere $g_1(x) = g(x)+b$ and $g_2(x) = g(x)-b$. The roots of $g_1(x)$ and $g_2(x)$ are the numbers $-4, -2, -1, 0, \\alpha_1, \\dots, \\alpha_n$. Since $g_1(x) > g_2(x)$ for every $x$, the number $-4$ is a root of $g_1(x)$. Since the derivatives of $g_1(x)$ and $g_2(x)$ coincide, the Rolle's theorem shows that $-2$ and $-1$ are roots of $g_2(x)$ while $0$ is a root of $g_1(x)$.\n\nLet $g_1(x) = x(x+4) \\prod_{j=1}^{s}(x - \\alpha_j)$. Then\n\n\\[\n|g_1(-1)| = 3 \\prod_{j=1}^{s}(1 + \\alpha_j) < 4 \\prod_{j=1}^{s}(2 + \\alpha_j) = |g_1(-2)|,\n\\]\n\nwhich contradicts to $g_1(-1) = g_1(-2) = g(-1) + b = 2b$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Let $n$ be positive integer and $f(x)$ be a polynomial of degree $n$ with $n$ distinct real positive roots. Are there positive integer $k \\ge 2$ and a real polynomial $g(x)$ such that\n\n\\[\nx(x+1)(x+2)(x+4)f(x) + 1 = (g(x))^k?\n\\]"
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2017",
+        "pages_map": {
+          "P0": "page6.md",
+          "P1": "page7.md",
+          "P2": "page8.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Emil Kolev; Aleksandar Makelov",
+      "booklet title": "Broshura-bg_2017_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1OAmDfTpQSguz_aCvyLQKB1HoV5uqN5B_",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_7f60c4ac3f80",
+      "language": "und",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let the points $M, N, P$, and $Q$ be such that the quadrilaterals $CEAM, CFBN, CEE'P$, and $CFF'Q$ are rectangles. Let $C'$ be the midpoint of $CC_1$. Denote $\\asymp BAC = \\alpha$, $\\asymp ABC = \\beta$, and $\\asymp ACB = \\gamma$. We have $\\triangle ABC \\cong \\triangle AC'B$ and $\\triangle AMC \\sim \\triangle BNC$.\n\nM\n\nNext, we have\n\n\\[\n\\begin{align*}\n\\vDash MAC' &= 360^{\\circ} - \\vDash MAC - \\vDash BAC - \\vDash BAC' \\\\\n            &= 360^{\\circ} - \\gamma - 2\\alpha = \\gamma + 2\\beta = \\vDash NBC + \\vDash ABC + \\vDash ABC' \\\\\n            &= \\vDash NBC'.\n\\end{align*}\n\\]\n\nSince\n\n\\[\n\\frac{MA}{NB} = \\frac{AC}{BC} = \\frac{AC'}{BC'}\n\\]\n\nit follows from the above that $\\triangle MAC' \\sim \\triangle NBC'$. Therefore $\\vDash AC'M =$ $\\vDash BC'N$, whence $\\vDash MC'N = \\gamma$. Considering the midsegments in $\\triangle CPC_1$ and $\\triangle CQC_1$ we conclude that $MC' \\parallel PC_1$ and $NC' \\parallel QC_1$. This implies that $\\vDash PC_1Q = \\gamma$.\n\nFurther, we have $BN \\parallel F'Q$, $BN = F'Q$, $NC' \\parallel QC_1$, $2NC' = QC_1$, $AM \\parallel E'P$, $AM = E'P$, $MC' \\parallel PC_1$, and $2MC' = PC_1$. This and $\\triangle MAC' \\sim \\triangle NBC'$ gives that $\\triangle PE'C_1 \\sim \\triangle QF'C_1$. We conclude that $\\vDash PC_1E' = \\vDash QC_1F'$. This equality and $\\vDash PC_1Q = \\gamma$ from the above imply that $\\vDash E'C_1F' = \\gamma$.\n\n*Remark.* It is now easy to see that \\(\\triangle E'C_1F' \\sim \\triangle ABC\\).",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Consider acute scalene $\\triangle ABC$ with altitudes $CD$, $AE$, and $BF$. The points $E'$ and $F'$ are symmetric to $E$ and $F$ with respect to $A$ and $B$, respectively. Point $C_1$ on the ray $\\overrightarrow{CD}$ is such that $DC_1 = 3CD$. Prove that $\\asymp E'C_1F' = \\asymp ACB$."
+    }
+  ],
+  "2018": [
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c69438a18322",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "If $A \\cup B = M$ and $A \\cap B = \\emptyset$, then at most one of the sets $A$ and $B$ is good (otherwise $M$ is not good). Therefore the number of the good sets do not exceed the half of the number of the all subsets, i.e. $2^{n-1}$.\n\nWe will prove that the above estimate is sharp. Let $n = 2k + 1$ and $p$ be a prime such that $p > \\frac{n(n-1)}{2}$. Let $p^k = a_1 + a_2 + \\cdots + a_{n-1} + a_n$, where $a_i = i$ for $i = 1, 2, \\ldots, n-1$ and $a_n = p^k - \\frac{n(n-1)}{2}$. Then $(a_i, p) = 1$ for every $i$. Consider the set\n\n\\[\nM = \\{pa_i \\mid i = 1, 2, \\ldots, n\\}.\n\\]\n\nThen the sum of the elements of $M$ is equal to $p^{k+1}$. It is easy to see that the good subsets are exactly those with at most $k + 1$ elements. They are exactly $2^{n-1}$.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "For a set $M$ of positive integers with $n$ elements, where $n$ is odd, a nonempty subset $T$ of $M$ is called good, if the product of the elements of $T$ is divisible by the sum of the elements of $M$, but not divisibly by its square. If $M$ is good, find the maximum possible number of the good subsets of $M$?"
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_c60d6d0f7ba9",
+      "language": "en",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [
+            {
+              "alt": "",
+              "pages": [
+                "P1"
+              ],
+              "path": "images/Broshura-bg_2018_IMO_p2_data_37301d5adf.png",
+              "title": ""
+            }
+          ],
+          "label": null,
+          "latex": "% IMAGE: ![](images/Broshura-bg_2018_IMO_p2_data_37301d5adf.png)\nWe will need the following lemma.\n\n\\textbf{Lemma.} The point $O_1$ lies on the line $H_1O$, where $O$ is the center of the circumcircle of $\\triangle ABC$. The ratio $H_1O_1 : O_1O$ depends on $\\not\\asymp ACB$ only.\n\n\\textbf{Proof.} Let $K$ and $L$ are the intersection points of $AH_1$ and $BH_1$ with the circumcircle of $\\triangle ABC$. Since $H_1$ and $L$ are symmetric with respect to $AC$, the quadrilateral $H_1ALA_1$ is a rhombus, as $\\not\\asymp AH_1A_1 = 2 \\not\\asymp AH_1L = 2\\gamma$. Analogously, $H_1BKB_1$ is a rhombus with $\\not\\asymp BH_1B_1 = 2\\gamma$. Therefore $H_1ALA_1$ are $H_1BKB_1$ similar, whence\n\n\\[\n\\frac{H_1T}{H_1X} = \\frac{H_1Q}{H_1Y} = \\frac{1}{1 + 2 \\cos 2\\gamma}\n\\]\n\nThis means that $O_1$ belongs to the line $H_1O$ and in the ratio $H_1O_1 : O_1O$ depends on $\\not\\asymp ACB$ only.\n\nIt is clear that $CH_1H_2D$ is a parallelogram (if follows from $CH_1 = CH_2 = 2R \\cos \\gamma$) and the points $O_1$ and $O_2$ are homothetic to $H_1$ and $H_2$, respectively, with respect to $O$. It follows from the lemma that the ratios of these two homotheties are equal (since they depend on $\\gamma$ only). Therefore $O_1O_2 \\parallel H_1H_2 \\parallel CD$, i.e. the line $l_{AB}$ is parallel to $CD$.\n\nWe obtain the sides of $MNPQ$ are parallel to the corresponding sides of $ABCD$. This means that $MNPQ$ is inscribed.",
+          "pages": [
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The quadrilateral $ABCD$ is inscribed. The point $H_1$ is the orthocenter of $\\triangle ABC$ and the points $A_1$ and $B_1$ are symmetric to the points $A$ and $B$ with respect to the lines $BH_1$ and $AH_1$, respectively. The point $O_1$ is a center of the circumscribed circle of $\\triangle A_1B_1H_1$. The point $H_2$ is the orthocenter of $\\triangle ABD$ and the points $A_2$ and $B_2$ are symmetric to the points $A$ and $B$ with respect to the lines $BH_2$ and $AH_2$, respectively. The point $O_2$ is a center of the circumscribed circle of $\\triangle A_2B_2H_2$. Denote the line $O_1O_2$ by $l_{AB}$. The lines $l_{BC}$, $l_{CD}$, and $l_{DA}$ are defined analogously. Let $l_{AB} \\cap l_{BC} = M$, $l_{BC} \\cap l_{CD} = N$, $l_{CD} \\cap l_{DA} = P$, and $l_{DA} \\cap l_{AB} = Q$. Prove that the points $M, N, P$, and $Q$ are concyclic."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_1274a4330550",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $K$ and $L$ are the intersection points of $AH_1$ and $BH_1$ with the circumcircle of $\\triangle ABC$. Since $H_1$ and $L$ are symmetric with respect to $AC$, the quadrilateral $H_1ALA_1$ is a rhombus, as $\\not\\asymp AH_1A_1 = 2 \\not\\asymp AH_1L = 2\\gamma$. Analogously, $H_1BKB_1$ is a rhombus with $\\not\\asymp BH_1B_1 = 2\\gamma$. Therefore $H_1ALA_1$ are $H_1BKB_1$ similar, whence\n\n$$\n\\frac{H_1T}{H_1X} = \\frac{H_1Q}{H_1Y} = \\frac{1}{1 + 2 \\cos 2\\gamma}\n$$\n\nThis means that $O_1$ belongs to the line $H_1O$ and in the ratio $H_1O_1 : O_1O$ depends on $\\not\\asymp ACB$ only.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [
+        {
+          "alt": "",
+          "pages": [
+            "P0"
+          ],
+          "path": "images/Broshura-bg_2018_IMO_p2_data_37301d5adf.png",
+          "title": null
+        }
+      ],
+      "statement_latex": "We will need the following lemma.\n\n**Lemma.** The point $O_1$ lies on the line $H_1O$, where $O$ is the center of the circumcircle of $\\triangle ABC$. The ratio $H_1O_1 : O_1O$ depends on $\\not\\asymp ACB$ only.\n\n**Proof.** Let $K$ and $L$ are the intersection points of $AH_1$ and $BH_1$ with the circumcircle of $\\triangle ABC$. Since $H_1$ and $L$ are symmetric with respect to $AC$, the quadrilateral $H_1ALA_1$ is a rhombus, as $\\not\\asymp AH_1A_1 = 2 \\not\\asymp AH_1L = 2\\gamma$. Analogously, $H_1BKB_1$ is a rhombus with $\\not\\asymp BH_1B_1 = 2\\gamma$. Therefore $H_1ALA_1$ are $H_1BKB_1$ similar, whence\n\n$$\n\\frac{H_1T}{H_1X} = \\frac{H_1Q}{H_1Y} = \\frac{1}{1 + 2 \\cos 2\\gamma}\n$$\n\nThis means that $O_1$ belongs to the line $H_1O$ and in the ratio $H_1O_1 : O_1O$ depends on $\\not\\asymp ACB$ only."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_448230a9d8c4",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "We will prove that if $x > -1, x \\neq 0$, and $\\alpha \\in (1, 2)$, then\n\\[\n(1) \\quad 0 < f(x) = (1+x)^\\alpha - 1 - \\alpha x - \\frac{\\alpha(\\alpha-1)}{2}x^2 - \\frac{\\alpha(\\alpha-1)(\\alpha-2)}{6}x^3.\n\\]\nWe have\n\\[\nf'(x) = \\alpha[(1+x)^{\\alpha-1} - 1 - (\\alpha-1)x - \\frac{(\\alpha-1)(\\alpha-2)}{2}x^2],\n\\]\n\\[\nf''(x) = \\alpha(\\alpha - 1)[(1 + x)^{\\alpha - 2} - 1 - (\\alpha - 2)x],\n\\]\n\\[\nf'''(x) = \\alpha(\\alpha - 1)(\\alpha - 2)[(1 + x)^{\\alpha - 3} - 1],\n\\]\nSince $f'''(x) < 0$ for $x \\in (-1, 0)$ and $f'''(x) > 0$ for $x > 0$, we have $f''(x) > f'(0) = 0$ for $x > -1, x \\neq 0$. Then $f'(x) < f'(0) = 0$ for $x \\in (-1, 0)$ and $f'(x) > f'(0) > 0$ for $x > 0$, whence $f(x) > f(0) = 0$ for $x > -1, x \\neq 0$.\n\nWe now prove that $\\left(\\frac{6}{5}\\right)^{\\sqrt{3}} > \\left(\\frac{5}{4}\\right)^{\\sqrt{2}}$. Set $x = \\frac{1}{5}$ and $\\alpha = \\sqrt{\\frac{3}{2}}$. According to (1), it is enough to check that\n\\[\n\\alpha x + \\frac{\\alpha(\\alpha - 1)}{2}x^2 + \\frac{\\alpha(\\alpha - 1)(\\alpha - 2)}{6}x^3 > \\frac{1}{4} \\Leftrightarrow\n\\]\n\\[\n\\frac{277}{1500}\\alpha + \\frac{3}{125} > \\frac{1}{4} \\Leftrightarrow \\alpha > \\frac{339}{277} \\Leftrightarrow 3.277^2 > 2.339^2 \\Leftrightarrow 230187 > 229842.\n\\]\nThe last inequality is obvious and this completes the solution.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Prove that \\(\\left(\\frac{6}{5}\\right)^{\\sqrt{3}} > \\left(\\frac{5}{4}\\right)^{\\sqrt{2}}\\)."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_3ac6a3bf00a1",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $\\omega_1, \\omega_2$ and $\\omega_3$ be incircles for $\\triangle MBC$, $\\triangle MCD$ and $\\triangle MDA$. For any circle $\\omega$ and any point $X$ outside $\\omega$ denote by $t(X, \\omega)$ the length of the tangent from $X$ to $\\omega$.\n\nThe length $t_1$ of the internal tangent for $\\omega_1$ and $\\omega_2$ equals:\n\\[\nt(M, \\omega_2) - t(M, \\omega_1) = \\frac{1}{2}(MC + MD - CD - MB - MC + BC).\n\\]\nAnalogously, the length $t_2$ of the internal tangent of $\\omega_2$ and $\\omega_3$ equals:\n\\[\nt(M, \\omega_2) - t(M, \\omega_3) = \\frac{1}{2}(MC + MD - CD - MD - MA + DA).\n\\]\nFinally, the length $t_3$ of the external tangent of $\\omega_1$ and $\\omega_3$ equals:\n\\[\nt(M, \\omega_1) + t(M, \\omega_3) = \\frac{1}{2}(MB + MC - BC + MD + MA - DA).\n\\]\nSince $ABCD$ is circumscribed we have that $AB + CD = BC + DA$, implying $t_1 + t_2 = t_3$. Therefore $\\omega_1, \\omega_2$ and $\\omega_3$ have common tangent $s$ that separates $\\omega_2$ from $\\omega_1$ and $\\omega_3$.\n\nConsider $\\triangle MKL$ formed by the lines $MC, MD$ and $s$. Since $I_1I_2$ and $I_2I_3$ are external angle bisectors for this triangle we have that $\\not\\asymp I_1I_2I_3 = 90^\\circ - \\frac{1}{2} \\not\\asymp KML = 180^\\circ - \\not\\asymp I_1MI_3$. Thus, $MI_1I_2I_3$ is inscribed quadrilateral.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Point $M$ lies on the side $AB$ of circumscribed quadrilateral $ABCD$. Points $I_1, I_2$ and $I_3$ are incenters of $\\triangle MBC$, $\\triangle MCD$ and $\\triangle MDA$. Prove that the points $M, I_1, I_2$ and $I_3$ lie on a circle."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_939a9e0ab54d",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Assume the contrary, i.e. there exists $n \\ge 2$ such that any prime factor of $b_n$ is also a factor of $b_i$ for some $1 \\le i \\le n-1$. Let $p$ be a prime factor of $b_n$ and $b_n = p^r l, r, l \\in \\mathbb{N}$ where $(p, l) = 1$. We have\n\n$$\nb_{n+1} = P(b_n) = a_d(p^r l)^d + a_{d-1}(p^r l)^{d-1} + \\dots + a_2(p^r l)^2 + a_0 \\equiv a_0 = b_1 \\pmod{p^{r+1}}.\n$$\n\nSince\n\n$$\nb_{n+i+1} = P(b_{n+i}) \\equiv P(b_i) = b_{i+1} \\pmod{p^{r+1}},\n$$\n\nit follows by induction that $b_{n+i} \\equiv b_i \\pmod{p^{r+1}}$. This congruence implies\n\n$$\nb_n \\equiv b_{2n} \\equiv \\dots \\equiv b_{kn} \\pmod{p^{r+1}}.\n$$\n\nFurther, it follows from $v_p(b_n) = r$ that\n\n$$\nv_p(b_n) = v_p(b_{2n}) = \\dots = v_p(b_{kn}) = \\dots\n$$\n\nLet $p|b_i$ for some $1 \\le i \\le n-1$. As above we prove that $v_p(b_i) = v_p(b_{2i}) = \\dots$. Therefore\n\n$$\nv_p(b_n) = v_p(b_{in}) = v_p(b_i) = r.\n$$\n\nWe have shown that if $p$ is a prime factor of $b_n$ then its degree in $b_n$ equals its degree in $b_i$ for some $1 \\le i \\le n-1$. We infer that $b_n$ divides $b_1b_2\\dots b_{n-1}$, thus $b_n \\le b_1b_2\\dots b_{n-1}$.\n\nOn the other hand $b_n = P(b_{n-1}) > b_{n-1}^2$ implies $b_{n-1} < \\sqrt{b_n}$. This inequality gives:\n\n$$\nb_{n-k} < \\sqrt{b_{n-k+1}} < \\sqrt[4]{b_{n-k+2}} < \\dots < b_n^{1/2^k}.\n$$\n\nTherefore\n\n$$\n0 < b_1 b_2 \\dots b_{n-1} < b_n^{\\frac{1}{2^{n-1}}} b_n^{\\frac{1}{2^{n-2}}} \\dots b_n^{\\frac{1}{2}} = b_n^{\\frac{1}{2} + \\dots + \\frac{1}{2^{n-1}}} < b_n,\n$$\n\na contradiction.",
+          "pages": [
+            "P0",
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "The coefficients of the polynomial $P(x) = a_d x^d + a_{d-1} x^{d-1} + \\dots + a_3 x^3 + a_2 x^2 + a_0$, $d \\ge 2$ are positive integers. Consider the sequence defined by\n\n$$\nb_1 = a_0, \\ b_{n+1} = P(b_n) \\ \\text{за } n \\ge 1.\n$$\n\nProve that for any $n \\ge 2$ there exists a prime number $p$, such that $p$ divides $b_n$ and is relatively prime to $b_1b_2\\dots b_{n-1}$."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_a2abb07748b0",
+      "language": "en",
+      "page numbers": [
+        0,
+        1,
+        2
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Consider a graph $G = (V, E)$ where the vertices are the towns and the edges are the roads. Denote the towns in the countries by $V_1, V_2, \\dots, V_M$. It follows from the condition of the problem that\n\n$$\nV = V_1 \\cup V_2 \\cup \\dots \\cup V_M, \\quad V_i \\cap V_j = \\emptyset, \\quad |V_i| \\ge 3 \\quad (1)\n$$\n\nfor all $i \\neq j$. Moreover, any vertex is connected to at least half of the vertices from its own set (2), and to exactly one vertex from any other set (3). There are at most two edges between any two sets (4) and if for two sets $V_i$ and $V_j$ we have $|V_i| + |V_j| < 2M$ then there exists at least one edge connecting a vertex from $V_i$ with vertex from $V_j$ (5). We have to prove that in $G$ there is a cycle of length at least $\\frac{N}{2} + M$ (i.e. having at least $\\frac{N}{2} + M$ vertices).\n\nWe use the following Lemma.\n\n**Lemma.** Let $G = (V, E)$ be a graph with at least three vertices. If for any pair of vertices $u, v$ not connected by an edge we have $d(u) + d(v) \\ge |V|$ then there is a cycle passing through all vertices.\n\nDenote by $G_i(V_i, E_i)$, $i = 1, \\dots, M$, the subgraphs of $G$ induced by the sets $V_i$. In other words those are subgraphs having vertices from $V_i$ and edges – all edges from $G$ having both its ends in $V_i$. According to the Lemma for any these subgraphs there exists a cycle $C_i$ passing through all vertices of $V_i$.\n\nDefine a new graph $H$ with vertices the sets $V_i$, $i = 1, \\dots, M$. Two vertices $V_i$ and $V_j$ from $H$ are connected by an edge if there exist $x \\in V_i$ and $y \\in V_j$ connected by an edge in $G$, i.e. $xy \\in E$. It is clear that $H$ has $M$ vertices and it follows from (3) that any vertex $V_i$ has degree\n\n$$\nd_H(V_i) \\ge |V_i|, \\quad i = 1, \\dots, M.\n$$\n\nIf $V_i$ and $V_j$ are not connected by an edge then\n\n$$\nd_H(V_i) + d_H(V_j) \\ge \\frac{1}{2}(|V_i| + |V_j|) \\ge \\frac{1}{2} \\cdot 2M = M\n$$\n\nand it follows from the Lemma that there is a cycle in $H$ passing through all $M$ vertices. Let this cycle by $V_1V_2 \\cdots V_MV_1$. It is clear that there are edges in $G$\n\n$$\nx_{12}x_{12}^{+}, \\dots, x_{i,i+1}^{-}x_{i,i+1}^{+}, \\dots, x_{M,1}^{-}x_{M,1}^{+},\n$$\n\nsuch that $x_{i,i+1}^{-} \\in V_i$ и $x_{i,i+1}^{+} \\in V_{i+1}$.\n\nSince any vertex $u \\in V_i$ is connected to exactly one vertex outside $V_i$ we have that $x_{i-1,i}^{+} \\ne x_{i,i+1}^{-}$, $x_{i-1,i}^{+}, x_{i,i+1}^{-} \\in V_i$ and all these vertices partition the cycle $C_i$ into two sections: $C'_i$ and $C''_i$. We may assume that for any $i = 1, \\dots, M$ the section $C'_i$ includes at least half of the vertices from $V_i$. Consider the following cycle in $G$:\n\n$$\nx_{M,1}^{+}C'_{1}x_{1,2}^{-}x_{1,2}^{+}C'_{2}x_{2,3}^{-} \\cdots x_{i-1,i}^{+}C'_{i}x_{i,i+1}^{-} \\cdots x_{M-1,M}^{+}x_{M-1,M}^{+}C'_{M}x_{M,1}^{-}.\n$$\n\nThe number of edges (and vertices) in this cycle equals\n\n$$\n\\sum_{i=1}^{M} \\left\\lceil \\frac{|V_i|}{2} \\right\\rceil + 1 \\ge \\sum_{i=1}^{M} \\frac{|V_i|}{2} + M = \\frac{N}{2} + M,\n$$\n\nwhich completes the proof.\n\n*Proof of the Lemma.* Assume the statement is not true for a graph with $N \\ge 3$ vertices. There exists a graph of $N$ vertices having the following properties: (1) $d(u) + d(v) \\ge N$ for any pair of not adjacent vertices $u, v$; (2) a cycle through all the vertices does not exist.\n\nWithout loss of generality assume that $G$ is maximal with the properties (1) and (2), i.e. adding an edge results in a cycle through all vertices. Since $G$ is not complete there exist a pair of vertices $u, v$ that are not adjacent. It follows from the maximality of $G$ that there exists a path from $u$ to $v$ through all vertices:\n\n$$\nu = x_1, x_2, \\dots, x_{N-1}, x_N = v.\n$$\n\nLet $S$ be the set of vertices adjacent to $v$ and $T$ the set of vertices adjacent to all vertices adjacent to $u$: $T = \\{x_{i-1}|x_i$ adjacent to $u\\}$. It follows from the condition of the Lemma that $S \\cap T \\ne \\emptyset$. Let $x_j \\in S \\cap T$. It is clear that\n\n$$\nx_1, x_2, \\dots, x_j, x_N, x_{N-1}, \\dots, x_{j+1}, x_1\n$$\n\nis a cycle through all the vertices, a contradiction to the initial assumption.",
+          "pages": [
+            "P0",
+            "P1",
+            "P2"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "There are $M$ countries and $N$ towns on a planet. Some of the towns are connected by roads. It is known that:\n\n(1) there are at least three towns in any country;\n\n(2) any town in a country is connected by roads with at least half of the towns in this country;\n\n(3) any town is connected with road to exactly one town in another country;\n\n(4) there are at most two roads between towns in two countries;\n\n(5) if in two countries there are less than $2M$ towns then there exists at least one road between these countries.\n\nProve that there exists a round trip having at least $M + \\frac{N}{2}$ towns."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_fcf2e92d0750",
+      "language": "en",
+      "page numbers": [
+        0,
+        1
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "*Proof of the Lemma.* Assume the statement is not true for a graph with $N \\ge 3$ vertices. There exists a graph of $N$ vertices having the following properties: (1) $d(u) + d(v) \\ge N$ for any pair of not adjacent vertices $u, v$; (2) a cycle through all the vertices does not exist.\n\nWithout loss of generality assume that $G$ is maximal with the properties (1) and (2), i.e. adding an edge results in a cycle through all vertices. Since $G$ is not complete there exist a pair of vertices $u, v$ that are not adjacent. It follows from the maximality of $G$ that there exists a path from $u$ to $v$ through all vertices:\n\n$$\nu = x_1, x_2, \\dots, x_{N-1}, x_N = v.\n$$\n\nLet $S$ be the set of vertices adjacent to $v$ and $T$ the set of vertices adjacent to all vertices adjacent to $u$: $T = \\{x_{i-1}|x_i$ adjacent to $u\\}$. It follows from the condition of the Lemma that $S \\cap T \\ne \\emptyset$. Let $x_j \\in S \\cap T$. It is clear that\n\n$$\nx_1, x_2, \\dots, x_j, x_N, x_{N-1}, \\dots, x_{j+1}, x_1\n$$\n\nis a cycle through all the vertices, a contradiction to the initial assumption.",
+          "pages": [
+            "P1"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "with vertex from $V_j$ (5). We have to prove that in $G$ there is a cycle of length at least $\\frac{N}{2} + M$ (i.e. having at least $\\frac{N}{2} + M$ vertices).\n\nWe use the following Lemma.\n\n**Lemma.** Let $G = (V, E)$ be a graph with at least three vertices. If for any pair of vertices $u, v$ not connected by an edge we have $d(u) + d(v) \\ge |V|$ then there is a cycle passing through all vertices.\n\nDenote by $G_i(V_i, E_i)$, $i = 1, \\dots, M$, the subgraphs of $G$ induced by the sets $V_i$. In other words those are subgraphs having vertices from $V_i$ and edges – all edges from $G$ having both its ends in $V_i$. According to the Lemma for any these subgraphs there exists a cycle $C_i$ passing through all vertices of $V_i$.\n\nDefine a new graph $H$ with vertices the sets $V_i$, $i = 1, \\dots, M$. Two vertices $V_i$ and $V_j$ from $H$ are connected by an edge if there exist $x \\in V_i$ and $y \\in V_j$ connected by an edge in $G$, i.e. $xy \\in E$. It is clear that $H$ has $M$ vertices and it follows from (3) that any vertex $V_i$ has degree\n\n$$\nd_H(V_i) \\ge |V_i|, \\quad i = 1, \\dots, M.\n$$\n\nIf $V_i$ and $V_j$ are not connected by an edge then\n\n$$\nd_H(V_i) + d_H(V_j) \\ge \\frac{1}{2}(|V_i| + |V_j|) \\ge \\frac{1}{2} \\cdot 2M = M\n$$\n\nand it follows from the Lemma that there is a cycle in $H$ passing through all $M$ vertices. Let this cycle by $V_1V_2 \\cdots V_MV_1$. It is clear that there are edges in $G$\n\n$$\nx_{12}x_{12}^{+}, \\dots, x_{i,i+1}^{-}x_{i,i+1}^{+}, \\dots, x_{M,1}^{-}x_{M,1}^{+},\n$$\n\nsuch that $x_{i,i+1}^{-} \\in V_i$ и $x_{i,i+1}^{+} \\in V_{i+1}$.\n\nSince any vertex $u \\in V_i$ is connected to exactly one vertex outside $V_i$ we have that $x_{i-1,i}^{+} \\ne x_{i,i+1}^{-}$, $x_{i-1,i}^{+}, x_{i,i+1}^{-} \\in V_i$ and all these vertices partition the cycle $C_i$ into two sections: $C'_i$ and $C''_i$. We may assume that for any $i = 1, \\dots, M$ the section $C'_i$ includes at least half of the vertices from $V_i$. Consider the following cycle in $G$:\n\n$$\nx_{M,1}^{+}C'_{1}x_{1,2}^{-}x_{1,2}^{+}C'_{2}x_{2,3}^{-} \\cdots x_{i-1,i}^{+}C'_{i}x_{i,i+1}^{-} \\cdots x_{M-1,M}^{+}x_{M-1,M}^{+}C'_{M}x_{M,1}^{-}.\n$$\n\nThe number of edges (and vertices) in this cycle equals\n\n$$\n\\sum_{i=1}^{M} \\left\\lceil \\frac{|V_i|}{2} \\right\\rceil + 1 \\ge \\sum_{i=1}^{M} \\frac{|V_i|}{2} + M = \\frac{N}{2} + M,\n$$\n\nwhich completes the proof."
+    },
+    {
+      "_provenance": {
+        "folder": "BGR_2018",
+        "pages_map": {
+          "P0": "page8.md",
+          "P1": "page9.md",
+          "P2": "page10.md"
+        }
+      },
+      "author": "Peter Boyvalenkov; Aleksandar Ivanov; Emil Kolev",
+      "booklet title": "Broshura-bg_2018_IMO.pdf",
+      "booklet_url": "https://drive.google.com/open?id=1WM4yFhtZKCNLeM6NBc7Xmpft4UrPjM1c",
+      "competition name": "BULGARIAN NATIONAL MATHEMATICAL OLYMPIAD; National Mathematical Olympiad",
+      "copyright_info": "NULL",
+      "has_solutions": true,
+      "id": "p_4cb8a104fda5",
+      "language": "en",
+      "page numbers": [
+        0
+      ],
+      "solutions": [
+        {
+          "images": [],
+          "label": null,
+          "latex": "Let $S$ be the set of vertices adjacent to $v$ and $T$ the set of vertices adjacent to all vertices adjacent to $u$: $T = \\{x_{i-1}|x_i$ adjacent to $u\\}$. It follows from the condition of the Lemma that $S \\cap T \\ne \\emptyset$. Let $x_j \\in S \\cap T$. It is clear that\n\n$$x_1, x_2, \\dots, x_j, x_N, x_{N-1}, \\dots, x_{j+1}, x_1$$\n\nis a cycle through all the vertices, a contradiction to the initial assumption.",
+          "pages": [
+            "P0"
+          ],
+          "status": "complete"
+        }
+      ],
+      "statement_images": [],
+      "statement_latex": "Assume the statement is not true for a graph with $N \\ge 3$ vertices. There exists a graph of $N$ vertices having the following properties: (1) $d(u) + d(v) \\ge N$ for any pair of not adjacent vertices $u, v$; (2) a cycle through all the vertices does not exist.\n\nWithout loss of generality assume that $G$ is maximal with the properties (1) and (2), i.e. adding an edge results in a cycle through all vertices. Since $G$ is not complete there exist a pair of vertices $u, v$ that are not adjacent. It follows from the maximality of $G$ that there exists a path from $u$ to $v$ through all vertices:\n\n$$\nu = x_1, x_2, \\dots, x_{N-1}, x_N = v.$$"
+    }
+  ]
+}
