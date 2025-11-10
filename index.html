@@ -24,135 +24,184 @@
 
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
+            line-height: 1.65;
             color: #2c3e50;
-            background: #f8f9fa;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
             min-height: 100vh;
             font-size: 15px;
         }
 
         .container {
-            max-width: 1200px;
+            max-width: 1400px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 32px 24px;
         }
 
         .main-card {
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e9ecef;
-            margin-bottom: 24px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e3e8ef;
+            margin-bottom: 28px;
             overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .main-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
         }
 
         .hero-section {
             display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 40px;
-            padding: 40px;
+            grid-template-columns: 2.2fr 1fr;
+            gap: 48px;
+            padding: 48px 52px;
             align-items: center;
+            background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
         }
 
         .hero-content h1 {
-            font-size: 2.2rem;
-            font-weight: 600;
-            color: #2c3e50;
-            margin-bottom: 20px;
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #1a252f;
+            margin-bottom: 24px;
+            letter-spacing: -0.5px;
         }
 
         .hero-content p {
-            font-size: 1rem;
-            margin-bottom: 16px;
-            color: #5a6c7d;
+            font-size: 1.05rem;
+            margin-bottom: 18px;
+            color: #4a5568;
+            line-height: 1.7;
         }
 
         .hero-links {
             display: flex;
-            gap: 16px;
-            margin-top: 24px;
+            gap: 14px;
+            margin-top: 28px;
+            flex-wrap: wrap;
         }
 
         .hero-links a {
-            padding: 10px 20px;
-            background: #3498db;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
             color: white;
             text-decoration: none;
-            border-radius: 4px;
+            border-radius: 8px;
             font-weight: 500;
-            font-size: 0.9rem;
-            transition: background-color 0.2s ease;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
         }
 
         .hero-links a:hover {
-            background: #2980b9;
+            background: linear-gradient(135deg, #2980b9 0%, #21618c 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.4);
+        }
+
+        .profile-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
         .profile-image img {
             width: 100%;
-            max-width: 240px;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            max-width: 260px;
+            border-radius: 16px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-image img:hover {
+            transform: scale(1.02);
         }
 
         .section {
             background: white;
-            border-radius: 8px;
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-            border: 1px solid #e9ecef;
-            margin-bottom: 24px;
-            padding: 32px;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            border: 1px solid #e3e8ef;
+            margin-bottom: 28px;
+            padding: 40px 44px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .section:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
         }
 
         .section h2 {
-            font-size: 1.6rem;
-            font-weight: 600;
-            margin-bottom: 24px;
-            color: #2c3e50;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-bottom: 32px;
+            color: #1a252f;
+            letter-spacing: -0.5px;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 12px;
+            display: inline-block;
         }
 
         .research-grid {
             display: grid;
-            gap: 20px;
+            gap: 24px;
         }
 
         .research-item {
             display: grid;
-            grid-template-columns: 240px 1fr;
-            gap: 24px;
-            padding: 24px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            border: 1px solid #e9ecef;
+            grid-template-columns: 280px 1fr;
+            gap: 28px;
+            padding: 28px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 12px;
+            border: 1px solid #e3e8ef;
             margin-bottom: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .research-item:hover {
+            transform: translateX(4px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border-color: #3498db;
         }
 
         .research-item.featured {
-            background: #fff3cd;
+            background: linear-gradient(135deg, #fff9e6 0%, #fff3cd 100%);
             border-color: #f39c12;
         }
 
         .research-image {
             overflow: hidden;
-            border-radius: 6px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
 
         .research-image img {
             width: 100%;
-            height: 140px;
+            height: 160px;
             object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .research-item:hover .research-image img {
+            transform: scale(1.05);
         }
 
         .research-content h3 {
-            font-size: 1.1rem;
+            font-size: 1.15rem;
             font-weight: 600;
-            margin-bottom: 12px;
-            color: #2c3e50;
+            margin-bottom: 14px;
+            color: #1a252f;
+            line-height: 1.4;
         }
 
         .research-content h3 a {
             text-decoration: none;
             color: inherit;
+            transition: color 0.2s ease;
         }
 
         .research-content h3 a:hover {
@@ -160,105 +209,137 @@
         }
 
         .research-content p {
-            font-size: 0.9rem;
-            line-height: 1.5;
-            color: #5a6c7d;
-            margin-bottom: 8px;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            color: #4a5568;
+            margin-bottom: 10px;
         }
 
         .research-links {
             display: flex;
             flex-wrap: wrap;
-            gap: 8px;
-            margin: 12px 0;
+            gap: 10px;
+            margin: 14px 0;
         }
 
         .research-links a {
-            padding: 4px 12px;
-            background: #e3f2fd;
-            color: #1976d2;
+            padding: 6px 14px;
+            background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+            color: #1565c0;
             text-decoration: none;
-            border-radius: 4px;
-            font-size: 0.8rem;
+            border-radius: 6px;
+            font-size: 0.85rem;
             font-weight: 500;
+            transition: all 0.2s ease;
+            border: 1px solid #bbdefb;
         }
 
         .research-links a:hover {
-            background: #bbdefb;
+            background: linear-gradient(135deg, #bbdefb 0%, #90caf9 100%);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(21, 101, 192, 0.2);
         }
 
         .badge {
             display: inline-block;
-            padding: 2px 8px;
-            background: #e74c3c;
+            padding: 4px 10px;
+            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
             color: white;
-            border-radius: 3px;
-            font-size: 0.7rem;
-            font-weight: 500;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 600;
             margin-left: 8px;
-            margin-bottom: 8px;
+            margin-bottom: 10px;
+            box-shadow: 0 2px 6px rgba(52, 152, 219, 0.3);
+        }
+
+        .badge.purple {
+            background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 100%);
+            box-shadow: 0 2px 6px rgba(155, 89, 182, 0.3);
+        }
+
+        .badge.green {
+            background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
+            box-shadow: 0 2px 6px rgba(39, 174, 96, 0.3);
         }
 
         .teaching-grid {
             display: grid;
-            gap: 18px;
+            gap: 20px;
         }
 
         .teaching-item {
             display: grid;
-            grid-template-columns: 160px 1fr;
-            gap: 20px;
-            padding: 20px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            border: 1px solid #e9ecef;
+            grid-template-columns: 180px 1fr;
+            gap: 24px;
+            padding: 24px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 12px;
+            border: 1px solid #e3e8ef;
             margin-bottom: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .teaching-item:hover {
+            transform: translateX(4px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+            border-color: #3498db;
         }
 
         .teaching-image img {
             width: 100%;
-            height: 90px;
+            height: 100px;
             object-fit: cover;
-            border-radius: 4px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .teaching-item:hover .teaching-image img {
+            transform: scale(1.05);
         }
 
         .teaching-content h3 {
-            font-size: 1rem;
+            font-size: 1.05rem;
             font-weight: 600;
-            margin-bottom: 8px;
-            color: #2c3e50;
+            margin-bottom: 10px;
+            color: #1a252f;
+            line-height: 1.4;
         }
 
         .teaching-content p {
-            font-size: 0.9rem;
-            line-height: 1.4;
-            margin-bottom: 6px;
-            color: #5a6c7d;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            margin-bottom: 8px;
+            color: #4a5568;
         }
 
         .footer {
             text-align: center;
-            padding: 20px;
+            padding: 28px;
             color: #7f8c8d;
-            font-size: 0.85rem;
+            font-size: 0.9rem;
         }
 
         .footer a {
             color: #3498db;
             text-decoration: none;
+            transition: color 0.2s ease;
         }
 
         .footer a:hover {
+            color: #2980b9;
             text-decoration: underline;
         }
 
         .news-scroll-container {
-            max-height: 300px;
+            max-height: 320px;
             overflow-y: auto;
-            background: #f8f9fa;
-            border-radius: 6px;
-            padding: 16px;
-            border: 1px solid #e9ecef;
+            background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #e3e8ef;
+            box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.05);
         }
         
         .news-list {
@@ -268,14 +349,22 @@
         }
         
         .news-list li {
-            padding: 12px 16px;
-            margin-bottom: 8px;
+            padding: 14px 18px;
+            margin-bottom: 10px;
             background: white;
-            border-radius: 4px;
-            border-left: 3px solid #3498db;
-            font-size: 0.9rem;
-            line-height: 1.4;
+            border-radius: 8px;
+            border-left: 4px solid #3498db;
+            font-size: 0.95rem;
+            line-height: 1.5;
             color: #2c3e50;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            transition: all 0.2s ease;
+        }
+
+        .news-list li:hover {
+            transform: translateX(4px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-left-color: #2980b9;
         }
         
         .news-list li:last-child {
@@ -289,48 +378,99 @@
         
         /* Custom scrollbar */
         .news-scroll-container::-webkit-scrollbar {
-            width: 6px;
+            width: 8px;
         }
         
         .news-scroll-container::-webkit-scrollbar-track {
             background: #e9ecef;
-            border-radius: 3px;
+            border-radius: 4px;
         }
         
         .news-scroll-container::-webkit-scrollbar-thumb {
-            background: #bdc3c7;
-            border-radius: 3px;
+            background: linear-gradient(135deg, #bdc3c7 0%, #95a5a6 100%);
+            border-radius: 4px;
+            transition: background 0.2s ease;
+        }
+
+        .news-scroll-container::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                max-width: 100%;
+                padding: 24px 20px;
+            }
+
+            .hero-section {
+                padding: 36px 32px;
+            }
+
+            .section {
+                padding: 32px 28px;
+            }
         }
 
         @media (max-width: 768px) {
             .hero-section {
                 grid-template-columns: 1fr;
                 text-align: center;
-                padding: 30px;
+                padding: 32px 24px;
+                gap: 32px;
             }
 
             .hero-content h1 {
-                font-size: 1.8rem;
+                font-size: 2rem;
+            }
+
+            .hero-content p {
+                font-size: 1rem;
+            }
+
+            .profile-image img {
+                max-width: 220px;
             }
 
             .research-item,
             .teaching-item {
                 grid-template-columns: 1fr;
                 text-align: center;
+                padding: 24px;
             }
 
-            .research-image img {
-                height: 120px;
+            .research-image img,
+            .teaching-image img {
+                height: 140px;
             }
 
             .hero-links {
-                flex-direction: column;
-                align-items: center;
+                justify-content: center;
             }
 
             .section {
-                padding: 20px;
+                padding: 28px 20px;
             }
+
+            .section h2 {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* Add smooth animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .main-card,
+        .section {
+            animation: fadeIn 0.6s ease-out;
         }
     </style>
 </head>
@@ -407,7 +547,7 @@
                             <a href="https://github.com/ShadeAlsha/ICon">Code</a>
                         </div>
                         <span class="badge">ICLR 2025</span>
-                        <span class="badge" style="background: #27ae60;">
+                        <span class="badge purple">
                           <a href="https://news.mit.edu/2025/machine-learning-periodic-table-could-fuel-ai-discovery-0423" style="color: white; text-decoration: none;">
                            MIT News
                           </a>
@@ -430,7 +570,7 @@
                             <a href="https://github.com/m1k2zoo/negbench">Code</a>
                         </div>
                         <span class="badge">CVPR 2025</span>
-                        <span class="badge" style="background: #27ae60;">
+                        <span class="badge purple">
                           <a href="https://news.mit.edu/2025/study-shows-vision-language-models-cant-handle-negation-words-queries-0514" style="color: white; text-decoration: none;">
                             MIT News
                           </a>
@@ -449,7 +589,7 @@
                         </h3>
                         <p><strong>Shaden A.</strong>, Yu-Xiong Wang, Deva Ramanan, Shu Kong</p>
                         <span class="badge">CVPR 2022</span>
-                        <span class="badge" style="background: #27ae60;">+200 citations!</span>
+                        <span class="badge green">+200 citations!</span>
                         <p>This study explores weight balancing techniques like L2-normalization, weight decay, and MaxNorm to address bias in long-tailed recognition, achieving state-of-the-art results across five benchmarks by balancing classifier weights for rare and common classes.</p>
                     </div>
                 </div>
@@ -463,7 +603,7 @@
                             <a href="https://neurips.cc/virtual/2022/57568">Using Contact Microphones for Robot Manipulation</a>
                         </h3>
                         <p><strong>Shaden A.</strong>, Victoria Dean, Tess Hellebrekers, Pedro Morgado, Abhinav Gupta</p>
-                        <span class="badge" style="background: #8e44ad;">NeurIPS Workshop 2022</span>
+                        <span class="badge">NeurIPS Workshop 2022</span>
                         <p>This work combines visual data with contact audio to enhance manipulation in contact-rich tasks, leveraging high-frequency tactile signals from microphones to outperform single-modality approaches.</p>
                     </div>
                 </div>
@@ -477,7 +617,7 @@
                             <a href="https://drive.google.com/file/d/1RHc1cEMbl6MdgKOZBa-VM4UG_eHEO9y1/view?usp=sharing">Continual Long-Tailed Recognition: Merge Tail Classes Today, Separate them Tomorrow</a>
                         </h3>
                         <p>Yanan Li, <strong>Shaden A.</strong>, Bin Liu, Shu Kong</p>
-                        <span class="badge" style="background: #e91e63;">Preprint 2022</span>
+                        <span class="badge">Preprint 2022</span>
                         <p>This work introduces a continual learning approach for long-tailed recognition, using a Mean-Shift module and Supervised Contrastive loss to improve feature learning and expedite finetuning across time periods, achieving state-of-the-art performance.</p>
                     </div>
                 </div>
